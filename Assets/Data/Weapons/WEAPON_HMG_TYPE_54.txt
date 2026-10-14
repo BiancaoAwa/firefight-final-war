@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>Type 54 Machine Gun</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>12.7</calibre>
+		<barrel_length>107</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_HMG</sound_shoot>
+		<rof>600</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>50</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>850</speed><mass>0.0597</mass><name>14.5×114mm</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,29 @@
+<weapon>
+
+	<name>FPH-02C</name>
+	<type>WEAPON_FLAMETHROWER_PORTABLE</type>
+
+	<dimensions>
+		<calibre>14.5</calibre>
+		<barrel_length>85</barrel_length>
+		<number_barrels>10</number_barrels>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_flamethrower</sound_shoot>
+		<range>75</range>
+		<rof>3600</rof>
+		<muzzle_flash>no</muzzle_flash>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_FLAME</flavour><speed>40</speed><mass>0</mass><name>Flame</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>115mm U-5TS</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>115</calibre>
+		<barrel_length>605</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>905</speed><mass>14.86</mass><HE>2.64</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>950</speed><mass>14.86</mass><HE>2.28</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1615</speed><mass>4</mass><name>APFSDS</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1615</speed><mass>4</mass><name>APFSDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

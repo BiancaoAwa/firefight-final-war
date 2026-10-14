@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>TOW-2A</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>152</calibre>
+		<barrel_length>120</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_AGTM</sound_shoot>
+		<range>600</range>
+		<rof>5</rof>
+	</shoot>
+
+	<magazine>
+		<capacity>1</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>278</speed><mass>5.9</mass><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>3.1</HE><name>BGM-71E</name></type>
+	</ammo>
+
+</weapon>

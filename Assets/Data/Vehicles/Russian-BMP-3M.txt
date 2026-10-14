@@ -1,0 +1,165 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>BMP-3M</long_name>
+		<short_name>BMP-3M</short_name>
+		<comment>A modernised Russian infantry fighting vehicle with a 100mm 2A70 gun-launcher, a 30mm 2A72 autocannon and three PKTM machine guns. Fitted with slat armour</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1987</year><number>500</number></data>
+		<data><month>12</month><year>2050</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-BMP-3M.png</image_profile>
+			<weight>23500</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>UTD-32T</name>
+				<horsepower>660</horsepower>
+				<reliability>RELIABILITY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>4</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>160</offsetX><offsetY>260</offsetY><angle>-200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-BMP-3M.png</image_view>
+
+			<width>310</width>
+			<length>670</length>
+			<height>85</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>120@-45</front>
+				<upper_side>43</upper_side>
+				<lower_side>43@-20</lower_side>
+				<rear>43@-10</rear>
+				<top>15</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_AKS_74</type></weapon>
+				<ammo><for>WEAPON_RIFLE_AKS_74</for><rounds>450</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>340</width>
+			<length>720</length>
+			<height>85</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>-25</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>18@81</upper_front>
+				<lower_front>82@-30</lower_front>
+				<upper_side>60@20</upper_side>
+				<lower_side>60</lower_side>
+				<rear>43</rear>
+				<top>15</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-BMP-3M turret.png</image_view>
+
+			<diameter>210</diameter>
+			<height>75</height>
+			<offsetX>0</offsetX>
+			<offsetY>-10</offsetY>
+
+			<rotate_time>12</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>50@30</front>
+				<side>43@20</side>
+				<upper_rear>43@20</upper_rear>
+				<lower_rear>43@10</lower_rear>
+				<top>18</top>
+				<mantlet>50</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_100_2A70</type><offsetX>-11</offsetX><offsetY>32</offsetY></weapon>
+			<weapon><type>WEAPON_CANNON_30_2A42</type><offsetX>3</offsetX><offsetY>-25</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_PKTM</type><offsetX>-24</offsetX><offsetY>-56</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_100_2A70</for><flavour>FLAVOUR_HE</flavour><rounds>38</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_100_2A70</for><flavour>FLAVOUR_ATGM</flavour><rounds>10</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_2A42</for><flavour>FLAVOUR_APDS</flavour><rounds>200</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_2A42</for><flavour>FLAVOUR_HE</flavour><rounds>300</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKTM</for><rounds>4000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_AKS_74</type></weapon>
+				<ammo><for>WEAPON_RIFLE_AKS_74</for><rounds>90</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_AKS_74</type></weapon>
+				<ammo><for>WEAPON_RIFLE_AKS_74</for><rounds>90</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>69</offsetX>
+			<offsetY>-192</offsetY>
+			<offsetZ>140</offsetZ>
+
+			<rotate_time>36</rotate_time>
+			<rotate_left>20</rotate_left>
+			<rotate_right>20</rotate_right>
+
+			<weapon><type>WEAPON_LMG_PKTM</type></weapon>
+			<ammo><for>WEAPON_LMG_PKTM</for><rounds>4000</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<offsetX>-76</offsetX>
+			<offsetY>-196</offsetY>
+			<offsetZ>140</offsetZ>
+
+			<rotate_time>36</rotate_time>
+			<rotate_left>20</rotate_left>
+			<rotate_right>20</rotate_right>
+
+			<weapon><type>WEAPON_LMG_PKTM</type></weapon>
+			<ammo><for>WEAPON_LMG_PKTM</for><rounds>4000</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

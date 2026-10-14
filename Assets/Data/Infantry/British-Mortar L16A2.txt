@@ -1,0 +1,50 @@
+<squad>
+	<description>
+		<type>TYPE_MORTAR</type>
+		<nationality>NATIONALITY_BRITISH</nationality>
+		<quality>QUALITY_REGULAR</quality>
+
+		<long_name>L16A2 Mortar Team</long_name>
+		<short_name>L16A2 Mortar</short_name>
+		<comment>81mm L16A2 mortar with a crew of 3</comment>
+
+		<uniform>british_infantry</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>200</number></data>
+		<data><month>12</month><year>2040</year><number>200</number></data>
+	</availability>
+
+	<mortar>
+		<image_view_base>Image-L16A2.png</image_view_base>
+		<image_profile>Profile-L16A2.png</image_profile>
+
+		<weapon><type>WEAPON_MORTAR_L16A2</type></weapon>
+
+		<ammo><for>WEAPON_MORTAR_L16A2</for><rounds>60</rounds><flavour>FLAVOUR_MORTAR_HE</flavour></ammo>
+		<ammo><for>WEAPON_MORTAR_L16A2</for><rounds>10</rounds><flavour>FLAVOUR_MORTAR_SMOKE</flavour></ammo>
+
+		<minAngle>-3</minAngle>
+		<maxAngle>3</maxAngle>
+
+	</mortar>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_L85A3</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_L85A3</for><rounds>90</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+
+		<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>51</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+
+		<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>51</rounds></ammo>
+	</man>
+</squad>

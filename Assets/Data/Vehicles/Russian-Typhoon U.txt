@@ -1,0 +1,95 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>Typhoon U MRAP</long_name>
+		<short_name>Typhoon U</short_name>
+		<comment>A Russian 6x6 MRAP built by Ural. Can mount sixteen soldiers</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2014</year><number>250</number></data>
+		<data><month>12</month><year>2050</year><number>350</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-Typhoon U.png</image_profile>
+			<weight>15900</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>KamAZ-740.31-240</name>
+				<horsepower>240</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>10</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe>
+				<offsetX>50</offsetX>
+				<offsetY>407</offsetY>
+				<horizontal_angle>180</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Typhoon U.png</image_view>
+
+			<width>250</width>
+			<length>770</length>
+			<height>179</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>12@-5</upper_front>
+				<lower_front>12@-20</lower_front>
+				<side>12</side>
+				<rear>12</rear>
+				<top>10</top>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>260</width>
+			<length>670</length>
+			<height>91</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>60</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>15@40</upper_front>
+				<lower_front>7@70</lower_front>
+				<side>10@35</side>
+				<rear>12</rear>
+				<top>15</top>
+			</armour>
+		</superstructure>
+	</vehicle>
+</squad>

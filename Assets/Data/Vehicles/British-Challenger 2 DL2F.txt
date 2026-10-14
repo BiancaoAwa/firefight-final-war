@@ -1,0 +1,150 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_BRITISH</nationality>
+
+		<long_name>Challenger 2 Dorchester 2F</long_name>
+		<short_name>Challenger 2 DL2F</short_name>
+		<comment>Challenger 2 Tank with Dorchester Level 2F, 120mm L30A1 cannon, 1 L94A1 and 1 L37A2 machine gun.</comment>
+
+		<uniform>british_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2004</year><number>100</number></data>
+		<data><month>12</month><year>2030</year><number>100</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-Challenger 2 DL2F.png</image_profile>
+			<weight>70000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Perkins CV12-6A</name>
+				<horsepower>1200</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2300</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>4</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>38</offsetX><offsetY>380</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-38</offsetX><offsetY>380</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Challenger 2 DL2F.png</image_view>
+
+			<width>380</width>
+			<length>800</length>
+			<height>109</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>100@-32</upper_front>
+				<lower_front>90@-38</lower_front>
+				<side>101@2</side>
+				<rear>45@-20</rear>
+				<top>30</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>335</width>
+			<length>715</length>
+			<height>50</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>255@61</upper_front>
+				<lower_front>235@63</lower_front>
+				<side>114</side>
+				<upper_rear>40@45</upper_rear>
+				<lower_rear>40@40</lower_rear>
+				<top>30</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-Challenger 2 DL2F turret.png</image_view>
+
+			<diameter>250</diameter>
+			<height>90</height>
+			<offsetX>0</offsetX>
+			<offsetY>-110</offsetY>
+
+			<rotate_time>9</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>648@20</front>
+				<upper_side>290@6</upper_side>
+				<lower_side>290@8</lower_side>
+				<rear>45@16</rear>
+				<top>30</top>
+				<mantlet>350</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>130</offsetX><offsetY>-60</offsetY><angle>15</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>130</offsetX><offsetY>-60</offsetY><angle>45</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>-60</offsetY><angle>-15</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>-60</offsetY><angle>-45</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_120_L30A1</type></weapon>
+			<weapon><type>WEAPON_LMG_L94A1</type><offsetX>40</offsetX><offsetY>-200</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_120_L30A1</for><flavour>FLAVOUR_APFSDS</flavour><rounds>11</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_120_L30A1</for><flavour>FLAVOUR_HESH</flavour><rounds>31</rounds></ammo>
+			<ammo><for>WEAPON_LMG_L94A1</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<image_view>ru .50 PT.png</image_view>
+
+			<offsetX>50</offsetX>
+			<offsetY>100</offsetY>
+			<offsetZ>200</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>120</rotate_left>
+			<rotate_right>120</rotate_right>
+
+			<weapon><type>WEAPON_LMG_L37A2</type></weapon>
+			<ammo><for>WEAPON_LMG_L37A2</for><rounds>1000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_L22A2</type></weapon>
+				<ammo><for>WEAPON_CARBINE_L22A2</for><rounds>90</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

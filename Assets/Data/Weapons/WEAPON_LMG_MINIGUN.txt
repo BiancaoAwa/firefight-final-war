@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>minigun</name>
+	<type>WEAPON_LMG</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>64</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_LMG</sound_shoot>
+		<rof>9000</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>50</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>800</speed><mass>0.011</mass><name></name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA|UNITED_KINGDOM|FRANCE|GERMANY|RUSSIA|JAPAN|ITALY|CHINA|POLAND|CANADA|ROMANIA|AUSTRALIA|HUNGARY|SOUTH_KOREA|NORTH_KOREA|IRAQ|IRAN|NORTH_VIETNAM|SOUTH_VIETNAM|UKRAINE|FINLAND|INDIA|PAKISTAN|EGYPT|JORDAN|SYRIA|ISRAEL|ARMENIA|AZERBAIJAN|GEORGIA|TURKEY|AUSTRIA|BELGIUM|NETHERLANDS</countries>
+	</usage>
+
+</weapon>

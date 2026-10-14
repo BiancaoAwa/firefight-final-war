@@ -1,0 +1,131 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_INDIAN</nationality>
+
+		<long_name>2K22M Tunguska</long_name>
+		<short_name>2K22M</short_name>
+		<comment>A Soviet tracked self-propelled anti-aircraft gun armed with a surface-to-air gun and missile system.</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1990</year><number>75</number></data>
+		<data><month>12</month><year>2050</year><number>75</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-2K22M(India).png</image_profile>
+			<weight>35000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>V-46-6-MS</name>
+				<horsepower>710</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>6</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>-150</offsetX><offsetY>180</offsetY><angle>-135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-2K22M(India).png</image_view>
+
+			<width>335</width>
+			<length>850</length>
+			<height>90</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>12@-30</upper_front>
+				<lower_front>12@-60</lower_front>
+				<side>8</side>
+				<upper_rear>10</upper_rear>
+				<lower_rear>8@-61</lower_rear>
+				<top>12</top>
+				<bottom>8</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>50</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>335</width>
+			<length>810</length>
+			<height>110</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>20</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>15@45</front>
+				<side>10</side>
+				<upper_rear>12@31</upper_rear>
+				<lower_rear>10</lower_rear>
+				<top>8</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-2K22M(India) turret.png</image_view>
+
+			<diameter>250</diameter>
+			<height>135</height>
+			<offsetX>0</offsetX>
+			<offsetY>-80</offsetY>
+
+			<rotate_time>5</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>12@60</upper_front>
+				<lower_front>12</lower_front>
+				<upper_side>12@36</upper_side>
+				<lower_side>12@-12</lower_side>
+				<upper_rear>5</upper_rear>
+				<lower_rear>4@-60</lower_rear>
+				<top>8</top>
+				<mantlet>12</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_30_2A38M</type><mount>ball</mount><offsetX>-90</offsetX><offsetY>-30</offsetY></weapon>
+			<weapon><type>WEAPON_CANNON_30_2A38M</type><mount>ball</mount><offsetX>80</offsetX><offsetY>-30</offsetY></weapon>
+			<weapon><type>WEAPON_CANNON_30_2A38M</type><mount>ball</mount><offsetX>-90</offsetX><offsetY>-30</offsetY></weapon>
+			<weapon><type>WEAPON_CANNON_30_2A38M</type><mount>ball</mount><offsetX>80</offsetX><offsetY>-30</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_30_2A38M</for><flavour>FLAVOUR_HE</flavour><rounds>1400</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_2A38M</for><flavour>FLAVOUR_AP</flavour><rounds>504</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>50</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>50</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>50</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

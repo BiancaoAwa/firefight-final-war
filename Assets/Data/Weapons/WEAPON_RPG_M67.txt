@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>M67 Recoilless Rifle</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>90</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<range>300</range>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>213</speed><mass>4</mass><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>0.5</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

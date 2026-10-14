@@ -1,0 +1,134 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>T-15 Armata</long_name>
+		<short_name>T-15</short_name>
+		<comment>A Russian heavy IFV on the Armata platform, armed with Afgenit APS and the Epoch unmanned turret housing 30 mm 2A42 auto cannon, 7.62 mm PKTM MG and Kornet ATGM. Can mount 9 soldiers</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2019</year><number>100</number></data>
+		<data><month>12</month><year>2050</year><number>100</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-T-15.png</image_profile>
+			<weight>50000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>A-85-3A</name>
+				<horsepower>1500</horsepower>
+				<reliability>RELIABILITY_POOR</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<exhaust_pipe><offsetX>170</offsetX><offsetY>-180</offsetY><angle>140</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-T-15.png</image_view>
+
+			<width>380</width>
+			<length>820</length>
+			<height>85</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>155@-60</upper_front>
+				<lower_front>125@-60</lower_front>
+				<upper_side>80</upper_side>
+				<lower_side>20@-30</lower_side>
+				<upper_rear>20@-20</upper_rear>
+				<lower_rear>20@-50</lower_rear>
+				<top>30</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>380</width>
+			<length>820</length>
+			<height>120</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>275@68</front>
+				<front_spaced>250</front_spaced>
+				<side>80</side>
+				<side_spaced>200</side_spaced>
+				<rear>45</rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-T-15 turret.png</image_view>
+
+			<diameter>200</diameter>
+			<height>90</height>
+			<offsetX>0</offsetX>
+			<offsetY>210</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>80@15</upper_front>
+				<lower_front>80@-15</lower_front>
+				<front_spaced>750</front_spaced>
+				<side>50@15</side>
+				<side_spaced>750</side_spaced>
+				<upper_rear>20</upper_rear>
+				<lower_rear>20@-20</lower_rear>
+				<top>30</top>
+				<mantlet>50</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_30_2A42</type><offsetX>11</offsetX><offsetY>-21</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_PKTM</type><offsetX>-18</offsetX><offsetY>-75</offsetY></weapon>
+			<weapon><type>WEAPON_ATGM_9K135</type><offsetX>-115</offsetX><offsetY>60</offsetY></weapon>
+			<weapon><type>WEAPON_ATGM_9K135</type><offsetX>115</offsetX><offsetY>60</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_30_2A42</for><flavour>FLAVOUR_APDS</flavour><rounds>160</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_2A42</for><flavour>FLAVOUR_HE</flavour><rounds>340</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKTM</for><rounds>2000</rounds></ammo>
+			<ammo><for>WEAPON_ATGM_9K135</for><flavour>FLAVOUR_ATGM</flavour><rounds>2</rounds></ammo>
+
+		</turret>
+	</vehicle>
+</squad>

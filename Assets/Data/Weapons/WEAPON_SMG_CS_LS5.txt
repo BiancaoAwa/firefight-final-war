@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>CS/LS5 Submachine Gun</name>
+	<type>WEAPON_SMG</type>
+
+	<dimensions>
+		<calibre>9</calibre>
+		<barrel_length>24</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_SMG</sound_shoot>
+		<rof>800</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>360</speed><mass>0.00745</mass><name>9×19mm DAP92-9</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

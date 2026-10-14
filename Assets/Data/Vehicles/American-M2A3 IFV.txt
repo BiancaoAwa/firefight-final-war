@@ -1,0 +1,135 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>M2A3 Bradley IFV</long_name>
+		<short_name>M2A3 IFV</short_name>
+		<comment>An infantry fighting vehicle of the US Army with TOW ATGMs and a 25mm cannon. Can mount six soldiers</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2000</year><number>200</number></data>
+		<data><month>12</month><year>2026</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-M2A3 IFV.png</image_profile>
+			<weight>29030</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>ENGINE_MAYBACH_HL42_TUKRM</name>
+				<horsepower>600</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_HALFTRACK</steering>
+
+			<exhaust_pipe><offsetX>38</offsetX><offsetY>380</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-38</offsetX><offsetY>380</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M2A3 IFV.png</image_view>
+
+			<width>340</width>
+			<length>675</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>25@-40</front>
+				<upper_side>51</upper_side>
+				<lower_side>51@-45</lower_side>
+				<rear>12@-9</rear>
+				<top>10</top>
+				<bottom>15</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>340</width>
+			<length>645</length>
+			<height>105</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>30</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>25@59</front>
+				<upper_side>25@45</upper_side>
+				<lower_side>51</lower_side>
+				<rear>12@-9</rear>
+				<top>25</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-M2A3 IFV turret.png</image_view>
+
+			<diameter>240</diameter>
+			<height>90</height>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>6</rotate_time>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>25@30</upper_front>
+				<lower_front>25@-30</lower_front>
+				<upper_side>25@30</upper_side>
+				<lower_side>25@-30</lower_side>
+				<rear>12</rear>
+				<top>25</top>
+				<mantlet>25</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>72</offsetX><offsetY>-71</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>72</offsetX><offsetY>-71</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>72</offsetX><offsetY>-71</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-72</offsetX><offsetY>-71</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-72</offsetX><offsetY>-71</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-72</offsetX><offsetY>-71</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>72</offsetX><offsetY>-71</offsetY><angle>-10</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-72</offsetX><offsetY>-71</offsetY><angle>10</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_25_M242_BUSHMASTER</type><offsetY>-89</offsetY></weapon>
+			<weapon><type>WEAPON_RPG_BGM_71_TOW</type><offsetX>-115</offsetX><offsetY>50</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_M240</type><offsetX>37</offsetX><offsetY>-59</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_25_M242_BUSHMASTER</for><flavour>FLAVOUR_APFSDS</flavour><rounds>100</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_25_M242_BUSHMASTER</for><flavour>FLAVOUR_HE</flavour><rounds>800</rounds></ammo>
+			<ammo><for>WEAPON_RPG_BGM_71_TOW</for><rounds>4</rounds></ammo>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

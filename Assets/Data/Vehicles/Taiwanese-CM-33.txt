@@ -1,0 +1,133 @@
+<squad>
+	<description>
+		<type>TYPE_HALFTRACK</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>CM-33</long_name>
+		<short_name>CM-33</short_name>
+		<comment>A Taiwanese 8x8 armoured vehicle with a T91 40mm grenade launcher and a 7.62mm machine gun</comment>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2019</year><number>50</number></data>
+		<data><month>12</month><year>2040</year><number>50</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-CM-33.png</image_profile>
+			<weight>25000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Caterpillar C12 diesel</name>
+				<horsepower>450</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe>
+				<offsetX>55</offsetX>
+				<offsetY>-70</offsetY>
+				<horizontal_angle>-200</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+
+			<exhaust_pipe>
+				<offsetX>-45</offsetX>
+				<offsetY>-100</offsetY>
+				<horizontal_angle>180</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-CM-33.png</image_view>
+
+			<width>260</width>
+			<length>690</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>15@-45</front>
+				<side>10</side>
+				<upper_rear>10</upper_rear>
+				<lower_rear>10@-40</lower_rear>
+				<top>10</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>50</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>50</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>260</width>
+			<length>630</length>
+			<height>123</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>30</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>15@70</upper_front>
+				<lower_front>15@60</lower_front>
+				<side>10</side>
+				<rear>10</rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-CM-33 turret.png</image_view>
+
+			<diameter>50</diameter>
+			<height>60</height>
+			<offsetX>22</offsetX>
+			<offsetY>12</offsetY>
+
+			<rotate_time>10</rotate_time>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>0</front>
+				<side>0</side>
+				<rear>0</rear>
+				<top>0</top>
+				<mantlet>0</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>18</offsetX><offsetY>-17</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>18</offsetX><offsetY>-17</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>18</offsetX><offsetY>-17</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-18</offsetX><offsetY>-17</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-18</offsetX><offsetY>-17</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-18</offsetX><offsetY>-17</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_LMG_T74</type><offsetX>12</offsetX></weapon>
+			<weapon><type>WEAPON_GRENADE_LAUNCHER_T91</type><offsetX>3</offsetX><offsetY>-3</offsetY></weapon>
+			<ammo><for>WEAPON_LMG_T74</for><rounds>4000</rounds></ammo>
+			<ammo><for>WEAPON_GRENADE_LAUNCHER_T91</for><rounds>480</rounds></ammo>
+
+		</turret>
+	</vehicle>
+</squad>

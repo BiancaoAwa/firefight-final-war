@@ -1,0 +1,127 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_INDIAN</nationality>
+
+		<long_name>T-72 Ajeya MK1</long_name>
+		<short_name>Ajeya MK1</short_name>
+		<comment>A licence-built T-72 main battle tank with a 125mm cannon, a 7.62mm machine gun and a 12.7mm machine gun</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1984</year><number>250</number></data>
+		<data><month>12</month><year>2040</year><number>250</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-T-72 Ajeya MK1.png</image_profile>
+			<weight>45000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Model V 84MS</name>
+				<horsepower>840</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>0</offsetX><offsetY>300</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-T-72 Ajeya MK1.png</image_view>
+
+			<width>360</width>
+			<length>730</length>
+			<height>80</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>200@-45</front>
+				<upper_side>80</upper_side>
+				<lower_side>20</lower_side>
+				<rear>40</rear>
+				<top>20</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_AK_74</type></weapon>
+				<ammo><for>WEAPON_RIFLE_AK_74</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>360</width>
+			<length>670</length>
+			<height>63</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>30</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>210@70</front>
+				<side>80</side>
+				<rear>40</rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-T-72 Ajeya MK1 turret.png</image_view>
+
+			<diameter>300</diameter>
+			<height>80</height>
+			<offsetX>0</offsetX>
+			<offsetY>10</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>280@60</upper_front>
+				<lower_front>200@45</lower_front>
+				<upper_side>240@45</upper_side>
+				<lower_side>130@30</lower_side>
+				<upper_rear>100@60</upper_rear>
+				<lower_rear>60@45</lower_rear>
+				<top>45</top>
+				<mantlet>400</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_125_2A46_1</type><offsetY>-60</offsetY></weapon>
+			<weapon><type>WEAPON_HMG_NSV</type><offsetX>61</offsetX><offsetY>-28</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_PKT</type><offsetX>26</offsetX><offsetY>-93</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_125_2A46_1</for><flavour>FLAVOUR_APFSDS</flavour><rounds>20</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_125_2A46_1</for><flavour>FLAVOUR_HEAT</flavour><rounds>12</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_125_2A46_1</for><flavour>FLAVOUR_HE</flavour><rounds>12</rounds></ammo>
+			<ammo><for>WEAPON_HMG_NSV</for><rounds>600</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKT</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_MAKAROV</type></weapon>
+				<ammo><for>WEAPON_PISTOL_MAKAROV</for><rounds>14</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_MAKAROV</type></weapon>
+				<ammo><for>WEAPON_PISTOL_MAKAROV</for><rounds>14</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

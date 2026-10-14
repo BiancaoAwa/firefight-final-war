@@ -1,0 +1,142 @@
+<squad>
+	<description>
+		<type>TYPE_ASSAULT_GUN</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>PLL-09 Self-Propelled Howitzer</long_name>
+		<short_name>PLL-09</short_name>
+		<comment>A Chinese 122mm self-propelled howitzer of the ZBL-08 family, with a 12.7mm machine gun</comment>
+
+		<uniform>chinese_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2009</year><number>300</number></data>
+		<data><month>12</month><year>2040</year><number>300</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-PLL-09.png</image_profile>
+			<weight>21000</weight>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Deutz BF6M1015C</name>
+				<horsepower>390</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>3000</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>140</offsetX><offsetY>-200</offsetY><angle>-200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-PLL-09.png</image_view>
+
+			<width>300</width>
+			<length>800</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>50@-40</upper_front>
+				<lower_front>30@-60</lower_front>
+				<side>10@-20</side>
+				<rear>8@-40</rear>
+				<top>8</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>300</width>
+			<length>770</length>
+			<height>50</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>40</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>17@76</front>
+				<side>10@16</side>
+				<rear>8@-10</rear>
+				<top>8</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-PLL-09 turret.png</image_view>
+
+			<offsetX>11</offsetX>
+			<offsetY>119</offsetY>
+			<offsetZ>182000</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>40</rotate_left>
+			<rotate_right>40</rotate_right>
+
+			<night_vision>yes</night_vision>
+			<weapon><type>WEAPON_CANNON_122_TYPE_96</type></weapon>
+			<ammo><for>WEAPON_CANNON_122_TYPE_96</for><flavour>FLAVOUR_HE</flavour><rounds>24</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-PLL-09 MG.png</image_view>
+
+			<offsetX>59</offsetX>
+			<offsetY>128</offsetY>
+			<offsetZ>210</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>160</rotate_left>
+			<rotate_right>160</rotate_right>
+
+			<weapon><type>WEAPON_LMG_QJC_88</type></weapon>
+			<ammo><for>WEAPON_LMG_QJC_88</for><rounds>500</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>120mm L11</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>530</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon120 abrams</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1040</speed><mass>13.1</mass><era>ERA_COLD_WAR</era><HE>2.36</HE><name>M830</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1400</speed><mass>4.27</mass><name>M829</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1570</speed><mass>4.27</mass><name>M829</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>UK</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,142 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZBD-04B Amphibious Infantry Fighting Vehicle</long_name>
+		<short_name>ZBD-04B</short_name>
+		<comment>An improved ZBD-04A infantry fighting vehicle with a 100mm gun-launcher and a 30mm autocannon. Can mount seven soldiers</comment>
+
+		<uniform>chinese_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2025</year><number>500</number></data>
+		<data><month>12</month><year>2050</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZBD-04B.png</image_profile>
+			<weight>25000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>6V150</name>
+				<horsepower>670</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>6</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<exhaust_pipe><offsetX>160</offsetX><offsetY>-120</offsetY><angle>90</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZBD-04B.png</image_view>
+
+			<width>320</width>
+			<length>720</length>
+			<height>135</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>60@-45</front>
+				<side>25</side>
+				<rear>18@-5</rear>
+				<top>13</top>
+				<bottom>18</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>320</width>
+			<length>720</length>
+			<height>50</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>18@82</front>
+				<side>30</side>
+				<rear>18@-5</rear>
+				<top>13</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-ZBD-04B turret.png</image_view>
+
+			<diameter>240</diameter>
+			<height>65</height>
+			<offsetX>0</offsetX>
+			<offsetY>100</offsetY>
+
+			<rotate_time>12</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>60@50</front>
+				<side>40</side>
+				<rear>40</rear>
+				<top>18</top>
+				<mantlet>40</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_100_ZPL_04</type></weapon>
+			<weapon><type>WEAPON_CANNON_30_ZPL_02</type><offsetX>10</offsetX><offsetY>-25</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_QJT</type><offsetX>-10</offsetX><offsetY>-75</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_100_ZPL_04</for><flavour>FLAVOUR_HE</flavour><rounds>40</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_100_ZPL_04</for><flavour>FLAVOUR_ATGM</flavour><rounds>10</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_ZPL_02</for><flavour>FLAVOUR_HE</flavour><rounds>400</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_ZPL_02</for><flavour>FLAVOUR_APFSDS</flavour><rounds>100</rounds></ammo>
+			<ammo><for>WEAPON_LMG_QJT</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<image_view>Image-ZTQ-15 gun.png</image_view>
+
+			<offsetX>-35</offsetX>
+			<offsetY>93</offsetY>
+			<offsetZ>140</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_LMG_QJY_88</type><mount>ball</mount></weapon>
+			<weapon><type>WEAPON_GRENADE_LAUNCHER_35_QLZ_04</type></weapon>
+			<ammo><for>WEAPON_LMG_QJY_88</for><rounds>600</rounds></ammo>
+			<ammo><for>WEAPON_GRENADE_LAUNCHER_35_QLZ_04</for><rounds>80</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

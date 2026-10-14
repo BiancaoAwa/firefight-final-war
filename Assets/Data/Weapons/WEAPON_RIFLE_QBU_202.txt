@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>QBU-202</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>8.6</calibre>
+		<barrel_length>69</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<range>1500</range>
+		<rof>12</rof>
+		<reload>RELOAD_SEMI_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>5</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>830</speed><mass>0.0016</mass><guided>GUIDED_MANUAL</guided><name>8.6x70mm DBU-202</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

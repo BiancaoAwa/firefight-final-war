@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>RPG-7 (OG-7V)</name>
+	<type>WEAPON_GRENADE_LAUNCHER</type>
+
+	<dimensions>
+		<calibre>40</calibre>
+		<barrel_length>95</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_grenade_launcher</sound_shoot>
+		<range>250</range>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><speed>120</speed><mass>0.5</mass><HE>0.33</HE><name>OG-7</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>PKMS</name>
+	<type>WEAPON_LMG</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>64</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_LMG</sound_shoot>
+		<rof>700</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>200</capacity>
+		<sound_reload>reload</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>825</speed><mass>0.009</mass><name>7.62x54mmR</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

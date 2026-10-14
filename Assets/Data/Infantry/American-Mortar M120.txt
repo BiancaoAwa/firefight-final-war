@@ -1,0 +1,61 @@
+<squad>
+	<description>
+		<type>TYPE_MORTAR</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+		<quality>QUALITY_REGULAR</quality>
+
+		<long_name>M120 Mortar</long_name>
+		<short_name>M120</short_name>
+		<comment>120mm M120 mortar with a crew of 4</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>500</number></data>
+		<data><month>12</month><year>2050</year><number>500</number></data>
+	</availability>
+
+	<mortar>
+		<image_view_base>Image-Mortar (heavy).png</image_view_base>
+		<image_profile>Profile-Mortar.png</image_profile>
+
+		<night_vision>yes</night_vision>
+		<weapon><type>WEAPON_MORTAR_120_M120</type></weapon>
+
+		<ammo><for>WEAPON_MORTAR_120_M120</for><rounds>50</rounds><flavour>FLAVOUR_MORTAR_HE</flavour></ammo>
+		<ammo><for>WEAPON_MORTAR_120_M120</for><rounds>5</rounds><flavour>FLAVOUR_MORTAR_SMOKE</flavour></ammo>
+
+		<rotate_left>14</rotate_left>
+		<rotate_right>14</rotate_right>
+
+	</mortar>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_CARBINE_M4A1</type></weapon>
+
+		<ammo><for>WEAPON_CARBINE_M4A1</for><rounds>210</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<weapon><type>WEAPON_CARBINE_M4A1</type></weapon>
+
+		<ammo><for>WEAPON_CARBINE_M4A1</for><rounds>210</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_CARBINE_M4A1</type></weapon>
+
+		<ammo><for>WEAPON_CARBINE_M4A1</for><rounds>210</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_CARBINE_M4A1</type></weapon>
+
+		<ammo><for>WEAPON_CARBINE_M4A1</for><rounds>210</rounds></ammo>
+	</man>
+</squad>

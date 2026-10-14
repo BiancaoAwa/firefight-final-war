@@ -1,0 +1,171 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>M1A2T Abrams Tank</long_name>
+		<short_name>120mm Abrams</short_name>
+		<comment>A Taiwanese version of the M1A2 Abrams with a 120mm smoothbore cannon, a 7.62mm coaxial machine gun and a 12.7mm machine gun. Fitted with Trophy APS</comment>
+
+		<uniform_profile>uniform_profile_taiwanese_tank_crew.png</uniform_profile>
+		<uniform_game>uniform_game_taiwanese_tank_crew.png</uniform_game>
+	</description>
+
+	<availability>
+		<data><month>11</month><year>2025</year><number>500</number></data>
+		<data><month>12</month><year>2050</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-M1A2T.png</image_profile>
+			<weight>61000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>AGT-1500</name>
+				<horsepower>1500</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>3000</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>4</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>10</offsetX><offsetY>360</offsetY><vertical_angle>-30</vertical_angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>0</offsetX><offsetY>360</offsetY><vertical_angle>-30</vertical_angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>-10</offsetX><offsetY>360</offsetY><vertical_angle>-30</vertical_angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M1A2T.png</image_view>
+
+			<width>370</width>
+			<length>720</length>
+			<height>90</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>450@-40</front>
+				<side>95</side>
+				<upper_rear>32@-37</upper_rear>
+				<lower_rear>12@-55</lower_rear>
+				<top>19</top>
+				<bottom>19</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>28</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>370</width>
+			<length>800</length>
+			<height>70</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>-10</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>38@83</upper_front>
+				<lower_front>280@-40</lower_front>
+				<side>95</side>
+				<rear>32@-6</rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-M1A2T turret.png</image_view>
+
+			<diameter>320</diameter>
+			<height>80</height>
+			<offsetX>0</offsetX>
+			<offsetY>-40</offsetY>
+
+			<rotate_time>9</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>450@40</front>
+				<side>160@30</side>
+				<upper_rear>13@43</upper_rear>
+				<lower_rear>13@-48</lower_rear>
+				<top>38</top>
+				<mantlet>380</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>160</offsetX><offsetY>-10</offsetY><angle>-10</angle><elevation>30</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>160</offsetX><offsetY>-10</offsetY><angle>25</angle><elevation>30</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>160</offsetX><offsetY>-10</offsetY><angle>0</angle><elevation>30</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>160</offsetX><offsetY>-10</offsetY><angle>60</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>160</offsetX><offsetY>-10</offsetY><angle>45</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>160</offsetX><offsetY>-10</offsetY><angle>30</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-160</offsetX><offsetY>-10</offsetY><angle>10</angle><elevation>30</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-160</offsetX><offsetY>-10</offsetY><angle>-25</angle><elevation>30</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-160</offsetX><offsetY>-10</offsetY><angle>0</angle><elevation>30</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-160</offsetX><offsetY>-10</offsetY><angle>-60</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-160</offsetX><offsetY>-10</offsetY><angle>-45</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-160</offsetX><offsetY>-10</offsetY><angle>-30</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_120_M256A1</type><offsetY>-50</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_M240</type><offsetX>25</offsetX></weapon>
+			<ammo><for>WEAPON_CANNON_120_M256A1</for><flavour>FLAVOUR_APFSDS</flavour><rounds>10</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_120_M256A1</for><flavour>FLAVOUR_HEAT</flavour><rounds>30</rounds></ammo>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>10000</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>28</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>-75</offsetX>
+			<offsetY>0</offsetY>
+			<offsetZ>275</offsetZ>
+
+			<rotate_time>4</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<night_vision>yes</night_vision>
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>28</rounds></ammo>
+			</man>
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<offsetX>75</offsetX>
+			<offsetY>0</offsetY>
+			<offsetZ>275</offsetZ>
+
+			<rotate_time>4</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_LMG_M240</type></weapon>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>1400</rounds></ammo>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>28</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

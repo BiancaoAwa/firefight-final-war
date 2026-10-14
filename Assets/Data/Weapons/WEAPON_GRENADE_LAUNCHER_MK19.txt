@@ -1,0 +1,29 @@
+<weapon>
+
+	<name>MK19</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>20</calibre>
+		<barrel_length>120</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_grenade_launcher</sound_shoot>
+		<rof>325</rof>
+	</shoot>
+	
+	<magazine>
+		<capacity>32</capacity>
+	</magazine>
+	
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><speed>240</speed><mass>0.5</mass><HE>0.4</HE><name>Rifle Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<countries>USA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

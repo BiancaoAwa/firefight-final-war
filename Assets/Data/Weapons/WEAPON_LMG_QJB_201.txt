@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>QJB-201</name>
+	<type>WEAPON_LMG</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_LMG</sound_shoot>
+		<range>600</range>
+		<rof>1000</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>100</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>842</speed><mass>0.004</mass><name>5.8x42mm DBP191</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

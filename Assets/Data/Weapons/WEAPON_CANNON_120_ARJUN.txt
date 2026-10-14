@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>120mm Arjun cannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>660</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HESH</flavour><speed>670</speed><mass>11.3</mass><HE>6</HE><name>HESH</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>670</speed><mass>11.3</mass><era>HEAT_ERA_LATE</era><HE>5</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1660</speed><mass>6.8</mass><name>FSAPDS</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>300</speed><mass>4.5</mass><era>HEAT_ERA_LATE</era><guided>GUIDED_FAF</guided><smoke_trail>yes</smoke_trail><HE>2</HE><name>LAHAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>INDIA</countries>
+	</usage>
+
+</weapon>

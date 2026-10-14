@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>PIAT</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>83</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_PIAT</sound_shoot>
+		<range>105</range>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>76</speed><mass>0.5</mass><HE>0.115</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<countries>UNITED_KINGDOM</countries>
+	</usage>
+
+</weapon>

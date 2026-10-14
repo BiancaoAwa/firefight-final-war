@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>152mm 2A64 Cannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>152</calibre>
+		<barrel_length>714</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>810</speed><mass>43.6</mass><HE>11.8</HE><name>3OF45</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>700</speed><mass>27.4</mass><HE>4.8</HE><name>BP-540</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

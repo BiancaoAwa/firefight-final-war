@@ -1,0 +1,33 @@
+<weapon>
+
+	<name>Mk44 Bushmaster II autocannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>30</calibre>
+		<barrel_length>241</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>小机炮</sound_shoot>
+		<range>3000</range>
+		<rof>200</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>80</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1080</speed><mass>0.36</mass><HE>0.0544</HE><name>MK266</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1480</speed><mass>0.19</mass><name>30x173mm NATO</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1430</speed><mass>0.1</mass><name>MK258</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

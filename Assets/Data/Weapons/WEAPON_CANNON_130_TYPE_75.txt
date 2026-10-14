@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>300mm Type 75 rocket</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>130</calibre>
+		<barrel_length>186</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>700</speed><mass>15</mass><smoke_trail>yes</smoke_trail><HE>6.14</HE><name>Type 75</name></type>
+	</ammo>
+
+	<usage>
+		<countries>JAPAN</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

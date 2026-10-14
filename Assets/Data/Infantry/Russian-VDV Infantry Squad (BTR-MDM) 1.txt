@@ -1,0 +1,168 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_SECTION</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+		<quality>QUALITY_ELITE</quality>
+
+		<long_name>VDV Infantry Squad (BTR-MDM)</long_name>
+		<short_name>VDV Infantry</short_name>
+		<comment>11 AK-12 rifles, 4 GP-25 grenade launchers, 2 PKP machine guns, 2 RPG-30 launchers and 1 RPG-7 launcher. Elite troops</comment>
+
+		<uniform>russian_VDV</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>400</number></data>
+		<data><month>12</month><year>2040</year><number>400</number></data>
+	</availability>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_LMG_PKP</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_LMG_PKP</for><rounds>500</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_LMG_PKP</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_LMG_PKP</for><rounds>500</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RPG_7</type></weapon>
+		<weapon><type>WEAPON_GRENADE_LAUNCHER_RPG_7_OG_7V</type></weapon>
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+
+		<ammo><for>WEAPON_RPG_7</for><rounds>2</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_RPG_7_OG_7V</for><rounds>4</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>210</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>2</rounds></ammo>
+		<ammo><for>WEAPON_RPG_7</for><rounds>2</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_RPG_7_OG_7V</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RPG_30</type></weapon>
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_RPG_30</for><rounds>1</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RPG_30</type></weapon>
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_RPG_30</for><rounds>1</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+		<weapon><type>WEAPON_GRENADE_LAUNCHER_GP_25</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_GP_25</for><rounds>12</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+		<weapon><type>WEAPON_GRENADE_LAUNCHER_GP_25</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_GP_25</for><rounds>12</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+		<weapon><type>WEAPON_GRENADE_LAUNCHER_GP_25</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_GP_25</for><rounds>12</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_AK_12</type></weapon>
+		<weapon><type>WEAPON_GRENADE_LAUNCHER_GP_25</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F_1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_12</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_GP_25</for><rounds>12</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F_1</for><rounds>2</rounds></ammo>
+	</man>
+</squad>

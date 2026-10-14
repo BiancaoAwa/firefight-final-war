@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>AS Val</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>9</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<rof>850</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>20</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>290</speed><mass>0.016</mass><name>9x39mm</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

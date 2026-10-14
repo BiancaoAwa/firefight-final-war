@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>QCQ-171</name>
+	<type>WEAPON_SMG</type>
+
+	<dimensions>
+		<calibre>9</calibre>
+		<barrel_length>22</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_SMG</sound_shoot>
+		<range>200</range>
+		<rof>900</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>360</speed><mass>0.008</mass><name>9x19mm DAP92</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

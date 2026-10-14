@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>152mm M162</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>152</calibre>
+		<barrel_length>400</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon152</sound_shoot>
+		<rof>7</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>682</speed><mass>22</mass><HE>4.3</HE><name>M657A2</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>682</speed><mass>18.9</mass><era>ERA_COLD_WAR</era><HE>3.73</HE><name>M409A1</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

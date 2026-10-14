@@ -1,0 +1,124 @@
+<squad>
+	<description>
+		<type>TYPE_ASSAULT_GUN</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>M163 VADS</long_name>
+		<short_name>M163</short_name>
+		<comment>A self-propelled anti-aircraft gun based on the M113 chassis, with a 20mm M168 cannon</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1968</year><number>250</number></data>
+		<data><month>12</month><year>2000</year><number>250</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-M163.png</image_profile>
+			<weight>27140</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>GM 6V53</name>
+				<horsepower>212</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>3</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<exhaust_pipe><offsetX>120</offsetX><offsetY>-120</offsetY><angle>-200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M163 VADS.png</image_view>
+
+			<width>268</width>
+			<length>486</length>
+			<height>130</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>38@-25</front>
+				<side>32</side>
+				<rear>38</rear>
+				<top>38</top>
+				<bottom>22</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_HK_USP</type></weapon>
+				<ammo><for>WEAPON_PISTOL_HK_USP</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>268</width>
+			<length>456</length>
+			<height>120</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>16</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>38@45</front>
+				<side>44</side>
+				<rear>38</rear>
+				<top>38</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-M163 turret.png</image_view>
+
+			<diameter>160</diameter>
+			<height>40</height>
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<rotate_time>7</rotate_time>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>17@5</front>
+				<upper_side>17@25</upper_side>
+				<lower_side>17@19</lower_side>
+				<upper_rear>17@25</upper_rear>
+				<lower_rear>17@19</lower_rear>
+				<top>0</top>
+				<mantlet>8</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_20_M168_GD</type><offsetX>-1</offsetX><offsetY>-52</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_20_M168_GD</for><flavour>FLAVOUR_AP</flavour><rounds>892</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_20_M168_GD</for><flavour>FLAVOUR_HE</flavour><rounds>1338</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

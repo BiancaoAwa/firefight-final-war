@@ -1,0 +1,69 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_SECTION</type>
+		<nationality>NATIONALITY_BRITISH</nationality>
+		<quality>QUALITY_ELITE</quality>
+
+		<long_name>Special Air Service</long_name>
+		<short_name>SAS</short_name>
+		<comment>2 L119A2 carbines, 1 L403A1 rifle, 1 L7A2 LMG, 2 L123A2 grenade launchers and 1 NLAW ATGM. Elite troops</comment>
+
+		<uniform>british_infantry</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>800</number></data>
+		<data><month>12</month><year>2040</year><number>800</number></data>
+	</availability>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_CARBINE_L119A2</type></weapon>
+		<weapon><type>WEAPON_GRENADE_SMOKE_L83A2</type></weapon>
+
+		<ammo><for>WEAPON_CARBINE_L119A2</for><rounds>240</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_SMOKE_L83A2</for><rounds>4</rounds></ammo>
+		<ammo><for>WEAPON_RPG_NLAW</for><rounds>1</rounds></ammo>
+	</man>
+	
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RPG_NLAW</type></weapon>
+		<weapon><type>WEAPON_CARBINE_L119A2</type></weapon>
+
+		<ammo><for>WEAPON_RPG_NLAW</for><rounds>1</rounds></ammo>
+		<ammo><for>WEAPON_CARBINE_L119A2</for><rounds>240</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_MG_ASSISTANT</job>
+	
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_L403A1</type></weapon>
+		<weapon><type>WEAPON_GRENADE_LAUNCHER_L123A2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_L403A1</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_L123A2</for><rounds>10</rounds></ammo>
+		<ammo><for>WEAPON_LMG_L7A2</for><rounds>150</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_MG_ASSISTANT</job>
+		
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_LMG_L7A2</type></weapon>
+		<weapon><type>WEAPON_GRENADE_L109A2</type></weapon>
+
+		<ammo><for>WEAPON_LMG_L7A2</for><rounds>450</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_L109A2</for><rounds>4</rounds></ammo>
+		<ammo><for>WEAPON_RPG_NLAW</for><rounds>1</rounds></ammo>
+	</man>
+</squad>

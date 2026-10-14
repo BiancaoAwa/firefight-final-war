@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>Steyr SSG 69</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>65</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_762x51_suppressed</sound_shoot>
+		<range>800</range>
+		<rof>50</rof>
+	</shoot>
+
+	<magazine>
+		<capacity>5</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>860</speed><mass>0.0234</mass><name>7.62x51mm NATO</name></type>
+	</ammo>
+
+	<usage>
+		<countries>AUSTRIA|ARGENTINA|CHILE|GREECE|INDIA|INDONESIA|IRELAND|JORDAN|NETHERLANDS|PAKISTAN|PERU|SAUDI ARABIA|TURKEY|UNITED STATES</countries>
+	</usage>
+
+</weapon>

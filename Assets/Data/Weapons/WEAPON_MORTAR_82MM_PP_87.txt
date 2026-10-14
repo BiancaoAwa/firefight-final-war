@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>82mm PP-87 Mortar</name>
+	<type>WEAPON_MORTAR</type>
+
+	<dimensions>
+		<calibre>82</calibre>
+		<barrel_length>140</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_mortar</sound_shoot>
+		<rof>20</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_MORTAR_HE</flavour><speed>80</speed><mass>4.2</mass><HE>2.05</HE><name>HE</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

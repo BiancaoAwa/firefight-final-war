@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>130mm 2A86-U Cannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>130</calibre>
+		<barrel_length>1182</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>24</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_CANISTER</flavour><speed>910</speed><mass>25</mass><HE>3.8</HE><name>3OF84</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1271</speed><mass>25</mass><era>HEAT_ERA_COLD_WAR</era><HE>3</HE><name>3OF91 Yemnon</name></type>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>897</speed><mass>6</mass><era>HEAT_ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><guided>GUIDED_TOP_ATTACK</guided><HE>4.15</HE><name>3UBK27 Ruasr</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>2970</speed><mass>22</mass><name>3BM79 Ctenko</name></type>
+	</ammo>
+
+	<usage>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

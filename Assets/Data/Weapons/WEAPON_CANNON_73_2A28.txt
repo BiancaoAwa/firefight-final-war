@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>73mm 2A28</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>73</calibre>
+		<barrel_length>79</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>290</speed><mass>3.7</mass><HE>0.735</HE><name>OG-9</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>665</speed><mass>2.6</mass><HE>0.918</HE><name>PG-9</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

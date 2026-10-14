@@ -1,0 +1,139 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZTZ-100</long_name>
+		<short_name>ZTZ-100</short_name>
+		<comment>A Chinese fourth-generation main battle tank with an unmanned turret mounting a 105mm smoothbore cannon. Fitted with GL-6 active protection system</comment>
+
+		<uniform>chinese_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>9</month><year>2025</year><number>120</number></data>
+		<data><month>12</month><year>2050</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZTZ-100.png</image_profile>
+			<weight>42700</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Norinco diesel</name>
+				<horsepower>1500</horsepower>
+				<reliability>RELIABILITY_GOOD</reliability>
+				<rpm_idle>820</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>4</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>90</offsetX><offsetY>320</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-90</offsetX><offsetY>320</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZTZ-100.png</image_view>
+
+			<width>338</width>
+			<length>700</length>
+			<height>112</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>490@-47</front>
+				<side>120</side>
+				<rear>50</rear>
+				<top>20</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>335</width>
+			<length>600</length>
+			<height>50</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>93@81</front>
+				<side>120</side>
+				<rear>60</rear>
+				<top>10</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-ZTZ-100 turret.png</image_view>
+
+			<diameter>280</diameter>
+			<height>85</height>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>12</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>180@40</front>
+				<upper_side>120@27</upper_side>
+				<lower_side>120@15</lower_side>
+				<upper_rear>60@5</upper_rear>
+				<lower_rear>60@-70</lower_rear>
+				<top>10</top>
+				<mantlet>500</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_105_ZPL_100</type><offsetY>-10</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_QJT</type><offsetX>-52</offsetX><offsetY>-135</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_105_ZPL_100</for><flavour>FLAVOUR_APFSDS</flavour><rounds>15</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_ZPL_100</for><flavour>FLAVOUR_HE</flavour><rounds>19</rounds></ammo>
+			<ammo><for>WEAPON_LMG_QJT</for><rounds>2000</rounds></ammo>
+
+		</turret>
+
+		<fixed_weapon>
+			<image_view>Image-ZTZ-100 MG.png</image_view>
+
+			<offsetX>1</offsetX>
+			<offsetY>143</offsetY>
+			<offsetZ>246</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>160</rotate_left>
+			<rotate_right>160</rotate_right>
+
+			<weapon><type>WEAPON_HMG_QJG_02</type></weapon>
+			<ammo><for>WEAPON_HMG_QJG_02</for><rounds>500</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

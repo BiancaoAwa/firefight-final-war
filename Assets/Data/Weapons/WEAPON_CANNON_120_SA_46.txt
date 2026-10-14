@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>120mm SA46</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>700</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>762</speed><mass>22.8</mass><HE>4.65</HE><name>120mm Obus explosif</name></type>
+		<type><flavour>FLAVOUR_APCBC</flavour><speed>1067</speed><mass>23.1</mass><name>120mm Obus de rupture</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>FRANCE</countries>
+	</usage>
+
+</weapon>

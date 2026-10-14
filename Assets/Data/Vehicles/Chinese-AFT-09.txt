@@ -1,0 +1,129 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>AFT-09 Anti-Tank Missile Carrier</long_name>
+		<short_name>AFT-09</short_name>
+		<comment>A dedicated anti-tank guided missile carrier of the PLAGF with four HJ-9 launchers</comment>
+
+		<uniform>chinese_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2002</year><number>320</number></data>
+		<data><month>12</month><year>2040</year><number>320</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-AFT-09.png</image_profile>
+			<weight>13700</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>TB diesel</name>
+				<horsepower>320</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_MIDDLE</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe><offsetX>-120</offsetX><offsetY>-90</offsetY><angle>-140</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-AFT-09.png</image_view>
+
+			<width>280</width>
+			<length>605</length>
+			<height>120</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>8@76</upper_front>
+				<lower_front>20@-43</lower_front>
+				<side>10@-28</side>
+				<rear>8@4</rear>
+				<top>8</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<smoke_discharger><offsetX>120</offsetX><offsetY>-70</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>120</offsetX><offsetY>-70</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>120</offsetX><offsetY>-70</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-120</offsetX><offsetY>-70</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-120</offsetX><offsetY>-70</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-120</offsetX><offsetY>-70</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>120</offsetX><offsetY>-70</offsetY><angle>60</angle><elevation>50</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-120</offsetX><offsetY>-70</offsetY><angle>-60</angle><elevation>50</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>280</width>
+			<length>520</length>
+			<height>78</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>40</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>12@31</front>
+				<side>10@28</side>
+				<rear>8@4</rear>
+				<top>8</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-AFT-09 turret.png</image_view>
+
+			<diameter>120</diameter>
+			<height>152</height>
+			<offsetX>0</offsetX>
+			<offsetY>110</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>8@43</upper_front>
+				<lower_front>8</lower_front>
+				<side>8</side>
+				<rear>8</rear>
+				<top>8</top>
+				<mantlet>0</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_ATGM_HJ_9</type><offsetX>56</offsetX><offsetY>54</offsetY></weapon>
+			<weapon><type>WEAPON_ATGM_HJ_9</type><offsetX>-59</offsetX><offsetY>56</offsetY></weapon>
+			<ammo><for>WEAPON_ATGM_HJ_9</for><flavour>FLAVOUR_ATGM</flavour><rounds>6</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

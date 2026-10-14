@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>QLZ-87 Auto Grenade Launcher</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>35</calibre>
+		<barrel_length>97</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_grenade_launcher</sound_shoot>
+		<rof>500</rof>
+		<muzzle_flash>no</muzzle_flash>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>15</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><speed>190</speed><mass>0.6</mass><HE>1.5</HE><name>35x32mm Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

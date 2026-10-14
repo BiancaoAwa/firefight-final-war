@@ -1,0 +1,21 @@
+<weapon>
+
+	<name>Eryx ATGM</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>137</calibre>
+		<barrel_length>120</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_AGTM</sound_shoot>
+		<range>600</range>
+		<rof>3</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>245</speed><mass>4.5</mass><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>3.6</HE><name>HEAT</name></type>
+	</ammo>
+
+</weapon>

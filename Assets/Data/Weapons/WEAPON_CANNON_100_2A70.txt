@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>100mm 2A70</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>100</calibre>
+		<barrel_length>350</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>12</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>355</speed><mass>13.4</mass><HE>3.54</HE><name>3OF70</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>370</speed><mass>18.8</mass><era>ERA_COLD_WAR</era><HE>4.77</HE><name>ATGM</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

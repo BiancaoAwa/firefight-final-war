@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>12.7mm M2HB machine gun</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>12.7</calibre>
+		<barrel_length>114</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_HMG</sound_shoot>
+		<range>1500</range>
+		<rof>575</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>200</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>930</speed><mass>0.045</mass><name>12.7x99</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA|ISRAEL</countries>
+	</usage>
+
+</weapon>

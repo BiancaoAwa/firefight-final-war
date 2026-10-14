@@ -1,0 +1,29 @@
+<weapon>
+
+	<name>JSW 105mm Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>546</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>100</sound_shoot>
+		<rof>14</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>770</speed><mass>13.6</mass><HE>2</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1100</speed><mass>10</mass><era>HEAT_ERA_LATE</era><HE>1</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_HESH</flavour><speed>732</speed><mass>11.3</mass><HE>6</HE><name>HESH</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1478</speed><mass>4.1</mass><name>APDS</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1501</speed><mass>3.72</mass><name>APFSDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>JAPAN</countries>
+	</usage>
+
+</weapon>

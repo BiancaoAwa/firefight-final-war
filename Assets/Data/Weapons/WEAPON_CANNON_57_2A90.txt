@@ -1,0 +1,33 @@
+<weapon>
+
+	<name>57mm 2A90 Cannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>57</calibre>
+		<barrel_length>420</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<range>3000</range>
+		<rof>120</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>148</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1000</speed><mass>2.8</mass><HE>0.236</HE><name>OR-281U</name></type>
+		<type><flavour>FLAVOUR_APCBC</flavour><speed>1000</speed><mass>2.8</mass><HE>0.02</HE><name>BR-281U</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1500</speed><mass>0.95</mass><name>3UBM22</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

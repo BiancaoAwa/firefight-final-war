@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>105mm Royal Ordnance L7A2 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>558</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>100</sound_shoot>
+		<rof>12</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1174</speed><mass>10.5</mass><era>HEAT_ERA_LATE</era><HE>1.27</HE><name>M456</name></type>
+		<type><flavour>FLAVOUR_HESH</flavour><speed>720</speed><mass>11.4</mass><HE>3.15</HE><name>L35</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1426</speed><mass>4.53</mass><name>M728</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>UNITED_KINGDOM</countries>
+	</usage>
+
+</weapon>

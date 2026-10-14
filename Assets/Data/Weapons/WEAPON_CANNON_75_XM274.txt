@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>75mm XM274</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>75</calibre>
+		<barrel_length>540</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>60</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>910</speed><mass>6.3</mass><HE>1.07</HE><name>XM885</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1423</speed><mass>2.27</mass><name>XM885</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

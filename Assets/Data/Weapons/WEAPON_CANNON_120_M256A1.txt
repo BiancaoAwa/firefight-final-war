@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>120mm M256</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>530</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1140</speed><mass>13.1</mass><era>HEAT_ERA_LATE</era><HE>2.36</HE><name>M830A1</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1740</speed><mass>4.92</mass><name>KEW-A1</name></type>
+		<type><flavour>FLAVOUR_NONE</flavour><speed>1140</speed><mass>13.1</mass><HE>2.36</HE><name>M831A1</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

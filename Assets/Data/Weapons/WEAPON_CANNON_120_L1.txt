@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>120mm Royal Ordnance L1 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>660</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>4</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HESH</flavour><speed>762</speed><mass>15.87</mass><HE>3.97</HE><name>HESH</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1436</speed><mass>6.37</mass><name>APDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>UNITED_KINGDOM</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>100 ZPL04</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>250</calibre>
+		<barrel_length>535</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>17</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>900</speed><mass>15.6</mass><HE>1</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>900</speed><mass>12.38</mass><era>ERA_COLD_WAR</era><HE>1.17</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>450</speed><mass>36</mass><era>HEAT_ERA_MODERN</era><smoke_trail>yes</smoke_trail><HE>27</HE><name>TOW-2B</name></type>
+		<type><flavour>FLAVOUR_SMOKE</flavour><speed>890</speed><mass>15.6</mass><name>Smoke</name></type>
+	</ammo>
+
+	<usage>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

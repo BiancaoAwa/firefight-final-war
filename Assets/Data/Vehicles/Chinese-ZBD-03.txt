@@ -1,0 +1,126 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZBD-03</long_name>
+		<short_name>ZBD-03</short_name>
+		<comment>An airborne tracked infantry fighting vehicle of the PLA with a 30mm autocannon and a HJ-73 ATGM. Can be air-dropped</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2005</year><number>100</number></data>
+		<data><month>12</month><year>2030</year><number>100</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZBD-03.png</image_profile>
+			<weight>8000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>C-85-6</name>
+				<horsepower>1050</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>2000</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>70</offsetX><offsetY>225</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-70</offsetX><offsetY>225</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZBD-03.png</image_view>
+
+			<width>250</width>
+			<length>540</length>
+			<height>126</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>30</front>
+				<side>25</side>
+				<rear>25</rear>
+				<top>50</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95</for><rounds>120</rounds></ammo>
+			</man>
+		</hull>
+
+		<turret>
+			<image_view>Image-ZBD-03 turret.png</image_view>
+
+			<diameter>145</diameter>
+			<height>86</height>
+			<offsetX>0</offsetX>
+			<offsetY>65</offsetY>
+
+			<rotate_time>12</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>40</front>
+				<side>25</side>
+				<rear>25</rear>
+				<top>20</top>
+				<mantlet>25</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>30</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>30</offsetX><offsetY>-80</offsetY><angle>30</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>30</offsetX><offsetY>-80</offsetY><angle>60</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-30</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-30</offsetX><offsetY>-80</offsetY><angle>-30</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-30</offsetX><offsetY>-80</offsetY><angle>-60</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_30_ZPT_99</type><offsetX>-8</offsetX><offsetY>-36</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_TYPE_86</type><offsetX>13</offsetX><offsetY>-27</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_30_ZPT_99</for><flavour>FLAVOUR_HE</flavour><rounds>300</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_ZPT_99</for><flavour>FLAVOUR_APDS</flavour><rounds>300</rounds></ammo>
+			<ammo><for>WEAPON_LMG_TYPE_86</for><rounds>1500</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95</for><rounds>120</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95</for><rounds>120</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>40</offsetX>
+			<offsetY>93</offsetY>
+			<offsetZ>5</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>20</rotate_left>
+			<rotate_right>20</rotate_right>
+
+			<weapon><type>WEAPON_ATGM_HJ_73D</type></weapon>
+			<ammo><for>WEAPON_ATGM_HJ_73D</for><flavour>FLAVOUR_ATGM</flavour><rounds>4</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

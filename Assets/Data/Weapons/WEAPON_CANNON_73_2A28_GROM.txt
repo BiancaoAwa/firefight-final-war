@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>73mm 2A28 Grom</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>73</calibre>
+		<barrel_length>79</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>700</speed><mass>4.57</mass><HE>0.73</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>700</speed><mass>3.47</mass><HE>0.322</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

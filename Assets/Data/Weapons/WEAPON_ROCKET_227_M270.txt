@@ -1,0 +1,29 @@
+<weapon>
+
+	<name>227mm M270 rocket</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>130</calibre>
+		<barrel_length>300</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>大火</sound_shoot>
+		<rof>18</rof>
+	</shoot>
+	
+	<magazine>
+		<capacity>17</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>600</speed><mass>20</mass><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>10</HE><name>M26</name></type>
+	</ammo>
+
+	<usage>
+		<countries>JAPAN</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

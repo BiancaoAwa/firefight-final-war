@@ -1,0 +1,133 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZSD-90</long_name>
+		<short_name>ZSD-90</short_name>
+		<comment>A Chinese amphibious armoured personnel carrier with a 12.7mm machine gun. Can mount thirteen soldiers</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1990</year><number>55</number></data>
+		<data><month>12</month><year>2030</year><number>55</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZSD-90.png</image_profile>
+			<weight>14000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>KHD BF8L413FC</name>
+				<horsepower>360</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>50</offsetX><offsetY>-60</offsetY><angle>135</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>40</offsetX><offsetY>-150</offsetY><angle>135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZSD-90.png</image_view>
+
+			<width>330</width>
+			<length>670</length>
+			<height>60</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>15@-60</front>
+				<side>15@-5</side>
+				<rear>10@-10</rear>
+				<top>10</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>300</width>
+			<length>630</length>
+			<height>80</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>20</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>15@70</front>
+				<side>20@20</side>
+				<rear>10@-5</rear>
+				<top>15</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-ZSD-90 turret.png</image_view>
+
+			<diameter>150</diameter>
+			<height>60</height>
+			<offsetX>0</offsetX>
+			<offsetY>112</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>5</upper_front>
+				<lower_front>5@20</lower_front>
+				<upper_side>5</upper_side>
+				<lower_side>5@20</lower_side>
+				<upper_rear>5</upper_rear>
+				<lower_rear>5@20</lower_rear>
+				<top>6</top>
+				<mantlet>0</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>60</offsetX><offsetY>-59</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>60</offsetX><offsetY>-59</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>60</offsetX><offsetY>-59</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-60</offsetX><offsetY>-59</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-60</offsetX><offsetY>-59</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-60</offsetX><offsetY>-59</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_25_ZPT_90</type></weapon>
+			<weapon><type>WEAPON_LMG_TYPE_86</type><offsetX>-50</offsetX></weapon>
+			<ammo><for>WEAPON_CANNON_25_ZPT_90</for><flavour>FLAVOUR_APDS</flavour><rounds>200</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_25_ZPT_90</for><flavour>FLAVOUR_HE</flavour><rounds>200</rounds></ammo>
+			<ammo><for>WEAPON_LMG_TYPE_86</for><rounds>2000</rounds></ammo>
+
+		</turret>
+	</vehicle>
+</squad>

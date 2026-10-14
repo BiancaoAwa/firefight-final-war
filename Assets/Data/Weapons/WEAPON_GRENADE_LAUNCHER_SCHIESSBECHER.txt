@@ -1,0 +1,24 @@
+<weapon>
+
+	<name>Grenade launcher</name>
+	<type>WEAPON_GRENADE_LAUNCHER</type>
+
+	<dimensions>
+		<calibre>30</calibre>
+		<barrel_length>70</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_grenade_launcher</sound_shoot>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><mass>0.5</mass><HE>0.113</HE><name>Rifle Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<countries>GERMANY</countries>
+	</usage>
+
+</weapon>

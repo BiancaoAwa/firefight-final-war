@@ -1,0 +1,115 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>AFT-10</long_name>
+		<short_name>AFT-10</short_name>
+		<comment>An anti-tank guided missile carrier of the PLAGF with fibre-optic guided HJ-10 missiles. Can mount an infantry squad</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2012</year><number>100</number></data>
+		<data><month>12</month><year>2050</year><number>100</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-AFT-10.png</image_profile>
+			<weight>20000</weight>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Type 6V150</name>
+				<horsepower>500</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>800</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>6</forwards>
+				<reverse>3</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>130</offsetX><offsetY>-55</offsetY><angle>-200</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>30</offsetX><offsetY>-70</offsetY><angle>-200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-AFT10.png</image_view>
+
+			<width>325</width>
+			<length>695</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>50@-43</front>
+				<side>50</side>
+				<rear>13@-10</rear>
+				<top>13</top>
+				<bottom>13</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>325</width>
+			<length>540</length>
+			<height>80</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>80</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>18@82</front>
+				<side>38</side>
+				<rear>13@-10</rear>
+				<top>13</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-AFT10 turret.png</image_view>
+
+			<offsetX>0</offsetX>
+			<offsetY>130</offsetY>
+			<offsetZ>200</offsetZ>
+
+			<rotate_time>12</rotate_time>
+			<rotate_left>90</rotate_left>
+			<rotate_right>90</rotate_right>
+
+			<night_vision>yes</night_vision>
+			<weapon><type>WEAPON_ATGM_HJ_10</type></weapon>
+			<weapon><type>WEAPON_ATGM_HJ_10</type></weapon>
+			<weapon><type>WEAPON_ATGM_HJ_10</type></weapon>
+			<weapon><type>WEAPON_ATGM_HJ_10</type></weapon>
+			<ammo><for>WEAPON_ATGM_HJ_10</for><flavour>FLAVOUR_ATGM</flavour><rounds>8</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

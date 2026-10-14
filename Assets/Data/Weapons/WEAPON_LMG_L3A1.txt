@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>L3A1 Light Machine Gun</name>
+	<type>WEAPON_LMG</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>64</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_LMG</sound_shoot>
+		<rof>500</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>250</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>853</speed><mass>0.011</mass><name>.30-06 Springfield</name></type>
+	</ammo>
+
+	<usage>
+		<countries>UNITED_KINGDOM</countries>
+	</usage>
+
+</weapon>

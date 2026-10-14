@@ -1,0 +1,131 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_ISRAELI</nationality>
+
+		<long_name>Merkava Mk.2B</long_name>
+		<short_name>Merkava Mk.2B</short_name>
+		<comment>An Israeli main battle tank with a 105mm Sharir cannon, a 12.7mm M2HB HMG and a 7.62mm FN MAG LMG</comment>
+
+		<uniform>Israel</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1983</year><number>500</number></data>
+		<data><month>12</month><year>3000</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>0.png</image_profile>
+			<weight>61000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>AVDS 1790-5A</name>
+				<horsepower>900</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2400</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>6</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>175</offsetX><offsetY>-300</offsetY><angle>120</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>-175</offsetX><offsetY>-100</offsetY><angle>-120</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Merkava Mk.2B.png</image_view>
+
+			<width>370</width>
+			<length>700</length>
+			<height>85</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>120@-30</upper_front>
+				<lower_front>80@-60</lower_front>
+				<side>50@-13</side>
+				<side_spaced>10</side_spaced>
+				<rear>60@-44</rear>
+				<top>30</top>
+				<bottom>30</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>370</width>
+			<length>700</length>
+			<height>80</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>60@75</upper_front>
+				<lower_front>60@70</lower_front>
+				<side>60</side>
+				<rear>60@12</rear>
+				<top>30</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-Merkava Mk.2B turret.png</image_view>
+
+			<diameter>240</diameter>
+			<height>100</height>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>11</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>240@10</front>
+				<upper_side>100</upper_side>
+				<lower_side>80</lower_side>
+				<upper_rear>65</upper_rear>
+				<lower_rear>65@-65</lower_rear>
+				<top>30</top>
+				<mantlet>300</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>105</offsetX><offsetY>-110</offsetY><angle>5</angle><elevation>30</elevation><speed>20</speed><ammo>6</ammo><reload>5</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-85</offsetX><offsetY>-160</offsetY><angle>-5</angle><elevation>15</elevation><speed>20</speed><ammo>6</ammo><reload>5</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_105_SHARIR</type></weapon>
+			<weapon><type>WEAPON_HMG_M2HB</type><offsetY>-175</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_FN_MAG</type><offsetX>-40</offsetX><offsetY>-90</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_105_SHARIR</for><flavour>FLAVOUR_HESH</flavour><rounds>20</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_SHARIR</for><flavour>FLAVOUR_APFSDS</flavour><rounds>15</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_SHARIR</for><flavour>FLAVOUR_HEATFS</flavour><rounds>15</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_SHARIR</for><flavour>FLAVOUR_SMOKE</flavour><rounds>4</rounds></ammo>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>100</rounds></ammo>
+			<ammo><for>WEAPON_LMG_FN_MAG</for><rounds>9600</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

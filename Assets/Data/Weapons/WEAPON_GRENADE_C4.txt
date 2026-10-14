@@ -1,0 +1,22 @@
+<weapon>
+
+	<name>C4</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+	</dimensions>
+
+	<shoot>
+		<range>20</range>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><speed>30</speed><mass>0.5</mass><HE>12</HE><explode_in>12</explode_in><name>Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<countries>USA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

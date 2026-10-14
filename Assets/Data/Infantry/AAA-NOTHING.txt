@@ -1,0 +1,16 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_SECTION</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+		<quality>QUALITY_REGULAR</quality>
+
+		<long_name></long_name>
+		<short_name></short_name>
+		<comment></comment>
+
+	</description>
+
+	<availability>
+	</availability>
+
+</squad>

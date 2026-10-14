@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>MAG Tk715 Light Machine Gun</name>
+	<type>WEAPON_LMG</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>64</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_LMG</sound_shoot>
+		<rof>600</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>200</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>840</speed><mass>0.01</mass><name>7.62x51mm NATO</name></type>
+	</ammo>
+
+	<usage>
+		<countries>INDIA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

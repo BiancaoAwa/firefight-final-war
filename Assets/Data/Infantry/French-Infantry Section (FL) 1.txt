@@ -1,0 +1,111 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_SECTION</type>
+		<nationality>NATIONALITY_FRENCH</nationality>
+		<quality>QUALITY_REGULAR</quality>
+
+		<long_name>French Foreign Legion</long_name>
+		<short_name>Foreign Legion</short_name>
+		<comment>7 FAMAS F1 rifles, 2 AT4 LAWs, 1 M249 LMG and 1 LGI Mle F1 51mm mortar. Elite troops</comment>
+
+		<uniform_game>uniform_game_russian_VDV.png</uniform_game>
+		<uniform_profile>uniform_French_infantry.png</uniform_profile>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>200</number></data>
+		<data><month>12</month><year>2050</year><number>200</number></data>
+	</availability>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_FAMAS_F1</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_FAMAS_F1</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F1</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_FAMAS_F1</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_FAMAS_F1</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F1</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_FAMAS_F1</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F1</type></weapon>
+		<weapon><type>WEAPON_RPG_AT4</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_FAMAS_F1</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F1</for><rounds>4</rounds></ammo>
+		<ammo><for>WEAPON_RPG_AT4</for><rounds>1</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_FAMAS_F1</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F1</type></weapon>
+		<weapon><type>WEAPON_RPG_AT4</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_FAMAS_F1</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F1</for><rounds>4</rounds></ammo>
+		<ammo><for>WEAPON_RPG_AT4</for><rounds>1</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_FAMAS_F1</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_FAMAS_F1</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F1</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_FAMAS_F1</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_FAMAS_F1</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F1</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_LMG_M249</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F1</type></weapon>
+
+		<ammo><for>WEAPON_LMG_M249</for><rounds>600</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F1</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_FAMAS_F1</type></weapon>
+		<weapon><type>WEAPON_GRENADE_F1</type></weapon>
+		<weapon><type>WEAPON_GRENADE_LAUNCHER_F1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_FAMAS_F1</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_F1</for><rounds>4</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_F1</for><rounds>10</rounds></ammo>
+	</man>
+</squad>

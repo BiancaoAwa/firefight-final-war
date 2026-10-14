@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>120mm GIAT CN120-26/52 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>624</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1050</speed><mass>14.4</mass><HE>2.15</HE><name>OCC 120 G1</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1650</speed><mass>3.8</mass><name>OFL 120 G1</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>FRANCE</countries>
+	</usage>
+
+</weapon>

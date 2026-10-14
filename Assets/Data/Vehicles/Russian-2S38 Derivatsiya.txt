@@ -1,0 +1,134 @@
+<squad>
+	<description>
+		<type>TYPE_ASSAULT_GUN</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>2S38 Derivatsiya</long_name>
+		<short_name>2S38</short_name>
+		<comment>A Russian self-propelled anti-aircraft gun on the BMP-3 chassis, armed with a 57mm 2A90 automatic cannon.</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2024</year><number>250</number></data>
+		<data><month>12</month><year>2050</year><number>250</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-BMP-3 2S38.png</image_profile>
+			<weight>21500</weight>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>UTD-29M</name>
+				<horsepower>500</horsepower>
+				<reliability>RELIABILITY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>4</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>160</offsetX><offsetY>260</offsetY><angle>-200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-BMP-3 2S38.png</image_view>
+
+			<width>310</width>
+			<length>690</length>
+			<height>85</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>120@-45</front>
+				<upper_side>43</upper_side>
+				<lower_side>43@-20</lower_side>
+				<rear>43@-10</rear>
+				<top>20</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_AKS_74</type></weapon>
+				<ammo><for>WEAPON_RIFLE_AKS_74</for><rounds>450</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>360</width>
+			<length>720</length>
+			<height>85</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>-25</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>18@81</upper_front>
+				<lower_front>82@-30</lower_front>
+				<upper_side>60@20</upper_side>
+				<lower_side>60</lower_side>
+				<rear>43</rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-BMP-3 2S38 turret.png</image_view>
+
+			<diameter>230</diameter>
+			<height>75</height>
+			<offsetX>0</offsetX>
+			<offsetY>-10</offsetY>
+
+			<rotate_time>6</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>43@30</front>
+				<side>43@20</side>
+				<upper_rear>43@20</upper_rear>
+				<lower_rear>43@10</lower_rear>
+				<top>18</top>
+				<mantlet>50</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-60</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-60</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-60</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_57_2A90</type><offsetX>-3</offsetX><offsetY>-4</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_PKTM</type><offsetX>63</offsetX><offsetY>-47</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_57_2A90</for><flavour>FLAVOUR_HE</flavour><rounds>105</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_57_2A90</for><flavour>FLAVOUR_APFSDS</flavour><rounds>43</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKTM</for><rounds>4000</rounds></ammo>
+
+		</turret>
+	</vehicle>
+</squad>

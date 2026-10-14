@@ -1,0 +1,140 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZBD-100</long_name>
+		<short_name>ZBD-100</short_name>
+		<comment>A Chinese fourth-generation fighting vehicle with an unmanned turret mounting a 40mm autocannon. Fitted with GL-6 active protection system</comment>
+
+		<uniform>chinese_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>9</month><year>2025</year><number>120</number></data>
+		<data><month>12</month><year>2050</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZBD-100.png</image_profile>
+			<weight>42000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Norinco diesel</name>
+				<horsepower>1200</horsepower>
+				<reliability>RELIABILITY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>820</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>4</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>-160</offsetX><offsetY>180</offsetY><angle>-100</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZBD-100.png</image_view>
+
+			<width>338</width>
+			<length>700</length>
+			<height>112</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>510@-47</front>
+				<side>120</side>
+				<rear>50</rear>
+				<top>20</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>335</width>
+			<length>600</length>
+			<height>50</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>93@81</front>
+				<side>120</side>
+				<rear>60</rear>
+				<top>10</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-ZBD-100 turret.png</image_view>
+
+			<diameter>280</diameter>
+			<height>85</height>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>10</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>180@40</front>
+				<upper_side>120@27</upper_side>
+				<lower_side>120@15</lower_side>
+				<upper_rear>60@5</upper_rear>
+				<lower_rear>60@-70</lower_rear>
+				<top>10</top>
+				<mantlet>500</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_40_ZPT_25</type><offsetX>-5</offsetX><offsetY>-33</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_QJT</type><offsetX>14</offsetX><offsetY>-83</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_40_ZPT_25</for><flavour>FLAVOUR_APFSDS</flavour><rounds>40</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_40_ZPT_25</for><flavour>FLAVOUR_HE</flavour><rounds>60</rounds></ammo>
+			<ammo><for>WEAPON_LMG_QJT</for><rounds>2000</rounds></ammo>
+
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>-59</offsetX>
+			<offsetY>263</offsetY>
+			<offsetZ>620</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>160</rotate_left>
+			<rotate_right>160</rotate_right>
+
+			<weapon><type>WEAPON_TEST_CH901</type></weapon>
+			<ammo><for>WEAPON_TEST_CH901</for><flavour>FLAVOUR_HEATFS</flavour><rounds>6</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

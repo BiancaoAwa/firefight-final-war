@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>HJ-73C</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>86</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rocket</sound_shoot>
+		<range>300</range>
+		<rof>10</rof>
+	</shoot>
+
+	<magazine>
+		<single_shot>yes</single_shot>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>120</speed><mass>11.3</mass><era>HEAT_ERA_COLD_WAR</era><guided>GUIDED_MANUAL</guided><smoke_trail>yes</smoke_trail><HE>3</HE><name>HJ-73C</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

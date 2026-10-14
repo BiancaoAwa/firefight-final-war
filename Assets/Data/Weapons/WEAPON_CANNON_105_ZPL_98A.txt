@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>105mm ZPL-98A</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>546</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1200</speed><mass>11</mass><HE>1.27</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_HESH</flavour><speed>750</speed><mass>9.2</mass><HE>4.3</HE><name>HESH</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>2100</speed><mass>4.2</mass><name>APFSDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

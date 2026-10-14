@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>S&T Dynamics K40 40 mm autocanno</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>40</calibre>
+		<barrel_length>389</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>小机炮</sound_shoot>
+		<rof>300</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>24</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1025</speed><mass>0.389</mass><HE>0.0049</HE><name>K236</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1380</speed><mass>0.389</mass><name>K237</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>SOUTH_KROEAN</countries>
+	</usage>
+
+</weapon>

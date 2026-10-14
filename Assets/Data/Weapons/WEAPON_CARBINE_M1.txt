@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>.30 M1 Carbine</name>
+	<type>WEAPON_CARBINE</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>45</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<rof>40</rof>
+		<reload>RELOAD_SEMI_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>15</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>594</speed><mass>0.007</mass><name>.30 Carbine</name></type>
+	</ammo>
+
+	<usage>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

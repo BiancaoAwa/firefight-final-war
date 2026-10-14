@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>105mm Howitzer</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>231</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>7</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>472</speed><mass>19.1</mass><HE>2.18</HE><name>HE M1</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>381</speed><mass>16.7</mass><era>HEAT_ERA_LATE</era><HE>1.33</HE><name>HE-AT M67</name></type>
+	</ammo>
+
+	<usage>
+		<countries>USA|FRANCE|ITALY</countries>
+	</usage>
+
+</weapon>

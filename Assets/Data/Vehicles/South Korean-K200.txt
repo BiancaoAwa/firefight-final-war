@@ -1,0 +1,127 @@
+<squad>
+	<description>
+		<type>TYPE_HALFTRACK</type>
+		<nationality>NATIONALITY_SOUTH_KOREAN</nationality>
+
+		<long_name>K200</long_name>
+		<short_name>K200</short_name>
+		<comment>A South Korean armoured personnel carrier with a 12.7mm machine gun. Can mount eleven soldiers</comment>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1986</year><number>1</number></data>
+		<data><month>12</month><year>2040</year><number>1</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-K200.png</image_profile>
+			<weight>12900</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>D2848M</name>
+				<horsepower>280</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<exhaust_pipe>
+				<offsetX>111</offsetX>
+				<offsetY>-100</offsetY>
+				<horizontal_angle>135</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-K200.png</image_view>
+
+			<width>285</width>
+			<length>550</length>
+			<height>70</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>10@-30</front>
+				<side>8</side>
+				<rear>8@-5</rear>
+				<top>6</top>
+				<bottom>6</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>285</width>
+			<length>530</length>
+			<height>120</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>18</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>13@35</front>
+				<side>8</side>
+				<rear>8@-5</rear>
+				<top>7</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-K200 turret.png</image_view>
+
+			<diameter>120</diameter>
+			<height>60</height>
+			<offsetX>60</offsetX>
+			<offsetY>-60</offsetY>
+
+			<rotate_time>6</rotate_time>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>10</front>
+				<side>0</side>
+				<rear>0</rear>
+				<top>0</top>
+				<mantlet>0</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>42</offsetX><offsetY>-41</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>42</offsetX><offsetY>-41</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>42</offsetX><offsetY>-41</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-42</offsetX><offsetY>-41</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-42</offsetX><offsetY>-41</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-42</offsetX><offsetY>-41</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>3200</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

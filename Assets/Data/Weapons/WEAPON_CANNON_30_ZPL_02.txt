@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>30mm ZPL-02 Autocannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>30</calibre>
+		<barrel_length>242</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon30</sound_shoot>
+		<rof>330</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>250</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>960</speed><mass>0.389</mass><HE>0.075</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1180</speed><mass>0.29</mass><name>APDS</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1310</speed><mass>0.13</mass><name>APFSDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

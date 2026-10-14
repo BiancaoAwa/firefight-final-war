@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>QBS-09</name>
+	<type>WEAPON_SHOTGUN</type>
+
+	<dimensions>
+		<calibre>18.4</calibre>
+		<barrel_length>38</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_shotgun</sound_shoot>
+		<range>100</range>
+		<rof>60</rof>
+		<reload>RELOAD_SEMI_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>5</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_PELLETS</flavour><speed>420</speed><mass>0.1</mass><name>18.4x69.85mm 09 kill pellets</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

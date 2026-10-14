@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>QJE-22 general purpose machine gun</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>14.5</calibre>
+		<barrel_length>102</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_HMG</sound_shoot>
+		<rof>980</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>150</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>1050</speed><mass>0.005</mass><name>14.5*71 DJP-201</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

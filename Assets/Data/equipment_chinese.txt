@@ -1,0 +1,76 @@
+// infantry
+Chinese-Infantry Squad 1					// infantry squads
+Chinese-Marine Squad 1
+Chinese-Militia Squad 1
+Chinese-PAP Squad 1
+Chinese-PAP Squad 2
+Chinese-Air Assault Squad 1
+
+Chinese-QBU-88					// weapon teams
+Chinese-QBU-191
+Chinese-QLU-11
+
+Chinese-Mortar PBP-171					// mortars
+Chinese-Mortar PP-87
+Chinese-Mortar PP-93
+
+Chinese-HMG QJZ-89					// heavy machine guns
+Chinese-HMG QJZ-171
+
+// AT guns
+
+// vehicles
+Chinese-ZTZ-100					// tanks
+Chinese-ZTZ-99FP
+Chinese-ZTZ-99FPI
+Chinese-ZTZ-99SPI
+Chinese-ZTZ-99A
+Chinese-ZTZ-99B
+Chinese-ZTZ-96
+Chinese-ZTZ-96A
+Chinese-ZTZ-88
+Chinese-ZTZ-88B
+Chinese-ZTZ-88A
+Chinese-ZTZ-59
+Chinese-ZTZ-59II
+Chinese-ZTZ-59IIA
+Chinese-ZTZ-59D1
+Chinese-ZTZ-59D
+
+Chinese-ZTQ-15
+Chinese-ZTQ-62
+
+Chinese-VT-4
+Chinese-Type 69-IIG
+Pakistani-Al-Khalid
+
+Chinese-PTZ-89					// assault guns
+Chinese-PTL-02
+Chinese-AFT-09
+Chinese-AFT-10
+Chinese-ZTD-05
+Chinese-ZTL-11
+Chinese-ZTL-19
+Chinese-ZTD-05
+
+Chinese-PLL-09					// self-propelled guns
+Chinese-PLZ-05
+
+Chinese-ZBD-86					///infantry frighting vehicles
+Chinese-ZBD-86A
+Chinese-ZBD-03
+Chinese-ZBD-04A
+Chinese-ZBD-04B
+Chinese-ZBD-100
+Chinese-ZSL-92
+Chinese-ZSL-92B
+Chinese-ZSD-90
+Chinese-ZBL-08
+Chinese-ZBL-19
+
+Chinese-CSK-181					// armoured cars
+
+Chinese-ZSL-10					// armoured personnel carriers
+Chinese-ZSL-19
+
+AAA-NOTHING					// lorries

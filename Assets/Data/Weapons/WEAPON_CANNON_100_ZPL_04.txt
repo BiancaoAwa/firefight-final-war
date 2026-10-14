@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>100mm ZPL-04 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>100</calibre>
+		<barrel_length>300</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<range>4000</range>
+		<rof>15</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>355</speed><mass>13.41</mass><HE>3.54</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>370</speed><mass>18.8</mass><era>HEAT_ERA_COLD_WAR_EARLY</era><guided>GUIDED_MANUAL</guided><HE>4.86</HE><name>ATGM</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

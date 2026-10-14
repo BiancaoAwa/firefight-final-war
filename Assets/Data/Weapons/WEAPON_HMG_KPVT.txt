@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>KPVT Machine Gun</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>14.5</calibre>
+		<barrel_length>64</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_HMG</sound_shoot>
+		<rof>600</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>40</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>1005</speed><mass>0.06</mass><name>14.5x114mm</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

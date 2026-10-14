@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>IWI Desert Eagle Pistol</name>
+	<type>WEAPON_PISTOL</type>
+
+	<dimensions>
+		<calibre>10.9</calibre>
+		<barrel_length>15</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_jspistol</sound_shoot>
+		<rof>120</rof>
+		<reload>RELOAD_SEMI_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>15</capacity>
+		<sound_reload>reload_jsmagazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>375</speed><mass>0.01</mass><name>.44 Magnum</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>ISRAEL</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,20 @@
+<weapon>
+
+	<name>LGI Mle F1 51mm Mortar</name>
+	<type>WEAPON_GRENADE_LAUNCHER</type>
+
+	<dimensions>
+		<calibre>51</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_mortar</sound_shoot>
+		<rof>30</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><speed>80</speed><mass>0.90</mass><HE>0.45</HE><name>HE</name></type>
+	</ammo>
+
+</weapon>

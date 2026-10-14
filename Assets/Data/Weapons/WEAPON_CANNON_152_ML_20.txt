@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>152mm ML-20</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>152</calibre>
+		<barrel_length>350</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>450</speed><mass>40</mass><HE>7</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>450</speed><mass>40</mass><HE>7</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_SMOKE</flavour><speed>450</speed><mass>40</mass><name>Smoke</name></type>
+	</ammo>
+
+	<usage>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>MK84</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>107</calibre>
+		<barrel_length>300</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>4</rof>
+	</shoot>
+	
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>340</speed><mass>9.4</mass><era>ERA_COLD_WAR</era><HE>15</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>340</speed><mass>9.4</mass><era>ERA_COLD_WAR</era><HE>15</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

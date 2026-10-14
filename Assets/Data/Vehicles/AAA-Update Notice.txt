@@ -1,0 +1,57 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>2.3.0</long_name>
+		<short_name>2.3.0</short_name>
+		<comment>Version:2030007 Build Time:2026.10.1</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>0</year><number>1</number></data>
+		<data><month>12</month><year>10000</year><number>1</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>0.png</image_profile>
+			<weight>0</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Firefight: World War III - the Final War</name>
+				<horsepower>0</horsepower>
+				<reliability>RELIABILITY_GOOD</reliability>
+				<rpm_idle>0</rpm_idle>
+				<rpm_limit>0</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>0</forwards>
+				<reverse>0</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+		</drive>
+
+		<hull>
+			<image_view>0.png</image_view>
+
+			<width>1024</width>
+			<length>1024</length>
+			<height>1024</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>32767</front>
+				<side>32767</side>
+				<rear>32767</rear>
+				<top>32767</top>
+			</armour>
+
+		</hull>
+	</vehicle>
+</squad>

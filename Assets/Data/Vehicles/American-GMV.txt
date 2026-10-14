@@ -1,0 +1,183 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>Ground Mobility Vehicle 1.1</long_name>
+		<short_name>GMV 1.1</short_name>
+		<comment>A special operations ground mobility vehicle with five 7.62mm M240 machine guns and an M2 .50cal machine gun</comment>
+
+		<uniform>american_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2016</year><number>200</number></data>
+		<data><month>12</month><year>2050</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-GMV.png</image_profile>
+			<weight>3400</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>GM 2.0L</name>
+				<horsepower>195</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>6</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+		</drive>
+
+		<hull>
+			<image_view>Image-M1288 GMV 1.1.png</image_view>
+
+			<width>200</width>
+			<length>545</length>
+			<height>105</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>4@40</upper_front>
+				<lower_front>4@-50</lower_front>
+				<side>7</side>
+				<rear>4</rear>
+				<top>4</top>
+				<bottom>4</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>200</width>
+			<length>350</length>
+			<height>62</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>65</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>4@40</front>
+				<side>3</side>
+				<rear>4@50</rear>
+				<top>0</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-Image-M1288 GMV 1.1 M2MG.png</image_view>
+
+			<offsetX>1</offsetX>
+			<offsetY>26</offsetY>
+			<offsetZ>180</offsetZ>
+			<minAngle>-80</minAngle>
+			<maxAngle>80</maxAngle>
+
+			<rotate_time>10</rotate_time>
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>3000</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-Image-M1288 GMV 1.1 M240MG.png</image_view>
+
+			<offsetX>-31</offsetX>
+			<offsetY>200</offsetY>
+			<offsetZ>170</offsetZ>
+			<minAngle>-70</minAngle>
+			<maxAngle>70</maxAngle>
+			<offsetAngle>-180</offsetAngle>
+
+			<rotate_time>10</rotate_time>
+			<weapon><type>WEAPON_LMG_M240</type></weapon>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>2500</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-Image-M1288 GMV 1.1 s2M240MG.png</image_view>
+
+			<offsetX>104</offsetX>
+			<offsetY>-57</offsetY>
+			<offsetZ>170</offsetZ>
+			<minAngle>-20</minAngle>
+			<maxAngle>90</maxAngle>
+			<offsetAngle>45</offsetAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_LMG_M240</type></weapon>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>2500</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-Image-M1288 GMV 1.1 s2M240MG.png</image_view>
+
+			<offsetX>106</offsetX>
+			<offsetY>47</offsetY>
+			<offsetZ>170</offsetZ>
+			<minAngle>-20</minAngle>
+			<maxAngle>90</maxAngle>
+			<offsetAngle>45</offsetAngle>
+
+			<rotate_time>10</rotate_time>
+			<weapon><type>WEAPON_LMG_M240</type></weapon>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>2500</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-Image-M1288 GMV 1.1 s1M240MG.png</image_view>
+
+			<offsetX>-109</offsetX>
+			<offsetY>-55</offsetY>
+			<offsetZ>170</offsetZ>
+			<minAngle>20</minAngle>
+			<maxAngle>-90</maxAngle>
+			<offsetAngle>-45</offsetAngle>
+
+			<rotate_time>10</rotate_time>
+			<weapon><type>WEAPON_LMG_M240</type></weapon>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>2500</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-Image-M1288 GMV 1.1 s1M240MG.png</image_view>
+
+			<offsetX>-108</offsetX>
+			<offsetY>41</offsetY>
+			<offsetZ>170</offsetZ>
+			<minAngle>20</minAngle>
+			<maxAngle>-90</maxAngle>
+			<offsetAngle>-45</offsetAngle>
+
+			<rotate_time>10</rotate_time>
+			<weapon><type>WEAPON_LMG_M240</type></weapon>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>2500</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

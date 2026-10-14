@@ -1,0 +1,147 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>M1127 Reconnaissance Vehicle</long_name>
+		<short_name>M1127 Stryker</short_name>
+		<comment>A Stryker reconnaissance variant with an M2 .50cal machine gun and an M240 machine gun. Can mount eight soldiers</comment>
+
+		<uniform>american_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2002</year><number>200</number></data>
+		<data><month>12</month><year>2040</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-M1127.png</image_profile>
+			<weight>18770</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Diesel</name>
+				<horsepower>350</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe>
+				<offsetX>120</offsetX>
+				<offsetY>-160</offsetY>
+				<horizontal_angle>140</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M1127.png</image_view>
+
+			<width>260</width>
+			<length>670</length>
+			<height>172</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>18@-54</front>
+				<side>25@-28</side>
+				<rear>13@-12</rear>
+				<top>18</top>
+			</armour>
+
+			<smoke_discharger><offsetX>105</offsetX><offsetY>120</offsetY><angle>45</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>105</offsetX><offsetY>140</offsetY><angle>60</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>105</offsetX><offsetY>160</offsetY><angle>85</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>105</offsetX><offsetY>180</offsetY><angle>150</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>105</offsetX><offsetY>120</offsetY><angle>50</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>105</offsetX><offsetY>140</offsetY><angle>65</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>105</offsetX><offsetY>160</offsetY><angle>90</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>105</offsetX><offsetY>180</offsetY><angle>155</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-105</offsetX><offsetY>-25</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-105</offsetX><offsetY>-15</offsetY><angle>-70</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-105</offsetX><offsetY>0</offsetY><angle>-105</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-105</offsetX><offsetY>10</offsetY><angle>-135</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-125</offsetX><offsetY>25</offsetY><angle>-165</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-105</offsetX><offsetY>-25</offsetY><angle>-35</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-105</offsetX><offsetY>-15</offsetY><angle>-65</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-105</offsetX><offsetY>0</offsetY><angle>-100</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-105</offsetX><offsetY>10</offsetY><angle>-130</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-125</offsetX><offsetY>25</offsetY><angle>-170</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>260</width>
+			<length>640</length>
+			<height>92</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>20</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>18@71</front>
+				<side>18@11</side>
+				<rear>13@-12</rear>
+				<top>18</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-M1127 turret.png</image_view>
+
+			<offsetX>81</offsetX>
+			<offsetY>1</offsetY>
+			<offsetZ>292</offsetZ>
+			<minAngle>-160</minAngle>
+			<maxAngle>160</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-M1127 gun.png</image_view>
+
+			<offsetX>-2</offsetX>
+			<offsetY>262</offsetY>
+			<offsetZ>284</offsetZ>
+			<minAngle>-20</minAngle>
+			<maxAngle>20</maxAngle>
+			<offsetAngle>180</offsetAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_LMG_M240</type><mount>ball</mount></weapon>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

@@ -1,0 +1,122 @@
+<squad>
+	<description>
+		<type>TYPE_ASSAULT_GUN</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>2S19</long_name>
+		<short_name>2S19</short_name>
+		<comment>A 152mm self-propelled howitzer, with a 2A64 cannon and a 12.7mm maching gun.</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1989</year><number>500</number></data>
+		<data><month>12</month><year>2050</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-2S19.png</image_profile>
+			<weight>42000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>V-84A</name>
+				<horsepower>840</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>7</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>100</offsetX><offsetY>300</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-100</offsetX><offsetY>300</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-2S19.png</image_view>
+
+			<width>370</width>
+			<length>740</length>
+			<height>70</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>17@-56</front>
+				<side>17</side>
+				<rear>17@-25</rear>
+				<top>30</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>370</width>
+			<length>680</length>
+			<height>80</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>35</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>17@69</front>
+				<side>17</side>
+				<rear>17@16</rear>
+				<top>30</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-2S19 turret.png</image_view>
+
+			<offsetX>-3</offsetX>
+			<offsetY>24</offsetY>
+			<offsetZ>182000</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>160</rotate_left>
+			<rotate_right>160</rotate_right>
+
+			<night_vision>yes</night_vision>
+			<weapon><type>WEAPON_CANNON_152_2A64</type></weapon>
+			<ammo><for>WEAPON_CANNON_152_2A64</for><flavour>FLAVOUR_HE</flavour><rounds>30</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-2S19 MG.png</image_view>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+			<offsetZ>310</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>160</rotate_left>
+			<rotate_right>160</rotate_right>
+
+			<weapon><type>WEAPON_HMG_NSV</type></weapon>
+			<ammo><for>WEAPON_HMG_NSV</for><rounds>300</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

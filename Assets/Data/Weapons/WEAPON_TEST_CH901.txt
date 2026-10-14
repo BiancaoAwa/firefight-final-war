@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>CH-901</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>30</calibre>
+		<barrel_length>120</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rocket</sound_shoot>
+		<range>6000</range>
+		<rof>4</rof>
+	</shoot>
+
+	<magazine>
+		<single_shot>yes</single_shot>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEATFS</flavour><speed>20</speed><mass>9</mass><guided>GUIDED_TOP_ATTACK</guided><smoke_trail>yes</smoke_trail><HE>3.5</HE><name>CH-901</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

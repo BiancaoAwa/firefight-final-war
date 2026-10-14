@@ -1,0 +1,111 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>M113A3 Armored Personnel Carrier</long_name>
+		<short_name>M113</short_name>
+		<comment>An armoured personnel carrier widely used by the US Army, with an M2 machine gun. Can mount eleven soldiers</comment>
+
+		<uniform>american_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1987</year><number>100</number></data>
+		<data><month>12</month><year>2030</year><number>100</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-M113A3.png</image_profile>
+			<weight>12300</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>GM 6V53</name>
+				<horsepower>212</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>3</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<exhaust_pipe><offsetX>120</offsetX><offsetY>-120</offsetY><angle>-200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M113A3.png</image_view>
+
+			<width>268</width>
+			<length>486</length>
+			<height>130</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>38@-25</front>
+				<side>32</side>
+				<rear>38</rear>
+				<top>38</top>
+				<bottom>22</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_HK_USP</type></weapon>
+				<ammo><for>WEAPON_PISTOL_HK_USP</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>268</width>
+			<length>456</length>
+			<height>120</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>16</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>38@45</front>
+				<side>44</side>
+				<rear>38</rear>
+				<top>38</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-Image-M113A3 50MG.png</image_view>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+			<offsetZ>260</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>20</rotate_left>
+			<rotate_right>20</rotate_right>
+
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>1000</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

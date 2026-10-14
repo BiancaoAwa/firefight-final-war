@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>RPG-18</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>64</calibre>
+		<barrel_length>70</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<range>200</range>
+		<rof>6</rof>
+	</shoot>
+
+	<magazine>
+		<single_shot>yes</single_shot>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>115</speed><mass>4</mass><smoke_trail>yes</smoke_trail><HE>0.73</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

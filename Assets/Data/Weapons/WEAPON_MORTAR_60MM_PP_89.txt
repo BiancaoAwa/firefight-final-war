@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>60mm PP-89 Light Mortar</name>
+	<type>WEAPON_MORTAR</type>
+
+	<dimensions>
+		<calibre>60.75</calibre>
+		<barrel_length>79</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_mortar</sound_shoot>
+		<rof>30</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_MORTAR_HE</flavour><speed>80</speed><mass>1.36</mass><HE>0.66</HE><name>HE</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

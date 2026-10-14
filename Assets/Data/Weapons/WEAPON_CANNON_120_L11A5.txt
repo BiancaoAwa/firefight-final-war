@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>120mm L11A5 Tank Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>660</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon120challenger</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HESH</flavour><speed>670</speed><mass>11.3</mass><HE>6</HE><name>HESH</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1370</speed><mass>3.69</mass><name>APDS</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1535</speed><mass>3.89</mass><name>APFSDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>UNITED_KINGDOM</countries>
+	</usage>
+
+</weapon>

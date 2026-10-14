@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>85mm Type-62-85-TC Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>85</calibre>
+		<barrel_length>500</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>100</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>785</speed><mass>9.5</mass><HE>0.741</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>845</speed><mass>7</mass><HE>0.822</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_APCBC</flavour><speed>792</speed><mass>9.2</mass><name>APCBC</name></type>
+		<type><flavour>FLAVOUR_APCR</flavour><speed>1020</speed><mass>5.3</mass><name>APCR</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

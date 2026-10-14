@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>120mm Heavy Mortar</name>
+	<type>WEAPON_MORTAR</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>174</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_mortar</sound_shoot>
+		<rof>12</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_MORTAR_HE</flavour><speed>80</speed><mass>16</mass><HE>3.5</HE><name>HE</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

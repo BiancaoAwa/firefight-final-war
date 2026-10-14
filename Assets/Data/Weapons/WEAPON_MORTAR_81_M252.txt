@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>81mm M252</name>
+	<type>WEAPON_MORTAR</type>
+
+	<dimensions>
+		<calibre>81</calibre>
+		<barrel_length>102</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_mortar</sound_shoot>
+		<range>5700</range>
+		<muzzle_flash>no</muzzle_flash>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_MORTAR_HE</flavour><speed>305</speed><mass>4.14</mass><HE>0.72</HE><name>M821 HE</name></type>
+		<type><flavour>FLAVOUR_MORTAR_SMOKE</flavour><speed>305</speed><mass>4.7</mass><name>M819 RP</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

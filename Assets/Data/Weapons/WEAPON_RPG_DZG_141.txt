@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>DZG-141</name>
+	<type>WEAPON_GRENADE_LAUNCHER</type>
+
+	<dimensions>
+		<calibre>10</calibre>
+		<barrel_length>70</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<range>500</range>
+		<rof>6</rof>
+	</shoot>
+
+	<magazine>
+		<single_shot>yes</single_shot>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>125</speed><mass>1</mass><smoke_trail>yes</smoke_trail><HE>15</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

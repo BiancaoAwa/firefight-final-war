@@ -1,0 +1,143 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>Kurganets-25 Infantry Fighting Vehicle</long_name>
+		<short_name>Kurganets-25 IFV</short_name>
+		<comment>A new Russian tracked infantry fighting vehicle with Afganit APS and the Bumerang-BM unmanned turret, a 30mm 2A42 cannon, a PKTM machine gun and four Kornet ATGMs</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2026</year><number>20</number></data>
+		<data><month>12</month><year>2050</year><number>350</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-Kurganets-25 IFV.png</image_profile>
+			<weight>25000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Diesel</name>
+				<horsepower>800</horsepower>
+				<reliability>RELIABILITY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>140</offsetX><offsetY>355</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-140</offsetX><offsetY>355</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Kurganets-25.png</image_view>
+
+			<width>410</width>
+			<length>710</length>
+			<height>182</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>90@-30</front>
+				<side>210</side>
+				<rear>20</rear>
+				<top>20</top>
+				<bottom>300</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>370</width>
+			<length>750</length>
+			<height>50</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>-20</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>10@80</upper_front>
+				<lower_front>110@-10</lower_front>
+				<side>30</side>
+				<rear>25</rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<superstructure>
+			<width>620</width>
+			<length>20</length>
+			<height>190</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>-680</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>0</front>
+				<side>5</side>
+				<rear>5</rear>
+				<top>5</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-Kurganets-25 IFV turret.png</image_view>
+
+			<diameter>260</diameter>
+			<height>88</height>
+			<offsetX>0</offsetX>
+			<offsetY>160</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>80@10</front>
+				<upper_side>25@30</upper_side>
+				<lower_side>25@-30</lower_side>
+				<upper_rear>30@10</upper_rear>
+				<lower_rear>20@-30</lower_rear>
+				<top>20</top>
+				<mantlet>110</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_30_2A42</type><offsetX>-1</offsetX><offsetY>-23</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_PKTM</type><offsetX>-34</offsetX><offsetY>-4</offsetY></weapon>
+			<weapon><type>WEAPON_ATGM_9K135</type><offsetX>141</offsetX><offsetY>38</offsetY></weapon>
+			<weapon><type>WEAPON_ATGM_9K135</type><offsetX>-141</offsetX><offsetY>38</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_30_2A42</for><flavour>FLAVOUR_APDS</flavour><rounds>160</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_2A42</for><flavour>FLAVOUR_HE</flavour><rounds>340</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKTM</for><rounds>2000</rounds></ammo>
+			<ammo><for>WEAPON_ATGM_9K135</for><flavour>FLAVOUR_ATGM</flavour><rounds>2</rounds></ammo>
+
+		</turret>
+	</vehicle>
+</squad>

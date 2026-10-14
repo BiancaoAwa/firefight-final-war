@@ -1,0 +1,111 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_SECTION</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+		<quality>QUALITY_POOR</quality>
+
+		<long_name>Militia Squad</long_name>
+		<short_name>Militia</short_name>
+		<comment>4 Type-81 rifles, 7 Type-56 rifles. Poor troops</comment>
+
+		<uniform_profile>uniform_profile_chinese_Militia.png</uniform_profile>
+		<uniform_ranks>uniform_ranks_chinese_Militia.png</uniform_ranks>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>20</number></data>
+		<data><month>12</month><year>2050</year><number>20</number></data>
+	</availability>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<weapon><type>WEAPON_RIFLE_TYPE_81</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_81</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<weapon><type>WEAPON_RIFLE_TYPE_81</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_81</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_TYPE_81</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_81</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_TYPE_81</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_81</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_TYPE_56</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_56</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_TYPE_56</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_56</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_TYPE_56</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_56</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_TYPE_56</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_56</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_TYPE_56</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_56</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_TYPE_56</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_56</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_TYPE_56</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_TYPE_56</for><rounds>150</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>2</rounds></ammo>
+	</man>
+</squad>

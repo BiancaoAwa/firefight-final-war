@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>M61</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>20</calibre>
+		<barrel_length>64</barrel_length>
+		<number_barrels>3</number_barrels>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon20</sound_shoot>
+		<rof>2000</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>2000</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1050</speed><mass>0.15</mass><HE>0.1</HE><name>HE</name></type>
+	</ammo>
+
+	<usage>
+		<countries>USA|FRANCE|RUSSIA</countries>
+	</usage>
+
+</weapon>

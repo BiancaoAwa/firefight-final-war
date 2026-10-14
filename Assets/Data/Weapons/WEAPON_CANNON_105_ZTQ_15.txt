@@ -1,0 +1,33 @@
+<weapon>
+
+	<name>105mm ZTQ-15 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>546</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>100</sound_shoot>
+		<rof>18</rof>
+	</shoot>
+	
+	<magazine>
+		<sound_reload>reload_cannon</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1154</speed><mass>11</mass><era>HEAT_ERA_LATE</era><HE>1.27</HE><name>DTP1A</name></type>
+		<type><flavour>FLAVOUR_HE</flavour><speed>750</speed><mass>22</mass><HE>4.3</HE><name>BTM1</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1540</speed><mass>5.9</mass><name>DTW2</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>825</speed><mass>19.8</mass><era>HEAT_ERA_COLD_WAR</era><guided>GUIDED_TOP_ATTACK</guided><smoke_trail>yes</smoke_trail><HE>2</HE><name>GP-105</name></type>
+		<type><flavour>FLAVOUR_CANISTER</flavour><speed>850</speed><mass>7</mass><HE>4.3</HE><explode_in>6</explode_in><name>HE</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

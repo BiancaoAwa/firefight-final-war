@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>35mm KDE cannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>35</calibre>
+		<barrel_length>315</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>小机炮</sound_shoot>
+		<rof>200</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>300</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1175</speed><mass>0.35</mass><HE>0.204</HE><name>DM11A1</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1400</speed><mass>0.38</mass><name>DM23</name></type>
+	</ammo>
+
+	<usage>
+		<countries>JAPAN</countries>
+	</usage>
+
+</weapon>

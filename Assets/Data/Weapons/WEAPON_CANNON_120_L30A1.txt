@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>120mm L30A1 Tank Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>660</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon120challenger</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HESH</flavour><speed>670</speed><mass>17.3</mass><HE>6.5</HE><name>L31A7</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1535</speed><mass>3.9</mass><name>L23A1</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1720</speed><mass>5.8</mass><name>L28A1</name></type>
+		<type><flavour>FLAVOUR_SMOKE</flavour><speed>670</speed><mass>17.1</mass><name>L34</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>UNITED_KINGDOM</countries>
+	</usage>
+
+</weapon>

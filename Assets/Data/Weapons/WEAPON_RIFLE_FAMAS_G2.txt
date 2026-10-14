@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>FAMAS G2</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>5.56</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<rof>1000</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>925</speed><mass>0.004</mass><name>5.56x45mm NATO</name></type>
+	</ammo>
+
+	<usage>
+		<countries>FRANCE</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

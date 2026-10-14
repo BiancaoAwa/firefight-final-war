@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>BGM-71D</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>152</calibre>
+		<barrel_length>151</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<range>3750</range>
+		<rof>16</rof>
+	</shoot>
+
+	<magazine>
+		<single_shot>yes</single_shot>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>278</speed><mass>5.9</mass><era>HEAT_ERA_COLD_WAR</era><guided>GUIDED_TOP_ATTACK</guided><smoke_trail>yes</smoke_trail><HE>3.1</HE><name>ATGM</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>JAPAN</countries>
+	</usage>
+
+</weapon>

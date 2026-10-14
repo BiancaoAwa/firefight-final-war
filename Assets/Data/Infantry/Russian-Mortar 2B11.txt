@@ -1,0 +1,62 @@
+<squad>
+	<description>
+		<type>TYPE_MORTAR</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+		<quality>QUALITY_REGULAR</quality>
+
+		<long_name>120mm 2B11 Mortar Team</long_name>
+		<short_name>2B11 Mortar</short_name>
+		<comment>120mm 2B11 mortar with a crew of 5</comment>
+
+		<uniform>russian</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>200</number></data>
+		<data><month>12</month><year>2050</year><number>200</number></data>
+	</availability>
+
+	<mortar>
+		<image_view_base>Image-120mm 2B11.png</image_view_base>
+		<image_profile>Profile-120mm 2B11.png</image_profile>
+
+		<weapon><type>WEAPON_MORTAR_120_2B_11</type></weapon>
+
+		<ammo><for>WEAPON_MORTAR_120_2B_11</for><rounds>40</rounds><flavour>FLAVOUR_MORTAR_HE</flavour></ammo>
+		<ammo><for>WEAPON_MORTAR_120_2B_11</for><rounds>10</rounds><flavour>FLAVOUR_MORTAR_SMOKE</flavour></ammo>
+
+		<minAngle>-3</minAngle>
+		<maxAngle>3</maxAngle>
+
+	</mortar>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_AK_74M</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_74M</for><rounds>90</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_AK_74M</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_74M</for><rounds>90</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_AK_74M</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_74M</for><rounds>90</rounds></ammo>
+	</man>
+	
+	<man>
+		<weapon><type>WEAPON_RIFLE_AK_74M</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_74M</for><rounds>90</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_AK_74M</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_AK_74M</for><rounds>90</rounds></ammo>
+	</man>
+</squad>

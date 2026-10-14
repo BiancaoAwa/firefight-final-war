@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>Thompson Submachine Gun</name>
+	<type>WEAPON_SMG</type>
+
+	<dimensions>
+		<calibre>11.4</calibre>
+		<barrel_length>24</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_SMG</sound_shoot>
+		<rof>720</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>274</speed><mass>0.012</mass><name>.45 ACP</name></type>
+	</ammo>
+
+	<usage>
+		<countries>USA|CHINA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,122 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>Joint Light Tactical Vehicle</long_name>
+		<short_name>JLTV(M230 LF)</short_name>
+		<comment>A highly mobile, protected vehicle with a 30mm M230LF autocannon</comment>
+
+		<uniform>british_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2019</year><number>500</number></data>
+		<data><month>12</month><year>2050</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-JLTV (M230 LF).png</image_profile>
+			<weight>6400</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Duramax V8</name>
+				<horsepower>365</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>510</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>6</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe>
+				<offsetX>-41</offsetX>
+				<offsetY>233</offsetY>
+				<horizontal_angle>180</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M1278 JLTV M230LF.png</image_view>
+
+			<width>250</width>
+			<length>500</length>
+			<height>185</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>17@60</upper_front>
+				<lower_front>17@-5</lower_front>
+				<side>8</side>
+				<rear>8</rear>
+				<top>0</top>
+				<bottom>17</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_ENFIELD</type></weapon>
+				<ammo><for>WEAPON_PISTOL_ENFIELD</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_ENFIELD</type></weapon>
+				<ammo><for>WEAPON_PISTOL_ENFIELD</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_RADIO</job>
+				<weapon><type>WEAPON_PISTOL_ENFIELD</type></weapon>
+				<ammo><for>WEAPON_PISTOL_ENFIELD</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>200</width>
+			<length>220</length>
+			<height>75</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>40</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>17@30</front>
+				<side>8</side>
+				<rear>8</rear>
+				<top>5</top>
+				<bottom>5</bottom>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-JLTV (M230 LF) turret.png</image_view>
+
+			<offsetX>0</offsetX>
+			<offsetY>73</offsetY>
+			<offsetZ>260</offsetZ>
+			<minAngle>-80</minAngle>
+			<maxAngle>80</maxAngle>
+
+			<rotate_time>10</rotate_time>
+			<weapon><type>WEAPON_CANNON_30_M230LF</type></weapon>
+			<ammo><for>WEAPON_CANNON_30_M230LF</for><flavour>FLAVOUR_HE</flavour><rounds>200</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_M230LF</for><flavour>FLAVOUR_HEAT</flavour><rounds>105</rounds></ammo>
+
+			<man>
+				<job>JOB_MACHINE_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_ENFIELD</type></weapon>
+				<ammo><for>WEAPON_PISTOL_ENFIELD</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

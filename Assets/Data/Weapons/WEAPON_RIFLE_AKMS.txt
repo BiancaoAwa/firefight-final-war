@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>AKMS</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>42</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_762x39</sound_shoot>
+		<range>300</range>
+		<rof>650</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>715</speed><mass>0.0079</mass><name>7.62x39mm</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

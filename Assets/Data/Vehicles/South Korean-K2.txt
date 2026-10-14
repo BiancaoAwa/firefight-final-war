@@ -1,0 +1,127 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_SOUTH_KOREAN</nationality>
+
+		<long_name>K2 "Black Panther"</long_name>
+		<short_name>K2</short_name>
+		<comment>A South Korean main battle tank with a 120mm smoothbore cannon, a 7.62mm coaxial machine gun and a 12.7mm machine gun. With hydropneumatic suspension</comment>
+
+	</description>
+
+	<availability>
+		<data><month>3</month><year>2014</year><number>200</number></data>
+		<data><month>12</month><year>2040</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-K2.png</image_profile>
+			<weight>55000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>HD Hyundai Infracore DV27K</name>
+				<horsepower>1500</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2600</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>60</offsetX><offsetY>270</offsetY><angle>135</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>-50</offsetX><offsetY>270</offsetY><angle>-135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-K2.png</image_view>
+
+			<width>350</width>
+			<length>740</length>
+			<height>158</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>220@60</upper_front>
+				<lower_front>180@-45</lower_front>
+				<side>65</side>
+				<rear>25</rear>
+				<top>25</top>
+				<bottom>45</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<fixed_weapon>
+			<offsetX>68</offsetX>
+			<offsetY>-50</offsetY>
+			<offsetZ>140</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_LMG_M249</type><mount>ball</mount></weapon>
+			<ammo><for>WEAPON_LMG_M249</for><rounds>500</rounds></ammo>
+
+		</fixed_weapon>
+
+		<turret>
+			<image_view>Image-K2 turret.png</image_view>
+
+			<diameter>280</diameter>
+			<height>72</height>
+			<offsetX>0</offsetX>
+			<offsetY>-20</offsetY>
+
+			<rotate_time>15</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>500@48</front>
+				<side>110@33</side>
+				<rear>30</rear>
+				<top>30</top>
+				<mantlet>500</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>106</offsetX><offsetY>-105</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>106</offsetX><offsetY>-105</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>106</offsetX><offsetY>-105</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-106</offsetX><offsetY>-105</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-106</offsetX><offsetY>-105</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-106</offsetX><offsetY>-105</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_120_CN08</type><offsetX>10</offsetX><offsetY>64</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_M249</type><offsetX>29</offsetX><offsetY>-148</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_120_CN08</for><flavour>FLAVOUR_APFSDS</flavour><rounds>26</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_120_CN08</for><flavour>FLAVOUR_HEAT</flavour><rounds>14</rounds></ammo>
+			<ammo><for>WEAPON_LMG_M249</for><rounds>2500</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

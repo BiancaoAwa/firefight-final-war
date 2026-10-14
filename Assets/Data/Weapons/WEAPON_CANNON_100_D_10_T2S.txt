@@ -1,0 +1,29 @@
+<weapon>
+
+	<name>100mm D-10T2S</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>100</calibre>
+		<barrel_length>535</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>900</speed><mass>15.6</mass><HE>1.46</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1085</speed><mass>9.96</mass><era>ERA_COLD_WAR</era><HE>1.17</HE><name>3BK17M</name></type>
+		<type><flavour>FLAVOUR_APCBC</flavour><speed>887</speed><mass>15.9</mass><HE>0.1</HE><name>BR-412D</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1415</speed><mass>4.13</mass><name>3BM-8</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1430</speed><mass>3.4</mass><name>3BM25</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

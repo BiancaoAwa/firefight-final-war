@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>125mm 2A82-1M</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>125</calibre>
+		<barrel_length>616</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon125</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>850</speed><mass>23</mass><HE>5.24</HE><name>3OF82</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>470</speed><mass>17.2</mass><era>HEAT_ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>5.8</HE><name>9M119M1</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>2090</speed><mass>11</mass><name>3BM69</name></type>
+		<type><flavour>FLAVOUR_HEATFS</flavour><speed>905</speed><mass>19</mass><era>HEAT_ERA_COLD_WAR_EARLY</era><HE>2.79</HE><name>3BK18M</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

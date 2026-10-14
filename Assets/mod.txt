@@ -1,0 +1,428 @@
+<mod>
+	<name>Firefight: World War III - the Final War</name>
+	<author>WW3 Mod Development Team</author>
+
+	<years>
+		<start>2024</start>
+		<end>2033</end>
+		<increment>1</increment>
+	</years>
+
+	<credits>
+		<attack1>250</attack1>
+		<attack2>350</attack2>
+		<attack3>450</attack3>
+		<attack4>550</attack4>
+		<defend1>200</defend1>
+		<defend2>275</defend2>
+		<defend3>350</defend3>
+		<defend4>425</defend4>
+	</credits>
+
+	<show_scenarios>no</show_scenarios>
+
+	<choose_unique_rifle_squad>no</choose_unique_rifle_squad>
+
+	<allow_vehicles>yes</allow_vehicles>
+
+	<allow_infantry>yes</allow_infantry>
+
+	<allow_at_guns>no</allow_at_guns>
+
+	<allow_artillery>yes</allow_artillery>
+
+	<minimum_commonness>25</minimum_commonness>
+
+	<minimum_commonness_to_upgrade>100</minimum_commonness_to_upgrade>
+
+	<text_colours>
+		<map_description>FFFFFF</map_description>
+		<custom_heading>FFFFFF</custom_heading>
+		<custom_option>FFFFFF</custom_option>
+		<custom_unit_description>FFFFFF</custom_unit_description>
+		<game>FFFFFF</game>
+		<friend>0000FF</friend>
+		<enemy>FF0000</enemy>
+	</text_colours>
+
+	<nationality>
+		<name>America (In Production)</name>
+		<surnames>surnames_american.txt</surnames>
+
+		<flags>
+			<static>flag_USA.png</static>
+			<animated>flag_animated_USA.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_american.txt</equipment>
+
+		<voice>US</voice>
+
+		<ranks>
+			<1>Pvt</1>
+			<2>PFC</2>
+			<3>Cpl</3>
+			<4>Sgt</4>
+			<5>2Lt</5>
+			<6>1Lt</6>
+			<7>Cpt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_american.png</infantry>
+			<tank_crew>uniform_game_american_tank_crew.png</tank_crew>
+			<infantry_profile>uniform_profile_american.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_american_tank_crew.png</tank_crew_profile>
+			<ranks>uniform_ranks_american_ww3.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>Russia (In Production)</name>
+		<surnames>surnames_russian.txt</surnames>
+
+		<flags>
+			<static>flag_russia.png</static>
+			<animated>flag_animated_russia.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_russian.txt</equipment>
+
+		<voice>RU</voice>
+
+		<ranks>
+			<1>Krts</1>
+			<2>Krts</2>
+			<3>Eftr</3>
+			<4>SSzt</4>
+			<5>Lyt</5>
+			<6>SLt</6>
+			<7>Kpt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_russian.png</infantry>
+			<tank_crew>uniform_game_russian_tank_crew.png</tank_crew>
+			<infantry_profile>uniform_profile_russian.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_russian_tank_crew.png</tank_crew_profile>
+			<ranks>uniform_ranks_russian_ww3.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>Germany (Only Test)</name>
+		<surnames>surnames_german.txt</surnames>
+
+		<flags>
+			<static>flag_germany.png</static>
+			<animated>flag_animated_germany.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_german.txt</equipment>
+
+		<voice>DE</voice>
+
+		<ranks>
+			<1>Sdt</1>
+			<2>Cpl</2>
+			<3>Cplc</3>
+			<4>Sgt</4>
+			<5>SLt</5>
+			<6>Lt</6>
+			<7>Capt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_german.png</infantry>
+			<tank_crew>uniform_game_german_tank_crew.png</tank_crew>
+			<infantry_profile>uniform_profile_german.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_german_tank_crew.png</tank_crew_profile>
+			<ranks>uniform_ranks_german.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>China (In Production)</name>
+		<surnames>surnames_chinese.txt</surnames>
+
+		<flags>
+			<static>flag_china.png</static>
+			<animated>flag_animated_china.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_chinese.txt</equipment>
+
+		<voice>CN</voice>
+
+		<ranks>
+			<1>Pvt</1>
+			<2>PFC</2>
+			<3>Cpl</3>
+			<4>Sgt</4>
+			<5>2Lt</5>
+			<6>1Lt</6>
+			<7>Cpt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_chinese.png</infantry>
+			<tank_crew>uniform_game_chinese_tank_crew.png</tank_crew>
+			<infantry_profile>uniform_profile_chinese.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_chinese_tank_crew.png</tank_crew_profile>
+			<ranks>uniform_ranks_chinese_ww3.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>France (Only Test)</name>
+		<surnames>surnames_french.txt</surnames>
+
+		<flags>
+			<static>flag_france.png</static>
+			<animated>flag_animated_france.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_french.txt</equipment>
+
+		<voice>FR</voice>
+
+		<ranks>
+			<1>Sdt</1>
+			<2>Cpl</2>
+			<3>Cplc</3>
+			<4>Sgt</4>
+			<5>SLt</5>
+			<6>Lt</6>
+			<7>Capt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_french.png</infantry>
+			<tank_crew>uniform_game_french_tank_crew.png</tank_crew>
+			<infantry_profile>uniform_profile_french.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_french_tank_crew.png</tank_crew_profile>
+			<ranks>uniform_ranks_french.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>United Kingdom</name>
+		<surnames>surnames_british.txt</surnames>
+
+		<flags>
+			<static>flag_UK.png</static>
+			<animated>flag_animated_UK.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_british.txt</equipment>
+
+		<voice>UK</voice>
+
+		<ranks>
+			<1>Pte</1>
+			<2>L/Cpl</2>
+			<3>Cpl</3>
+			<4>Sgt</4>
+			<5>2Lt</5>
+			<6>1Lt</6>
+			<7>Cpt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_british.png</infantry>
+			<tank_crew>uniform_game_british_tank_crew.png</tank_crew>
+			<infantry_profile>uniform_profile_british.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_british_tank_crew.png</tank_crew_profile>
+			<ranks>uniform_ranks_british_ww3.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>Israel (In Production)</name>
+		<surnames>surnames_israeli.txt</surnames>
+
+		<flags>
+			<static>flag_israel.png</static>
+			<animated>flag_animated_israel.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_Israel.txt</equipment>
+
+		<voice>IL</voice>
+
+		<ranks>
+			<1>Pvt</1>
+			<2>PFC</2>
+			<3>Cpl</3>
+			<4>Sgt</4>
+			<5>2Lt</5>
+			<6>1Lt</6>
+			<7>Cpt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_israeli.png</infantry>
+			<tank_crew>uniform_game_israeli.png</tank_crew>
+			<infantry_profile>uniform_profile_israeli.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_israeli.png</tank_crew_profile>
+			<ranks>uniform_ranks_israeli.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>Taiwan, China(In Production)</name>
+		<surnames>surnames_chinese.txt</surnames>
+
+		<flags>
+			<static>flag_china_WW2.png</static>
+			<animated>flag_animated_china_WW2.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_taiwanese.txt</equipment>
+
+		<voice>CN</voice>
+
+		<units>NATIONALITY_TAIWANESE</units>
+
+		<filename>Taiwanese-</filename>
+
+		<ranks>
+			<1>Pvt</1>
+			<2>PFC</2>
+			<3>Cpl</3>
+			<4>Sgt</4>
+			<5>2Lt</5>
+			<6>1Lt</6>
+			<7>Cpt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_taiwanese.png</infantry>
+			<tank_crew>uniform_game_taiwanese_tank_crew.png</tank_crew>
+			<infantry_profile>uniform_profile_taiwanese.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_taiwanese_tank_crew.png</tank_crew_profile>
+			<ranks>uniform_ranks_taiwanese.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>Japan(In Production)</name>
+		<surnames>surnames_japanese.txt</surnames>
+
+		<flags>
+			<static>flag_japan.png</static>
+			<animated>flag_animated_japan.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_japanese.txt</equipment>
+
+		<voice>JP</voice>
+
+		<ranks>
+			<1>Pvt</1>
+			<2>PFC</2>
+			<3>Cpl</3>
+			<4>Sgt</4>
+			<5>2Lt</5>
+			<6>1Lt</6>
+			<7>Cpt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_japanese.png</infantry>
+			<tank_crew>uniform_game_japanese_tank_crew.png</tank_crew>
+			<infantry_profile>uniform_profile_japanese.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_japanese_tank_crew.png</tank_crew_profile>
+			<ranks>uniform_ranks_japanese.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>South Korea(In Production)</name>
+		<surnames>surnames_korean.txt</surnames>
+
+		<flags>
+			<static>flag_south_korea.png</static>
+			<animated>flag_animated_south_korea.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_south_korean.txt</equipment>
+
+		<voice>US</voice>
+
+		<ranks>
+			<1>Pvt</1>
+			<2>PFC</2>
+			<3>Cpl</3>
+			<4>Sgt</4>
+			<5>2Lt</5>
+			<6>1Lt</6>
+			<7>Cpt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_south_korean.png</infantry>
+			<tank_crew>uniform_game_south_korean_tank_crew.png</tank_crew>
+			<infantry_profile>uniform_profile_south_korean.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_south_korean_tank_crew.png</tank_crew_profile>
+			<ranks>uniform_ranks_south_korean.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>India(In Production)</name>
+		<surnames>surnames_indian.txt</surnames>
+
+		<flags>
+			<static>flag_india.png</static>
+			<animated>flag_animated_india.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+		<equipment>equipment_indian.txt</equipment>
+
+		<voice>UK</voice>
+
+		<ranks>
+			<1>Pvt</1>
+			<2>PFC</2>
+			<3>Cpl</3>
+			<4>Sgt</4>
+			<5>2Lt</5>
+			<6>1Lt</6>
+			<7>Cpt</7>
+		</ranks>
+
+		<default_images>
+			<infantry>uniform_game_indian.png</infantry>
+			<tank_crew>uniform_game_indian_tank_crew.png</tank_crew>
+			<infantry_profile>uniform_profile_indian.png</infantry_profile>
+			<tank_crew_profile>uniform_profile_indian_tank_crew.png</tank_crew_profile>
+			<ranks>uniform_ranks_indian.png</ranks>
+		</default_images>
+	</nationality>
+
+	<nationality>
+		<name>Other Forces (Coming Soon)</name>
+		<surnames>surnames_american.txt</surnames>
+
+		<flags>
+			<static>flag_jordan.png</static>
+			<animated>flag_animated_white.png</animated>
+		</flags>
+
+		<equipment>news_main.txt</equipment>
+
+		<voice>US</voice>
+	</nationality>
+</mod>

@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>PF-11 rocket launcher</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>93</calibre>
+		<barrel_length>90</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<range>350</range>
+		<rof>4</rof>
+	</shoot>
+
+	<magazine>
+		<single_shot>yes</single_shot>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>175</speed><mass>2.5</mass><era>HEAT_ERA_LATE</era><HE>0.9</HE><name>DZP151</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

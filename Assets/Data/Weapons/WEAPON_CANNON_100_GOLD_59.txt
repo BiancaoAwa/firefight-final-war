@@ -1,0 +1,34 @@
+<weapon>
+
+	<name>100mm GOLD 59 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>100</calibre>
+		<barrel_length>600</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>100</sound_shoot>
+		<rof>350</rof>
+	</shoot>
+	
+	<magazine>
+		<capacity>350</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>900</speed><mass>15.6</mass><HE>1.46</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1000</speed><mass>10.05</mass><era>HEAT_ERA_MODERN</era><HE>1.18</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_AP</flavour><speed>895</speed><mass>15.9</mass><name>AP</name></type>
+		<type><flavour>FLAVOUR_APCBC</flavour><speed>887</speed><mass>15.9</mass><name>APCBC</name></type>
+		<type><flavour>FLAVOUR_APCR</flavour><speed>1050</speed><mass>8.53</mass><name>APCR</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1432</speed><mass>3.18</mass><name>APDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

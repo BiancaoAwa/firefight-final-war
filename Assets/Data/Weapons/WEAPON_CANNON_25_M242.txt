@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>M242 Bushmaster autocannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>25</calibre>
+		<barrel_length>252</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>小机炮</sound_shoot>
+		<range>3000</range>
+		<rof>201</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>300</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1080</speed><mass>0.19</mass><HE>0.0544</HE><name>M792</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1345</speed><mass>0.13</mass><name>M791</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

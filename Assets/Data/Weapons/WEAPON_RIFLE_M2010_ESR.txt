@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>M2010 ESR</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>110</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<rof>120</rof>
+	</shoot>
+
+	<magazine>
+		<capacity>5</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>869</speed><mass>0.014</mass><guided>GUIDED_MANUAL</guided><name>7.62x51mm</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

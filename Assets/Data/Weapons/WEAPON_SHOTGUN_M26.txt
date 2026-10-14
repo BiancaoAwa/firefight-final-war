@@ -1,0 +1,29 @@
+<weapon>
+
+	<name>M26-MASS</name>
+	<type>WEAPON_SHOTGUN</type>
+
+	<dimensions>
+		<calibre>18.4</calibre>
+		<barrel_length>20</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_shotgun</sound_shoot>
+		<rof>10</rof>
+	</shoot>
+
+	<magazine>
+		<capacity>3</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_PELLETS</flavour><speed>240</speed><mass>0.12</mass><name>12 Gauge</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

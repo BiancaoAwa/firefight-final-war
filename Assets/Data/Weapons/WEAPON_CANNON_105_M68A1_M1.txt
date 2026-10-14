@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>105mm M68A1</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>536</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1174</speed><mass>10.5</mass><HE>1.27</HE><name>M456A2 HEAT</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1505</speed><mass>6.86</mass><name>M900 APFSDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

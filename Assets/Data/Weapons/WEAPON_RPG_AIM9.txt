@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>AIM-9</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>127</calibre>
+		<barrel_length>285</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_AGTM</sound_shoot>
+		<rof>2</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+	
+	<magazine>
+		<capacity>2</capacity>
+	</magazine>
+	
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>850</speed><mass>9.4</mass><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>2</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>850</speed><mass>9.4</mass><guided>GUIDED_MANUAL</guided><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>2</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>PF98</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<range>350</range>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>140</speed><mass>4</mass><smoke_trail>yes</smoke_trail><HE>0.73</HE><name>ATGM</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

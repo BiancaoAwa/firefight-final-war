@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>30mm MS-36 gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>30</calibre>
+		<barrel_length>242</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>小机炮</sound_shoot>
+		<rof>3000</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>100</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1320</speed><mass>0.897</mass><HE>0.0049</HE><name>DTB02</name></type>
+		<type><flavour>FLAVOUR_AP</flavour><speed>1283</speed><mass>1.829</mass><name>DTC10</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1430</speed><mass>5.62</mass><name>30mm</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

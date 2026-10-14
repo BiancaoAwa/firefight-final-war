@@ -1,0 +1,35 @@
+// infantry
+Indian-Infantry Squad 1					// infantry squads
+Indian-Infantry Squad 2
+Indian-Infantry Squad 3
+
+AAA-NOTHING					// weapon teams
+
+AAA-NOTHING					// mortars
+
+AAA-NOTHING					// heavy machine guns
+
+// AT guns
+
+// vehicles
+Indian-Arjun Mk.1					// tanks
+Indian-Arjun Mk.1A
+Indian-T-90S Bhishma
+Indian-T-72 Ajeya MK1
+Indian-T-72 Ajeya MK2
+Indian-Vijayanta
+
+Indian-2K22M
+
+AAA-NOTHING					// assault guns
+
+AAA-NOTHING					// self-propelled guns
+
+Indian-BMP-2					///infantry frighting vehicles
+Indian-BMP-2M
+
+AAA-NOTHING					// armoured cars
+
+AAA-NOTHING					// armoured personnel carriers
+
+AAA-NOTHING					// lorries

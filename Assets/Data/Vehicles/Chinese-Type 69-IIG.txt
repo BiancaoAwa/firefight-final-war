@@ -1,0 +1,134 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>Type 69-IIG</long_name>
+		<short_name>Type 69-IIG</short_name>
+		<comment>A Bangladeshi upgrade of the Type 69 with a 105mm cannon, a 12.7mm machine gun and a 7.62mm machine gun</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2007</year><number>30</number></data>
+		<data><month>12</month><year>2030</year><number>30</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-Type 69-IIG.png</image_profile>
+			<weight>37000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>12150L</name>
+				<horsepower>580</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>50</offsetX><offsetY>210</offsetY><angle>135</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>-50</offsetX><offsetY>210</offsetY><angle>-135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Type 69-IIG.png</image_view>
+
+			<width>340</width>
+			<length>650</length>
+			<height>65</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>150@-54</front>
+				<side>80</side>
+				<rear>30</rear>
+				<top>25</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>340</width>
+			<length>650</length>
+			<height>93</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>150@60</front>
+				<side>80</side>
+				<rear>45@16</rear>
+				<top>25</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-Type 69-IIG turret.png</image_view>
+
+			<diameter>270</diameter>
+			<height>72</height>
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<rotate_time>15</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>210@45</upper_front>
+				<lower_front>210</lower_front>
+				<upper_side>145@45</upper_side>
+				<lower_side>165</lower_side>
+				<upper_rear>65@45</upper_rear>
+				<lower_rear>65</lower_rear>
+				<top>30</top>
+				<mantlet>200</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_105_TYPE_88A</type><offsetX>-1</offsetX><offsetY>32</offsetY></weapon>
+			<weapon><type>WEAPON_HMG_TYPE_54</type><offsetX>52</offsetX><offsetY>-8</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_SGMT</type><offsetX>21</offsetX><offsetY>-92</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_105_TYPE_88A</for><flavour>FLAVOUR_HEAT</flavour><rounds>14</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_TYPE_88A</for><flavour>FLAVOUR_APFSDS</flavour><rounds>16</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_TYPE_88A</for><flavour>FLAVOUR_HESH</flavour><rounds>9</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_TYPE_88A</for><flavour>FLAVOUR_HE</flavour><rounds>5</rounds></ammo>
+			<ammo><for>WEAPON_HMG_TYPE_54</for><rounds>500</rounds></ammo>
+			<ammo><for>WEAPON_LMG_SGMT</for><rounds>3000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

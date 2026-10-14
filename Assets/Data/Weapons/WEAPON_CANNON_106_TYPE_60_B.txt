@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>106mm Type 60 (B) Recoilless Rifle</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>106</calibre>
+		<barrel_length>340</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>503</speed><mass>7.96</mass><era>HEAT_ERA_LATE</era><HE>1.65</HE><name>M344A1</name></type>
+		<type><flavour>FLAVOUR_HESH</flavour><speed>498</speed><mass>7.95</mass><HE>5.04</HE><name>M361A1</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>JAPAN</countries>
+	</usage>
+
+</weapon>

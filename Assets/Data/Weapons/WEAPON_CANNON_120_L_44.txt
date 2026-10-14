@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>Rh-120 L/44 120mm</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>528</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1140</speed><mass>14</mass><HE>1.6</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1650</speed><mass>7.2</mass><name>APFSDS</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1650</speed><mass>7.2</mass><name>APFSDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>UNITED_KINGDOM|GERMANY</countries>
+	</usage>
+
+</weapon>

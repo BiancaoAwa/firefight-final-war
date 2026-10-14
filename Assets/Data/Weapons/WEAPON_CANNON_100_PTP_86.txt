@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>100mm PTP-86 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>100</calibre>
+		<barrel_length>600</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>100</sound_shoot>
+		<rof>9</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>900</speed><mass>15</mass><HE>1.3</HE><name>Type 71</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1000</speed><mass>10.05</mass><era>HEAT_ERA_LATE</era><HE>1.18</HE><name>Type 1973</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1610</speed><mass>3.3</mass><name>DYW PT86-100</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>105mm L/25 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>262</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>510</speed><mass>14</mass><HE>2.3</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_APC</flavour><speed>500</speed><mass>15.6</mass><name>APC</name></type>
+	</ammo>
+
+	<usage>
+		<countries>ITALY</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,21 @@
+<weapon>
+
+	<name>9K121 Vikhr</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>130</calibre>
+		<barrel_length>100</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_AGTM</sound_shoot>
+		<rof>10</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>500</speed><mass>45</mass><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>12</HE><name>9K121</name></type>
+	</ammo>
+
+</weapon>

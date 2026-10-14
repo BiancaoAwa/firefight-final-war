@@ -1,0 +1,131 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZTZ-88</long_name>
+		<short_name>ZTZ-88</short_name>
+		<comment>A family of Chinese second-generation main battle tanks.With a 105mm ZPL-83 gun and HMG</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1988</year><number>200</number></data>
+		<data><month>12</month><year>2010</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZTZ-88.png</image_profile>
+			<weight>37000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>12150ZL</name>
+				<horsepower>730</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>0</offsetX><offsetY>250</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZTZ-88.png</image_view>
+
+			<width>330</width>
+			<length>650</length>
+			<height>158</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>110@68</upper_front>
+				<lower_front>100@-51</lower_front>
+				<side>60</side>
+				<rear>45@4</rear>
+				<top>30</top>
+				<bottom>50</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<fixed_weapon>
+			<offsetX>50</offsetX>
+			<offsetY>100</offsetY>
+			<offsetZ>140</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_LMG_QJY_88</type><mount>ball</mount></weapon>
+			<ammo><for>WEAPON_LMG_QJY_88</for><rounds>500</rounds></ammo>
+
+		</fixed_weapon>
+
+		<turret>
+			<image_view>Image-ZTZ-88 turret.png</image_view>
+
+			<diameter>230</diameter>
+			<height>72</height>
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>200</front>
+				<side>100</side>
+				<rear>60</rear>
+				<top>30</top>
+				<mantlet>400</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_105_TYPE_88</type></weapon>
+			<weapon><type>WEAPON_HMG_QJG_02</type><offsetX>25</offsetX></weapon>
+			<ammo><for>WEAPON_CANNON_105_TYPE_88</for><flavour>FLAVOUR_APFSDS</flavour><rounds>14</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_TYPE_88</for><flavour>FLAVOUR_HEAT</flavour><rounds>11</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_TYPE_88</for><flavour>FLAVOUR_HESH</flavour><rounds>13</rounds></ammo>
+			<ammo><for>WEAPON_HMG_QJG_02</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>25mm Oerlikon KBA B02 autocannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>25</calibre>
+		<barrel_length>217</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon25</sound_shoot>
+		<rof>561</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>100</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1100</speed><mass>0.19</mass><HE>0.0544</HE><name>M792</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1335</speed><mass>0.13</mass><name>M791</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1385</speed><mass>0.1</mass><name>PMB 090</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>JAPAN</countries>
+	</usage>
+
+</weapon>

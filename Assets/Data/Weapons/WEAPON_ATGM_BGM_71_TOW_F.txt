@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>BGM-71 TOW</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>152</calibre>
+		<barrel_length>120</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_AGTM</sound_shoot>
+		<range>600</range>
+		<rof>5</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>278</speed><mass>3.9</mass><smoke_trail>yes</smoke_trail><HE>3.5</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

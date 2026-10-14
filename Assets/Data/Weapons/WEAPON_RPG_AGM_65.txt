@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>AGM-65</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>305</calibre>
+		<barrel_length>249</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_AGTM</sound_shoot>
+		<rof>6</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+	
+	<magazine>
+		<capacity>6</capacity>
+	</magazine>
+	
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>442</speed><mass>7</mass><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>3</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>442</speed><mass>9</mass><guided>GUIDED_MANUAL</guided><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>3</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

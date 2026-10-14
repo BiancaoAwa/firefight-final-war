@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>2B11 120mm Mortar</name>
+	<type>WEAPON_MORTAR</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>50</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_mortar</sound_shoot>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_MORTAR_HE</flavour><speed>272</speed><mass>16</mass><HE>3.7</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_MORTAR_SMOKE</flavour><speed>272</speed><mass>16</mass><name>Smoke</name></type>
+	</ammo>
+
+	<usage>
+		<countries>RUSSIA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>
