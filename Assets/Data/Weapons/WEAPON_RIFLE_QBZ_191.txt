@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>QBZ191</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>5.8</calibre>
+		<barrel_length>39</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<range>400</range>
+		<rof>750</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>980</speed><mass>0.004</mass><name>5.8x42mm</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

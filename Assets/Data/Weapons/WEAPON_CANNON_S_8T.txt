@@ -1,0 +1,21 @@
+<weapon>
+
+	<name>S-8T</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>80</calibre>
+		<barrel_length>100</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<rof>240</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>450</speed><mass>6.6</mass><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>1.6</HE><name>HEAT</name></type>
+	</ammo>
+
+</weapon>

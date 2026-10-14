@@ -1,0 +1,41 @@
+// infantry
+British-Infantry Squad 1					// infantry squads
+British-Mechanized Squad (Ajax) 1
+British-Mechanized Squad (Warrior) 1
+British-Ranger Squad 1
+
+British-Sniper Team 1					// weapon teams
+British-L14A1 Squad
+
+British-Mortar L16A2					// mortars
+
+AAA-NOTHING					// heavy machine guns
+
+// AT guns
+//British-L118 Light Gun
+
+// vehicles
+British-Challenger 3					// tanks
+British-Challenger 2 BN
+British-Challenger 2 TES
+British-Challenger 2 DL2F
+British-Challenger 2 DL2E
+British-Challenger 2
+
+British-FV107 Scimitar
+
+AAA-NOTHING					// assault guns
+
+British-AS-90					// self-propelled guns
+
+British-FV510 Warrior					///infantry frighting vehicles
+British-Ajax IFV
+
+British-Jackal 2 MWMIK					// armoured cars
+//British-Jackal 2 MWMIK 148
+//British-MRAP
+
+British-Boxer					// armoured personnel carriers
+British-FV430 Bulldog
+
+AAA-NOTHING					// lorries

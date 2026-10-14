@@ -1,0 +1,146 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZSL-92B</long_name>
+		<short_name>ZSL-92B</short_name>
+		<comment>An upgraded Chinese 6x6 armoured personnel carrier with a 30mm autocannon and a HJ-73C ATGM</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2012</year><number>50</number></data>
+		<data><month>12</month><year>2030</year><number>50</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZSL-92B.png</image_profile>
+			<weight>14700</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>BF8L413F</name>
+				<horsepower>320</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe><offsetX>-50</offsetX><offsetY>-70</offsetY><angle>200</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>-30</offsetX><offsetY>-150</offsetY><angle>200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZSL-92.png</image_view>
+
+			<width>280</width>
+			<length>650</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>15@-40</front>
+				<side>15@-10</side>
+				<rear>10@-10</rear>
+				<top>10</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>250</width>
+			<length>570</length>
+			<height>40</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>40</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>15@60</front>
+				<side>15@30</side>
+				<rear>10@-10</rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-ZSL-92B turret.png</image_view>
+
+			<diameter>150</diameter>
+			<height>70</height>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>30@30</upper_front>
+				<lower_front>30@-30</lower_front>
+				<upper_side>20@30</upper_side>
+				<lower_side>20@-30</lower_side>
+				<upper_rear>20@30</upper_rear>
+				<lower_rear>20@-30</lower_rear>
+				<top>6</top>
+				<mantlet>30</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>71</offsetX><offsetY>-70</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>71</offsetX><offsetY>-70</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>71</offsetX><offsetY>-70</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-71</offsetX><offsetY>-70</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-71</offsetX><offsetY>-70</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-71</offsetX><offsetY>-70</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_30_ZPT_99</type><offsetX>2</offsetX><offsetY>13</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_TYPE_86</type><offsetX>17</offsetX><offsetY>-29</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_30_ZPT_99</for><flavour>FLAVOUR_APDS</flavour><rounds>350</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_ZPT_99</for><flavour>FLAVOUR_HE</flavour><rounds>150</rounds></ammo>
+			<ammo><for>WEAPON_LMG_TYPE_86</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>44</offsetX>
+			<offsetY>84</offsetY>
+			<offsetZ>160</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_ATGM_HJ_73C</type><mount>ball</mount></weapon>
+			<ammo><for>WEAPON_ATGM_HJ_73C</for><rounds>1</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

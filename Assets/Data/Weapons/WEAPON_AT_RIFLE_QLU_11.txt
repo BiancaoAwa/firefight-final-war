@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>QLU-11</name>
+	<type>WEAPON_AT_RIFLE</type>
+
+	<dimensions>
+		<calibre>35</calibre>
+		<barrel_length>50</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_at_rifle</sound_shoot>
+		<rof>40</rof>
+	</shoot>
+
+	<magazine>
+		<capacity>7</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>320</speed><mass>0.2</mass><HE>0.1</HE><name>35*32mm</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>320</speed><mass>0.3</mass><HE>0.15</HE><name>35*32mm</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

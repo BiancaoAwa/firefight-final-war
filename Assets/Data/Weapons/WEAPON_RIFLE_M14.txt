@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>M14</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<rof>725</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>20</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>853</speed><mass>0.01</mass><name>7.62x51mm NATO</name></type>
+	</ammo>
+
+	<usage>
+		<countries>USA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

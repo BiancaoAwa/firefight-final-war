@@ -1,0 +1,143 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZBD-86A</long_name>
+		<short_name>ZBD-86A</short_name>
+		<comment>An upgraded Chinese amphibious infantry fighting vehicle with a 30mm autocannon and a HJ-73C ATGM</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2000</year><number>50</number></data>
+		<data><month>12</month><year>2040</year><number>50</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZBD-86A.png</image_profile>
+			<weight>15000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>diesel</name>
+				<horsepower>298</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>55</offsetX><offsetY>-80</offsetY><angle>135</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>5</offsetX><offsetY>-80</offsetY><angle>135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZBD-86A.png</image_view>
+
+			<width>310</width>
+			<length>670</length>
+			<height>80</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>20@-70</front>
+				<side>20@-17</side>
+				<rear>15@-10</rear>
+				<top>15</top>
+				<bottom>15</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>300</width>
+			<length>670</length>
+			<height>60</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>20@60</front>
+				<side>25@10</side>
+				<rear>15@-10</rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-ZBD-86A turret.png</image_view>
+
+			<diameter>170</diameter>
+			<height>60</height>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>25</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>28@30</front>
+				<side>25@30</side>
+				<rear>25@30</rear>
+				<top>11</top>
+				<mantlet>5</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>60</offsetX><offsetY>-59</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>60</offsetX><offsetY>-59</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>60</offsetX><offsetY>-59</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-60</offsetX><offsetY>-59</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-60</offsetX><offsetY>-59</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-60</offsetX><offsetY>-59</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_30_ZPT_99</type><offsetX>-6</offsetX><offsetY>-32</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_TYPE_86</type><offsetX>17</offsetX><offsetY>-41</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_30_ZPT_99</for><flavour>FLAVOUR_APDS</flavour><rounds>200</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_ZPT_99</for><flavour>FLAVOUR_HE</flavour><rounds>200</rounds></ammo>
+			<ammo><for>WEAPON_LMG_TYPE_86</for><rounds>4000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>4</offsetX>
+			<offsetY>99</offsetY>
+			<offsetZ>200</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_ATGM_HJ_73C</type></weapon>
+			<ammo><for>WEAPON_ATGM_HJ_73C</for><rounds>1</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>M230LF Bushmaster Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>30</calibre>
+		<barrel_length>244</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon30</sound_shoot>
+		<rof>200</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>150</capacity>
+		<sound_reload>reload_autocannon</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>805</speed><mass>0.35</mass><HE>0.065</HE><name>XM1211</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>805</speed><mass>0.35</mass><HE>0.063</HE><name>XM1198</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

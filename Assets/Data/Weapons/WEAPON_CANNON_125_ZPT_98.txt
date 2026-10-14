@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>125mm ZPT-98 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>125</calibre>
+		<barrel_length>600</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>850</speed><mass>23</mass><HE>5.46</HE><name>DTB-125</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>905</speed><mass>18</mass><era>HEAT_ERA_MODERN</era><HE>2.19</HE><name>DTP-125</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1730</speed><mass>4.02</mass><name>125-I</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>455</speed><mass>17.2</mass><era>HEAT_ERA_COLD_WAR</era><guided>GUIDED_MANUAL</guided><smoke_trail>yes</smoke_trail><HE>5.72</HE><name>GP125</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,125 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_BRITISH</nationality>
+
+		<long_name>Boxer Wheeled Armored Fighting Vehicle</long_name>
+		<short_name>Boxer</short_name>
+		<comment>A German-Dutch multirole 8x8 wheeled armoured vehicle with a 12.7mm machine gun. Can mount eight soldiers</comment>
+
+		<uniform>british_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>2</month><year>2024</year><number>400</number></data>
+		<data><month>12</month><year>2050</year><number>400</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-Boxer.png</image_profile>
+			<weight>38000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>MTU 8V 199TE21</name>
+				<horsepower>816</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2600</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>4</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe>
+				<offsetX>-130</offsetX>
+				<offsetY>-250</offsetY>
+				<horizontal_angle>-135</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Boxer(UK).png</image_view>
+
+			<width>300</width>
+			<length>788</length>
+			<height>119</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>61@-53</front>
+				<upper_side>28@5</upper_side>
+				<lower_side>18@-24</lower_side>
+				<upper_rear>38@-7</upper_rear>
+				<lower_rear>20@-42</lower_rear>
+				<top>15</top>
+				<bottom>25</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>280</width>
+			<length>668</length>
+			<height>118</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>70</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>19@74</front>
+				<side>28@12</side>
+				<rear>38@-7</rear>
+				<top>15</top>
+			</armour>
+			<smoke_discharger><offsetX>30</offsetX><offsetY>120</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>30</offsetX><offsetY>120</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>30</offsetX><offsetY>120</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-30</offsetX><offsetY>120</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-30</offsetX><offsetY>120</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-30</offsetX><offsetY>120</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-Boxer turret.png</image_view>
+
+			<offsetX>14</offsetX>
+			<offsetY>205</offsetY>
+			<offsetZ>260</offsetZ>
+			<minAngle>-160</minAngle>
+			<maxAngle>160</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_L22A2</type></weapon>
+				<ammo><for>WEAPON_CARBINE_L22A2</for><rounds>90</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

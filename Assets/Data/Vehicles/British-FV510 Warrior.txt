@@ -1,0 +1,147 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_BRITISH</nationality>
+
+		<long_name>FV510 Warrior Infantry Fighting Vehicle</long_name>
+		<short_name>Warrior</short_name>
+		<comment>A British infantry fighting vehicle with a 30mm L21A1 RARDEN autocannon, an L94A1 and an L37A2 machine gun. Can mount seven soldiers</comment>
+
+		<uniform>british_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1988</year><number>200</number></data>
+		<data><month>12</month><year>2030</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-FV510 Warrior.png</image_profile>
+			<weight>29000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Perkins CV8 TCA</name>
+				<horsepower>550</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>4</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_TWIN_TRANSMISSION</steering>
+
+			<exhaust_pipe><offsetX>38</offsetX><offsetY>-160</offsetY><angle>160</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Warrior.png</image_view>
+
+			<width>305</width>
+			<length>634</length>
+			<height>85</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>45@-35</upper_front>
+				<lower_front>45@-41</lower_front>
+				<side>45</side>
+				<rear>45</rear>
+				<top>15</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>305</width>
+			<length>634</length>
+			<height>85</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>38@70</upper_front>
+				<lower_front>51@35</lower_front>
+				<upper_side>29@55</upper_side>
+				<lower_side>45</lower_side>
+				<rear>45</rear>
+				<top>15</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-FV510 Warrior turret.png</image_view>
+
+			<diameter>180</diameter>
+			<height>70</height>
+			<offsetX>-20</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>30</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>50@45</upper_front>
+				<lower_front>50@-45</lower_front>
+				<side>30@20</side>
+				<upper_rear>25@20</upper_rear>
+				<lower_rear>25</lower_rear>
+				<top>25</top>
+				<mantlet>80</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>72</offsetX><offsetY>-71</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>72</offsetX><offsetY>-71</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>72</offsetX><offsetY>-71</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-72</offsetX><offsetY>-71</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-72</offsetX><offsetY>-71</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-72</offsetX><offsetY>-71</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_30_L21A1</type></weapon>
+			<weapon><type>WEAPON_LMG_L94A1</type><offsetX>-21</offsetX><offsetY>-71</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_30_L21A1</for><flavour>FLAVOUR_AP</flavour><rounds>76</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_L21A1</for><flavour>FLAVOUR_HE</flavour><rounds>152</rounds></ammo>
+			<ammo><for>WEAPON_LMG_L94A1</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_L22A2</type></weapon>
+				<ammo><for>WEAPON_CARBINE_L22A2</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>50</offsetX>
+			<offsetY>100</offsetY>
+			<offsetZ>244</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>120</rotate_left>
+			<rotate_right>120</rotate_right>
+
+			<weapon><type>WEAPON_LMG_L37A2</type></weapon>
+			<ammo><for>WEAPON_LMG_L37A2</for><rounds>1000</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

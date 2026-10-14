@@ -1,0 +1,120 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>CSK-181 Lightweight Tactical Multirole Vehicle</long_name>
+		<short_name>CSK-181</short_name>
+		<comment>The new generation Dongfeng Mengshi lightweight tactical vehicle of the PLA light combined-arms brigades</comment>
+
+		<uniform>chinese_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2019</year><number>80</number></data>
+		<data><month>12</month><year>2050</year><number>80</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-CSK-181.png</image_profile>
+			<weight>8000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>ISDe300-40</name>
+				<horsepower>295</horsepower>
+				<reliability>RELIABILITY_GOOD</reliability>
+				<rpm_idle>1450</rpm_idle>
+				<rpm_limit>3000</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>6</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe>
+				<offsetX>111</offsetX>
+				<offsetY>87</offsetY>
+				<horizontal_angle>135</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-CSK-181.png</image_view>
+
+			<width>200</width>
+			<length>530</length>
+			<height>167</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>10@30</upper_front>
+				<lower_front>10</lower_front>
+				<side>8</side>
+				<rear>8</rear>
+				<top>6</top>
+				<bottom>6</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>100</rounds></ammo>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_RADIO</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>100</rounds></ammo>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<fixed_weapon>
+			<image_view>Image-CSK-181 MG.png</image_view>
+
+			<offsetX>0</offsetX>
+			<offsetY>-78</offsetY>
+			<offsetZ>200</offsetZ>
+			<minAngle>-180</minAngle>
+			<maxAngle>180</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_HMG_QJZ_89</type></weapon>
+			<ammo><for>WEAPON_HMG_QJZ_89</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>60</rounds></ammo>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</fixed_weapon>
+
+		<superstructure>
+			<width>200</width>
+			<length>320</length>
+			<height>45</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>100</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>16</front>
+				<side>8</side>
+				<rear>8</rear>
+				<top>0</top>
+			</armour>
+		</superstructure>
+	</vehicle>
+</squad>

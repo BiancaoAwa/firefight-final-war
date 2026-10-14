@@ -1,0 +1,103 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_SECTION</type>
+		<nationality>NATIONALITY_INDIAN</nationality>
+		<quality>QUALITY_REGULAR</quality>
+
+		<long_name>Infantry Squad</long_name>
+		<short_name>Infantry</short_name>
+		<comment>2 NG-7 light machine guns, 1 Carl Gustaf M3 recoilless rifle. Regular troops</comment>
+		
+		<uniform>indian</uniform>
+		<uniform_ranks>uniform_ranks_indian.png</uniform_ranks>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2024</year><number>0</number></data>
+		<data><month>12</month><year>2024</year><number>0</number></data>
+	</availability>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_SIG716i</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_SIG716i</for><rounds>150</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_SIG716i</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_SIG716i</for><rounds>150</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_SIG716i</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_SIG716i</for><rounds>150</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_SIG716i</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_SIG716i</for><rounds>150</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_SIG716i</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_SIG716i</for><rounds>150</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_SIG716i</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_SIG716i</for><rounds>150</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_SIG716i</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_SIG716i</for><rounds>150</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_LMG_NG_7</type></weapon>
+
+		<ammo><for>WEAPON_LMG_NG_7</for><rounds>250</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_LMG_NG_7</type></weapon>
+
+		<ammo><for>WEAPON_LMG_NG_7</for><rounds>250</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RPG_CARL_GUSTAF_M3</type></weapon>
+		<weapon><type>WEAPON_RIFLE_SIG716i</type></weapon>
+
+		<ammo><for>WEAPON_RPG_CARL_GUSTAF_M3</for><rounds>1</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_SIG716i</for><rounds>150</rounds></ammo>
+	</man>
+</squad>

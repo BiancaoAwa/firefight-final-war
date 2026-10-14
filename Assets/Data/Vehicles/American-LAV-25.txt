@@ -1,0 +1,115 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>LAV-25</long_name>
+		<short_name>LAV-25</short_name>
+		<comment>A USMC eight-wheeled armoured vehicle with a 25mm Bushmaster chain gun and a 7.62mm machine gun. Can mount six soldiers</comment>
+
+		<uniform>american_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1983</year><number>200</number></data>
+		<data><month>12</month><year>2035</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-LAV-25.png</image_profile>
+			<weight>16140</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Caterpillar C7</name>
+				<horsepower>350</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<exhaust_pipe><offsetX>120</offsetX><offsetY>-150</offsetY><angle>150</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-LAV-25.png</image_view>
+
+			<width>272</width>
+			<length>695</length>
+			<height>124</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>15@-45</front>
+				<side>7</side>
+				<rear>7@-15</rear>
+				<top>7</top>
+			</armour>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>272</width>
+			<length>695</length>
+			<height>75</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>20</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>7@66</front>
+				<upper_side>7@32</upper_side>
+				<lower_side>7@5</lower_side>
+				<rear>7@-15</rear>
+				<top>7</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-LAV-25 turret.png</image_view>
+
+			<diameter>220</diameter>
+			<height>65</height>
+			<offsetX>-10</offsetX>
+			<offsetY>90</offsetY>
+
+			<rotate_time>9</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>12@15</upper_front>
+				<lower_front>12@-15</lower_front>
+				<side>7</side>
+				<rear>7</rear>
+				<top>7</top>
+				<mantlet>15</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_25_M242_BUSHMASTER</type><offsetX>-3</offsetX><offsetY>-73</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_M240</type><offsetX>15</offsetX><offsetY>-71</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_25_M242_BUSHMASTER</for><flavour>FLAVOUR_HE</flavour><rounds>127</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_25_M242_BUSHMASTER</for><flavour>FLAVOUR_APDS</flavour><rounds>73</rounds></ammo>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>155MM M284</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>155</calibre>
+		<barrel_length>620</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon155</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>828</speed><mass>6.86</mass><HE>10</HE><name></name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>828</speed><mass>8</mass><era>ERA_COLD_WAR</era><HE>9</HE><name></name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

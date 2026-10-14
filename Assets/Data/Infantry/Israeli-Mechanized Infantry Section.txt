@@ -1,0 +1,88 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_SECTION</type>
+		<nationality>NATIONALITY_ISRAEL</nationality>
+		<quality>QUALITY_REGULAR</quality>
+
+		<long_name>Mechanized Infantry Section</long_name>
+		<short_name>Mech. Inf.</short_name>
+		<comment>4 X95 rifles, 2 Negev NG7 LMGs, 1 X95 SMG, 1 MATADOR rocket, 1 ACE23 rifle. Regular troops</comment>
+
+		<uniform>Israel</uniform>
+		<uniform_ranks>uniform_ranks_Israel.png</uniform_ranks>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2024</year><number>800</number></data>
+		<data><month>12</month><year>2050</year><number>800</number></data>
+	</availability>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<weapon><type>WEAPON_RIFLE_X95_419</type></weapon>
+		<weapon><type>WEAPON_GRENADE_M26A2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_X95_419</for><rounds>420</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_M26A2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<weapon><type>WEAPON_SMG_X95</type></weapon>
+		<weapon><type>WEAPON_GRENADE_M26A2</type></weapon>
+
+		<ammo><for>WEAPON_SMG_X95</for><rounds>320</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_M26A2</for><rounds>2</rounds></ammo>
+		<ammo><for>WEAPON_LMG_NEGEV_NG7</for><rounds>50</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_LMG_NEGEV_NG7</type></weapon>
+
+		<ammo><for>WEAPON_LMG_NEGEV_NG7</for><rounds>600</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_LMG_NEGEV_NG7</type></weapon>
+
+		<ammo><for>WEAPON_LMG_NEGEV_NG7</for><rounds>600</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RPG_MATADOR</type></weapon>
+		<weapon><type>WEAPON_RIFLE_X95_419</type></weapon>
+		<weapon><type>WEAPON_GRENADE_M26A2</type></weapon>
+
+		<ammo><for>WEAPON_RPG_MATADOR</for><rounds>2</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_X95_419</for><rounds>420</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_M26A2</for><rounds>2</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_X95_419</type></weapon>
+		<weapon><type>WEAPON_GRENADE_LAUNCHER_M7</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_X95_419</for><rounds>420</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_M7</for><rounds>12</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_X95_419</type></weapon>
+		<weapon><type>WEAPON_GRENADE_M26A2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_X95_419</for><rounds>420</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_M26A2</for><rounds>2</rounds></ammo>
+		<ammo><for>WEAPON_LMG_NEGEV_NG7</for><rounds>50</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_ACE23</type></weapon>
+		<weapon><type>WEAPON_GRENADE_M26A2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_ACE23</for><rounds>400</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_M26A2</for><rounds>2</rounds></ammo>
+		<ammo><for>WEAPON_LMG_NEGEV_NG7</for><rounds>50</rounds></ammo>
+	</man>
+</squad>

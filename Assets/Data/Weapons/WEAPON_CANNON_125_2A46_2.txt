@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>125mm 2A46-2</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>125</calibre>
+		<barrel_length>600</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>850</speed><mass>23</mass><HE>5.24</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>905</speed><mass>19</mass><HE>2.53</HE><name>HEAT</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1780</speed><mass>3.88</mass><name>APFSDS</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1780</speed><mass>3.88</mass><name>APFSDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

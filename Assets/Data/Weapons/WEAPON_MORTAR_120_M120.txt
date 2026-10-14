@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>120mm M120</name>
+	<type>WEAPON_MORTAR</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>102</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_mortar</sound_shoot>
+		<range>5700</range>
+		<muzzle_flash>no</muzzle_flash>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_MORTAR_HE</flavour><speed>318</speed><mass>13.65</mass><HE>3.56</HE><name>M933 HE</name></type>
+		<type><flavour>FLAVOUR_MORTAR_SMOKE</flavour><speed>318</speed><mass>13.65</mass><name>M929 WP</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

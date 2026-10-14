@@ -1,0 +1,123 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>BTR-D</long_name>
+		<short_name>BTR-D</short_name>
+		<comment>A Soviet airborne armoured carrier based on the BMD-1, with a PKTM machine gun. Can mount twelve soldiers</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1974</year><number>350</number></data>
+		<data><month>12</month><year>2040</year><number>300</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-BTR-D.png</image_profile>
+			<weight>8000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>5D-20 V-6</name>
+				<horsepower>240</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2600</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>4</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe>
+				<offsetX>30</offsetX>
+				<offsetY>294</offsetY>
+				<horizontal_angle>180</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+
+			<exhaust_pipe>
+				<offsetX>-30</offsetX>
+				<offsetY>294</offsetY>
+				<horizontal_angle>180</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-BTR-D.png</image_view>
+
+			<width>263</width>
+			<length>588</length>
+			<height>85</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>30@-50</front>
+				<upper_side>29</upper_side>
+				<lower_side>20@-46</lower_side>
+				<upper_rear>20@-2</upper_rear>
+				<lower_rear>20@-12</lower_rear>
+				<top>8</top>
+				<bottom>5</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>263</width>
+			<length>514</length>
+			<height>95</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>40</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>19@72</upper_front>
+				<lower_front>39@72</lower_front>
+				<side>40</side>
+				<rear>29</rear>
+				<top>8</top>
+			</armour>
+			<smoke_discharger><offsetX>55</offsetX><offsetY>90</offsetY><angle>10</angle><elevation>65</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>55</offsetX><offsetY>90</offsetY><angle>0</angle><elevation>65</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-55</offsetX><offsetY>90</offsetY><angle>-10</angle><elevation>65</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-55</offsetX><offsetY>90</offsetY><angle>0</angle><elevation>65</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+
+		</superstructure>
+
+		<fixed_weapon>
+			<offsetX>2</offsetX>
+			<offsetY>-57</offsetY>
+			<offsetZ>150</offsetZ>
+			<minAngle>-20</minAngle>
+			<maxAngle>20</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_LMG_PKTM</type><mount>ball</mount></weapon>
+			<ammo><for>WEAPON_LMG_PKTM</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

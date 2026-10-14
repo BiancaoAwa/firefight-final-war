@@ -1,0 +1,22 @@
+<weapon>
+
+	<name>155mm M777</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>155</calibre>
+		<barrel_length>350</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>830</speed><mass>47</mass><HE>10.8</HE><name>M795 HE</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>720</speed><mass>62.4</mass><era>ERA_COLD_WAR</era><HE>6.69</HE><name>M712 Copperhead</name></type>
+	</ammo>
+
+
+</weapon>

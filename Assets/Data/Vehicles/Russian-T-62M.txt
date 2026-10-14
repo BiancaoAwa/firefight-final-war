@@ -1,0 +1,151 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>T-62M Tank</long_name>
+		<short_name>T-62M</short_name>
+		<comment>N improved version of the Russian T-62 tank, with 115mm U-T5S cannon, 1 PKT and 1 Dshk machine gun.</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1983</year><number>600</number></data>
+		<data><month>12</month><year>2013</year><number>600</number></data>
+		<data><month>1</month><year>2014</year><number>0</number></data>
+		<data><month>12</month><year>2021</year><number>0</number></data>
+		<data><month>1</month><year>2022</year><number>200</number></data>
+		<data><month>12</month><year>2040</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-T-62M.png</image_profile>
+			<weight>41000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>V-55U</name>
+				<horsepower>620</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>-155</offsetX><offsetY>150</offsetY><angle>-145</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-T-62M.png</image_view>
+
+			<width>346</width>
+			<length>663</length>
+			<height>70</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>100@-56</front>
+				<side>80</side>
+				<rear>30@-18</rear>
+				<top>30</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>40</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>346</width>
+			<length>643</length>
+			<height>85</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>128@64</upper_front>
+				<lower_front>128@60</lower_front>
+				<side>95</side>
+				<rear>45@16</rear>
+				<top>30</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-T-62M turret.png</image_view>
+
+			<diameter>260</diameter>
+			<height>85</height>
+			<offsetX>0</offsetX>
+			<offsetY>-10</offsetY>
+
+			<rotate_time>23</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>200@40</upper_front>
+				<lower_front>240@20</lower_front>
+				<upper_side>140@45</upper_side>
+				<lower_side>165@16</lower_side>
+				<rear>65@25</rear>
+				<top>60</top>
+				<mantlet>220</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_115_U_5TS</type><offsetX>-4</offsetX><offsetY>3</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_PKT</type><offsetX>29</offsetX><offsetY>-100</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_115_U_5TS</for><flavour>FLAVOUR_HE</flavour><rounds>25</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_115_U_5TS</for><flavour>FLAVOUR_HEATFS</flavour><rounds>5</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_115_U_5TS</for><flavour>FLAVOUR_APFSDS</flavour><rounds>12</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKT</for><rounds>2500</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>40</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>40</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>40</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<image_view>Image-T-62M.png</image_view>
+
+			<offsetX>67</offsetX>
+			<offsetY>-33</offsetY>
+			<offsetZ>230</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>160</rotate_left>
+			<rotate_right>160</rotate_right>
+
+			<weapon><type>WEAPON_HMG_DSHK</type><mount>ball</mount></weapon>
+			<ammo><for>WEAPON_HMG_DSHK</for><rounds>300</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

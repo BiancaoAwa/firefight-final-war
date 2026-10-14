@@ -1,0 +1,58 @@
+<squad>
+	<description>
+		<type>TYPE_MORTAR</type>
+		<nationality>NATIONALITY_JAPANESE</nationality>
+		<quality>QUALITY_REGULAR</quality>
+
+		<long_name>Type 96</long_name>
+		<short_name>Type 96 SP Mortar</short_name>
+		<comment>Type 96 120mm howitzer with a crew of 3</comment>
+
+		<uniform>japanese</uniform>
+		<uniform_ranks>uniform_ranks_japanese.png</uniform_ranks>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>100</number></data>
+		<data><month>12</month><year>2050</year><number>100</number></data>
+	</availability>
+
+	<mortar>
+		<image_view_base>Image-Type96 mortar.png</image_view_base>
+		<image_profile>Type96 profile.png</image_profile>
+
+		<weapon><type>WEAPON_MORTAR_120_96</type></weapon>
+
+		<ammo><for>WEAPON_MORTAR_120_96</for><rounds>60</rounds><flavour>FLAVOUR_MORTAR_HE</flavour></ammo>
+
+		<minAngle>-3</minAngle>
+		<maxAngle>3</maxAngle>
+
+	</mortar>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_HOWA_TYPE_20</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_HOWA_TYPE_20</for><rounds>100</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_HOWA_TYPE_20</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_HOWA_TYPE_20</for><rounds>100</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_HOWA_TYPE_20</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_HOWA_TYPE_20</for><rounds>100</rounds></ammo>
+	</man>
+</squad>

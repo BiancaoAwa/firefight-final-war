@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>L21A1 Rarden Automatic Cannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>30</calibre>
+		<barrel_length>244</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon30</sound_shoot>
+		<rof>90</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>3</capacity>
+		<sound_reload>reload_autocannon</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1030</speed><mass>0.41</mass><HE>0.048</HE><name>HEI L8A1</name></type>
+		<type><flavour>FLAVOUR_AP</flavour><speed>1070</speed><mass>0.36</mass><name>APSE L5A1</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>UNITED_KINGDOM</countries>
+	</usage>
+
+</weapon>

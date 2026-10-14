@@ -1,0 +1,123 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_ISRAELI</nationality>
+
+		<long_name>Eitan Armoured Fighting Vehicle</long_name>
+		<short_name>Eitan AFV</short_name>
+		<comment>A Armoured Fighting Vehicle with a .50 M2 browning heavy machine gun and a Spike LR 2 missile, Can mount infantry.</comment>
+
+		<uniform>Israel</uniform>
+		<uniform_ranks>uniform_ranks_Israel.png</uniform_ranks>
+	</description>
+
+	<availability>
+		<data><month>5</month><year>2023</year><number>500</number></data>
+		<data><month>12</month><year>2024</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-Eitan AFV.png</image_profile>
+			<weight>35000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>MTU 6V890</name>
+				<horsepower>750</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_TWIN_TRANSMISSION</steering>
+
+			<exhaust_pipe>
+				<offsetX>130</offsetX>
+				<offsetY>-80</offsetY>
+				<horizontal_angle>135</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Eitan AFV.png</image_view>
+
+			<width>275</width>
+			<length>750</length>
+			<height>275</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>55@75</upper_front>
+				<lower_front>120@-45</lower_front>
+				<side>75</side>
+				<rear>50</rear>
+				<top>15</top>
+				<bottom>15</bottom>
+			</armour>
+
+			<smoke_discharger><offsetX>100</offsetX><offsetY>45</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>5</ammo><reload>20</reload></smoke_discharger>
+			<smoke_discharger><offsetX>100</offsetX><offsetY>45</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>5</ammo><reload>20</reload></smoke_discharger>
+			<smoke_discharger><offsetX>100</offsetX><offsetY>45</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>5</ammo><reload>20</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-100</offsetX><offsetY>45</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>5</ammo><reload>20</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-100</offsetX><offsetY>45</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>5</ammo><reload>20</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-100</offsetX><offsetY>45</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>5</ammo><reload>20</reload></smoke_discharger>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_SMG_X95</type></weapon>
+				<ammo><for>WEAPON_SMG_X95</for><rounds>96</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_SMG_X95</type></weapon>
+				<ammo><for>WEAPON_SMG_X95</for><rounds>96</rounds></ammo>
+			</man>
+		</hull>
+
+		<fixed_weapon>
+			<image_view>Image-spike.png</image_view>
+
+			<offsetX>-41</offsetX>
+			<offsetY>-33</offsetY>
+			<offsetZ>300</offsetZ>
+			<minAngle>-30</minAngle>
+			<maxAngle>120</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_CANNON_SPIKE</type></weapon>
+			<ammo><for>WEAPON_CANNON_SPIKE</for><flavour>FLAVOUR_ATGM</flavour><rounds>7</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_SPIKE</for><flavour>FLAVOUR_HE</flavour><rounds>13</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_SMG_X95</type></weapon>
+				<ammo><for>WEAPON_SMG_X95</for><rounds>96</rounds></ammo>
+			</man>
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-M2HB.png</image_view>
+
+			<offsetX>33</offsetX>
+			<offsetY>-4</offsetY>
+			<offsetZ>300</offsetZ>
+			<minAngle>-20</minAngle>
+			<maxAngle>20</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>1600</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

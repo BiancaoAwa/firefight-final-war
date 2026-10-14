@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>HJ-10</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>165</calibre>
+		<barrel_length>135</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rocket</sound_shoot>
+		<range>10000</range>
+		<rof>6</rof>
+	</shoot>
+
+	<magazine>
+		<capacity>1</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>220</speed><mass>40</mass><era>HEAT_ERA_MODERN</era><guided>GUIDED_TOP_ATTACK</guided><smoke_trail>yes</smoke_trail><HE>3.45</HE><name>ATGM</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

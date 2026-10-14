@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>RPG-7 (PG-7VR)</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>95</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_RPG</sound_shoot>
+		<range>200</range>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>250</speed><mass>4.5</mass><era>ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>2.3</HE><name>PG-7VR</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

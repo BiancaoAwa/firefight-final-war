@@ -1,0 +1,137 @@
+<squad>
+	<description>
+		<type>TYPE_ASSAULT_GUN</type>
+		<nationality>NATIONALITY_SOUTH_KOREAN</nationality>
+
+		<long_name>K9 Thunder</long_name>
+		<short_name>K9</short_name>
+		<comment>A South Korean 155mm self-propelled howitzer with a 12.7mm machine gun</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1999</year><number>10</number></data>
+		<data><month>12</month><year>2040</year><number>10</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-K9.png</image_profile>
+			<weight>70000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>STX Engine/MTU Friedrichshafen MT881Ka-500</name>
+				<horsepower>1000</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2700</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>4</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>-80</offsetX><offsetY>-80</offsetY><angle>-135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-K9.png</image_view>
+
+			<width>320</width>
+			<length>735</length>
+			<height>144</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>40@60</upper_front>
+				<lower_front>40@-45</lower_front>
+				<side>35</side>
+				<rear>35</rear>
+				<top>30</top>
+				<bottom>35</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>320</width>
+			<length>350</length>
+			<height>72</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>140</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>35@20</front>
+				<side>35@10</side>
+				<upper_rear>35@5</upper_rear>
+				<lower_rear>5@5</lower_rear>
+				<top>40</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-K9 turret.png</image_view>
+
+			<offsetX>0</offsetX>
+			<offsetY>90</offsetY>
+			<offsetZ>200000</offsetZ>
+
+			<rotate_time>25</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<night_vision>yes</night_vision>
+			<weapon><type>WEAPON_CANNON_155_WIA_CN98</type></weapon>
+			<ammo><for>WEAPON_CANNON_155_WIA_CN98</for><flavour>FLAVOUR_HE</flavour><rounds>48</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<offsetX>90</offsetX>
+			<offsetY>120</offsetY>
+			<offsetZ>230</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>600</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

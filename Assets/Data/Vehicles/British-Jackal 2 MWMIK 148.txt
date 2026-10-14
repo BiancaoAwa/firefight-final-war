@@ -1,0 +1,138 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_BRITISH</nationality>
+
+		<long_name>Jackal 2 MWMIK (FGM148)</long_name>
+		<short_name>Jackal 2</short_name>
+		<comment>A British 4x4 high-mobility weapons platform with a Javelin ATGM and a .50cal machine gun</comment>
+
+		<uniform>british_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>7</month><year>2009</year><number>300</number></data>
+		<data><month>12</month><year>2030</year><number>300</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-Jackal 2.png</image_profile>
+			<weight>6650</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Cummins 6.7L ISBe Euro 4</name>
+				<horsepower>185</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>550</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe>
+				<offsetX>90</offsetX>
+				<offsetY>-110</offsetY>
+				<horizontal_angle>160</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Jackal 2.png</image_view>
+
+			<width>200</width>
+			<length>539</length>
+			<height>85</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>10@-30</upper_front>
+				<lower_front>10@-55</lower_front>
+				<upper_side>10</upper_side>
+				<lower_side>10@-10</lower_side>
+				<upper_rear>10@-15</upper_rear>
+				<lower_rear>10@-50</lower_rear>
+				<top>10</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_L22A2</type></weapon>
+				<ammo><for>WEAPON_CARBINE_L22A2</for><rounds>90</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>200</width>
+			<length>539</length>
+			<height>65</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>10@67</upper_front>
+				<lower_front>10@23</lower_front>
+				<side>10</side>
+				<upper_rear>10@45</upper_rear>
+				<lower_rear>10@15</lower_rear>
+				<top>0</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-Jackal 2 FGM.png</image_view>
+
+			<offsetX>1</offsetX>
+			<offsetY>29</offsetY>
+			<offsetZ>197</offsetZ>
+			<minAngle>-160</minAngle>
+			<maxAngle>160</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_RPG_FGM_148</type></weapon>
+			<weapon><type>WEAPON_RPG_FGM_148</type></weapon>
+			<ammo><for>WEAPON_RPG_FGM_148</for><rounds>2</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-Jackal 2 MG.png</image_view>
+
+			<offsetX>-37</offsetX>
+			<offsetY>-207</offsetY>
+			<offsetZ>125</offsetZ>
+			<minAngle>-60</minAngle>
+			<maxAngle>60</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_LMG_L7A2</type></weapon>
+			<ammo><for>WEAPON_LMG_L7A2</for><rounds>1400</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

@@ -1,0 +1,137 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>PHZ-89</long_name>
+		<short_name>PHZ-89</short_name>
+		<comment>A Chinese self-propelled multiple rocket launcher with forty 122mm rockets and a 12.7mm machine gun</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1990</year><number>1</number></data>
+		<data><month>12</month><year>2030</year><number>1</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-PHZ-89.png</image_profile>
+			<weight>37000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Deutz Type 12150L</name>
+				<horsepower>520</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>150</offsetX><offsetY>100</offsetY><angle>135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-PHZ-89.png</image_view>
+
+			<width>340</width>
+			<length>710</length>
+			<height>85</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>5</upper_front>
+				<lower_front>5@-15</lower_front>
+				<side>5</side>
+				<rear>5</rear>
+				<top>5</top>
+				<bottom>5</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>180</width>
+			<length>250</length>
+			<height>85</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>-40</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>5</front>
+				<side>5</side>
+				<rear>5</rear>
+				<top>5</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-PHZ-89 turret.png</image_view>
+
+			<offsetX>0</offsetX>
+			<offsetY>240</offsetY>
+			<offsetZ>200000</offsetZ>
+
+			<rotate_time>30</rotate_time>
+			<rotate_left>170</rotate_left>
+			<rotate_right>170</rotate_right>
+
+			<night_vision>yes</night_vision>
+			<weapon><type>WEAPON_ROCKET_122_TYPE_89</type></weapon>
+			<ammo><for>WEAPON_ROCKET_122_TYPE_89</for><flavour>FLAVOUR_HE</flavour><rounds>80</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<offsetX>-125</offsetX>
+			<offsetY>250</offsetY>
+			<offsetZ>0</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>20</rotate_left>
+			<rotate_right>20</rotate_right>
+
+			<weapon><type>WEAPON_LMG_QJC_88A</type></weapon>
+			<ammo><for>WEAPON_LMG_QJC_88A</for><rounds>50</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

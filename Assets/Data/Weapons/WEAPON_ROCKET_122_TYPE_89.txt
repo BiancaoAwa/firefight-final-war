@@ -1,0 +1,29 @@
+<weapon>
+
+	<name>122mm Grad artillery rocket</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>122</calibre>
+		<barrel_length>275</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>小火</sound_shoot>
+		<rof>120</rof>
+	</shoot>
+	
+	<magazine>
+		<capacity>40</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1000</speed><mass>18.3</mass><era>HEAT_ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>18.7</HE><name>HE</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

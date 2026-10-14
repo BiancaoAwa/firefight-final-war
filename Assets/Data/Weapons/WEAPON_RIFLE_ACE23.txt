@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>Galil ACE 23</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>5.56</calibre>
+		<barrel_length>46</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_jsrifle</sound_shoot>
+		<range>550</range>
+		<rof>880</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>35</capacity>
+		<sound_reload>reload_jsmagazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>915</speed><mass>0.004</mass><name>5.56x45mm NATO</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>ISRAEL</countries>
+	</usage>
+
+</weapon>

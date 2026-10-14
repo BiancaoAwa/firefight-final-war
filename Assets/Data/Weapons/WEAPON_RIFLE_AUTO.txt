@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>Auto Rifle</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>10</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<rof>800</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>680</speed><mass>0.005</mass><name>10*40mm</name></type>
+	</ammo>
+
+</weapon>

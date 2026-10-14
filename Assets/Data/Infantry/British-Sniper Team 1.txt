@@ -1,0 +1,38 @@
+<squad>
+	<description>
+		<type>TYPE_BAZOOKA</type>
+		<nationality>NATIONALITY_BRITISH</nationality>
+		<quality>QUALITY_ELITE</quality>
+
+		<long_name>Marine Sniper team</long_name>
+		<short_name>Sniper</short_name>
+		<comment>2 L131A1 pistols, 1 L115A3 long range rifle and 1 L129A1 sharpshooter rifle. Elite troops</comment>
+
+		<uniform>british_marine</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>200</number></data>
+		<data><month>12</month><year>2040</year><number>200</number></data>
+	</availability>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<weapon><type>WEAPON_RIFLE_L115A3</type></weapon>
+		<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+		
+		<ammo><for>WEAPON_RIFLE_L115A3</for><rounds>20</rounds></ammo>
+		<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>34</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<weapon><type>WEAPON_RIFLE_L129A1</type></weapon>
+		<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_L129A1</for><rounds>80</rounds></ammo>
+		<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>34</rounds></ammo>
+	</man>
+</squad>

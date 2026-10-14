@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>AK-103</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>5.45</calibre>
+		<barrel_length>40</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<rof>750</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+//		<sound_reload>reload_magazine</sound_reload>坐等音效
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>880</speed><mass>0.00362</mass><name>7N10</name></type>
+	</ammo>
+
+</weapon>

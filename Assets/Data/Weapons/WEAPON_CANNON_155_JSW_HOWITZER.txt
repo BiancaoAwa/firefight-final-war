@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>JSW 155mm Howitzer</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>155</calibre>
+		<barrel_length>465</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>155</sound_shoot>
+		<rof>15</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>582</speed><mass>43.1</mass><HE>9.14</HE><name>HE M1</name></type>
+	</ammo>
+
+	<usage>
+		<countries>JAPAN</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

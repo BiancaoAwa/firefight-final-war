@@ -1,0 +1,149 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>T-90M Bophna</long_name>
+		<short_name>T-90M Bophna</short_name>
+		<comment>The most fairly experimental Russian tank, armed with a 130mm 2A86-U cannon , With thicker armor.</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2028</year><number>300</number></data>
+		<data><month>12</month><year>2032</year><number>300</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-T-90M Bophna.png</image_profile>
+			<weight>28000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>V-84-1</name>
+				<horsepower>1550</horsepower>
+				<reliability>RELIABILITY_GOOD</reliability>
+				<rpm_idle>2450</rpm_idle>
+				<rpm_limit>8900</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>9</forwards>
+				<reverse>5</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>47</offsetX><offsetY>280</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-47</offsetX><offsetY>280</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-T-90M Bophna.png</image_view>
+
+			<width>388</width>
+			<length>627</length>
+			<height>158</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>275@70</upper_front>
+				<lower_front>150@-68</lower_front>
+				<side>80</side>
+				<side_spaced>200</side_spaced>
+				<upper_rear>45</upper_rear>
+				<lower_rear>45@-15</lower_rear>
+				<top>20</top>
+				<bottom>30</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<turret>
+			<image_view>Image-T-90M Bophna turret.png</image_view>
+
+			<diameter>316</diameter>
+			<height>70</height>
+			<offsetX>0</offsetX>
+			<offsetY>45</offsetY>
+
+			<rotate_time>8</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>600@50</front>
+				<side>180@15</side>
+				<rear>65</rear>
+				<top>30</top>
+				<mantlet>400</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>130</offsetX><offsetY>0</offsetY><angle>15</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>130</offsetX><offsetY>0</offsetY><angle>45</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>0</offsetY><angle>-15</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>0</offsetY><angle>-45</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_130_2A86</type><offsetX>-7</offsetX><offsetY>-40</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_130_2A86</for><flavour>FLAVOUR_HEAT</flavour><rounds>4</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_130_2A86</for><flavour>FLAVOUR_CANISTER</flavour><rounds>3</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_130_2A86</for><flavour>FLAVOUR_RPG</flavour><rounds>5</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_130_2A86</for><flavour>FLAVOUR_APFSDS</flavour><rounds>12</rounds></ammo>
+
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>53</offsetX>
+			<offsetY>-27</offsetY>
+			<offsetZ>621</offsetZ>
+
+			<rotate_time>2</rotate_time>
+			<rotate_left>90</rotate_left>
+			<rotate_right>90</rotate_right>
+
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<offsetX>-75</offsetX>
+			<offsetY>-27</offsetY>
+			<offsetZ>1521</offsetZ>
+
+			<rotate_time>2</rotate_time>
+			<rotate_left>90</rotate_left>
+			<rotate_right>90</rotate_right>
+
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<offsetX>75</offsetX>
+			<offsetY>-27</offsetY>
+			<offsetZ>1521</offsetZ>
+
+			<rotate_time>2</rotate_time>
+			<rotate_left>90</rotate_left>
+			<rotate_right>90</rotate_right>
+
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

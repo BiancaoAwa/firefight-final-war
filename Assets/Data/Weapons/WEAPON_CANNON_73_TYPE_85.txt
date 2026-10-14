@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>73mm Type 85 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>73</calibre>
+		<barrel_length>400</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>290</speed><mass>3.7</mass><HE>0.735</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>665</speed><mass>2.6</mass><HE>0.918</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

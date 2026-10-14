@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>C4</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>200</calibre>
+		<barrel_length>120</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<range>10</range>
+		<rof>1000</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>1000</speed><mass>5.9</mass><era>ERA_COLD_WAR</era><guided>GUIDED_TOP_ATTACK</guided><smoke_trail>yes</smoke_trail><HE>7</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

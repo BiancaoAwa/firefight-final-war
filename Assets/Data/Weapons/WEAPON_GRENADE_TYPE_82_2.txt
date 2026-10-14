@@ -1,0 +1,21 @@
+<weapon>
+
+	<name>Type 82-2 Grenade</name>
+	<type>WEAPON_GRENADE</type>
+
+	<dimensions>
+	</dimensions>
+
+	<shoot>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><mass>0.26</mass><HE>0.04</HE><explode_in>4</explode_in><name>Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

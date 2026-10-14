@@ -1,0 +1,20 @@
+<weapon>
+
+	<name>Grenade F-1</name>
+	<type>WEAPON_GRENADE</type>
+
+	<dimensions>
+	</dimensions>
+
+	<shoot>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><mass>0.5</mass><HE>0.1</HE><explode_in>4.5</explode_in><name>F-1 Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

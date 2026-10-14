@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>L37A2 Machine Gun</name>
+	<type>WEAPON_LMG</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>71</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_LMG</sound_shoot>
+		<rof>750</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>250</capacity>
+		<sound_reload>reload_belt</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>858</speed><mass>0.011</mass><name>7.62x51mm NATO</name></type>
+	</ammo>
+
+	<usage>
+		<countries>UNITED_KINGDOM</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

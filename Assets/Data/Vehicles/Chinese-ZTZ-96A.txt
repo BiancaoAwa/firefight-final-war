@@ -1,0 +1,147 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZTZ-96A</long_name>
+		<short_name>ZTZ-96A</short_name>
+		<comment>China ZTZ-96A with 125mm ZPT-98 cannon, QJT Mg and QJC88 Mg.</comment>
+
+		<uniform>chinese_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2005</year><number>200</number></data>
+		<data><month>12</month><year>2040</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZTZ-96A.png</image_profile>
+			<weight>42800</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>12150ZLC</name>
+				<horsepower>720</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2250</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>38</offsetX><offsetY>320</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-38</offsetX><offsetY>320</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZTZ-96A.png</image_view>
+
+			<width>330</width>
+			<length>660</length>
+			<height>92</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>60@-51</front>
+				<upper_side>58</upper_side>
+				<lower_side>50@-30</lower_side>
+				<upper_rear>45</upper_rear>
+				<lower_rear>45@-20</lower_rear>
+				<top>30</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>330</width>
+			<length>630</length>
+			<height>70</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>20</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>192@70</front>
+				<side>58</side>
+				<upper_rear>45@10</upper_rear>
+				<lower_rear>45</lower_rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-ZTZ-96A turret.png</image_view>
+
+			<diameter>250</diameter>
+			<height>68</height>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>9</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>410@30</upper_front>
+				<lower_front>410@-30</lower_front>
+				<side>80</side>
+				<upper_rear>20@8</upper_rear>
+				<lower_rear>20@-45</lower_rear>
+				<top>30</top>
+				<mantlet>320</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>130</offsetX><offsetY>-60</offsetY><angle>15</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>130</offsetX><offsetY>-60</offsetY><angle>45</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>-60</offsetY><angle>-15</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>-60</offsetY><angle>-45</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_125_ZPT98A</type></weapon>
+			<weapon><type>WEAPON_LMG_QJT</type><offsetX>-31</offsetX><offsetY>-120</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_125_ZPT98A</for><flavour>FLAVOUR_HE</flavour><rounds>20</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_125_ZPT98A</for><flavour>FLAVOUR_APFSDS</flavour><rounds>10</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_125_ZPT98A</for><flavour>FLAVOUR_HEATFS</flavour><rounds>9</rounds></ammo>
+			<ammo><for>WEAPON_LMG_QJT</for><rounds>1000</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<image_view>Image-ZTZ-96A MG.png</image_view>
+
+			<offsetX>46</offsetX>
+			<offsetY>26</offsetY>
+			<offsetZ>200</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>120</rotate_left>
+			<rotate_right>120</rotate_right>
+
+			<weapon><type>WEAPON_LMG_QJC_88</type></weapon>
+			<ammo><for>WEAPON_LMG_QJC_88</for><rounds>500</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

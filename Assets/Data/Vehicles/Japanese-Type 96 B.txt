@@ -1,0 +1,95 @@
+<squad>
+	<description>
+		<type>TYPE_HALFTRACK</type>
+		<nationality>NATIONALITY_JAPANESE</nationality>
+
+		<long_name>Type 96 B</long_name>
+		<short_name>Type 96 WAP B</short_name>
+		<comment>A Japanese wheeled armoured personnel carrier with a roof-mounted 12.7mm machine gun</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1996</year><number>500</number></data>
+		<data><month>12</month><year>2050</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-Type 96 B.png</image_profile>
+			<weight>13000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Mitsubishi 6D40</name>
+				<horsepower>360</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe><offsetX>-35</offsetX><offsetY>-230</offsetY><angle>-200</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>-110</offsetX><offsetY>-110</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Type 96 B.png</image_view>
+
+			<width>250</width>
+			<length>670</length>
+			<height>150</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>30@45</upper_front>
+				<lower_front>30@-45</lower_front>
+				<side>20</side>
+				<upper_rear>8@2</upper_rear>
+				<lower_rear>8@-52</lower_rear>
+				<top>17</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<fixed_weapon>
+			<image_view>Image-Type 96 cannon.png</image_view>
+
+			<offsetX>45</offsetX>
+			<offsetY>-135</offsetY>
+			<offsetZ>140</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_LMG_TYPE_74</type><mount>ball</mount></weapon>
+			<ammo><for>WEAPON_LMG_TYPE_74</for><rounds>1000</rounds></ammo>
+
+			<man>
+				<job>JOB_MACHINE_GUNNER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

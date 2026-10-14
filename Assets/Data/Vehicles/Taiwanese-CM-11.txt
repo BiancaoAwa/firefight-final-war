@@ -1,0 +1,135 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>CM-11</long_name>
+		<short_name>CM-11</short_name>
+		<comment>A Taiwanese main battle tank with a 105mm M68A1 cannon, a 7.62mm machine gun and a 12.7mm machine gun</comment>
+
+	</description>
+
+	<availability>
+		<data><month>4</month><year>1990</year><number>200</number></data>
+		<data><month>12</month><year>2040</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-CM-11.png</image_profile>
+			<weight>27500</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>AVDS-1790-2C</name>
+				<horsepower>750</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>6</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>80</offsetX><offsetY>130</offsetY><angle>135</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>-80</offsetX><offsetY>130</offsetY><angle>225</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-CM-11.png</image_view>
+
+			<width>370</width>
+			<length>690</length>
+			<height>119</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>137@-55</front>
+				<side>36</side>
+				<upper_rear>28</upper_rear>
+				<lower_rear>28@-61</lower_rear>
+				<top>36</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>50</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>370</width>
+			<length>670</length>
+			<height>90</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>10</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>108@66</front>
+				<side>70</side>
+				<upper_rear>40@31</upper_rear>
+				<lower_rear>40</lower_rear>
+				<top>36</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-CM-11 turret.png</image_view>
+
+			<diameter>250</diameter>
+			<height>100</height>
+			<offsetX>0</offsetX>
+			<offsetY>-55</offsetY>
+
+			<rotate_time>25</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>240@76</upper_front>
+				<lower_front>140@-12</lower_front>
+				<upper_side>100@36</upper_side>
+				<lower_side>69@-12</lower_side>
+				<upper_rear>55@71</upper_rear>
+				<lower_rear>51@-2</lower_rear>
+				<top>30</top>
+				<mantlet>152</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_105_M68A1</type><offsetX>-4</offsetX><offsetY>5</offsetY></weapon>
+			<weapon><type>WEAPON_HMG_M2HB</type><mount>ball</mount><offsetX>63</offsetX><offsetY>68</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_M240</type><offsetX>34</offsetX><offsetY>-67</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_M240</type><offsetX>-40</offsetX><offsetY>40</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_105_M68A1</for><flavour>FLAVOUR_HEAT</flavour><rounds>16</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_M68A1</for><flavour>FLAVOUR_APFSDS</flavour><rounds>24</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_M68A1</for><flavour>FLAVOUR_HESH</flavour><rounds>14</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_M68A1</for><flavour>FLAVOUR_SMOKE</flavour><rounds>2</rounds></ammo>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>1000</rounds></ammo>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>6000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>50</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>50</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_PISTOL_T75</type></weapon>
+				<ammo><for>WEAPON_PISTOL_T75</for><rounds>50</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

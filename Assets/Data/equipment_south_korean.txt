@@ -1,0 +1,37 @@
+// infantry
+South Korean-Infantry Squad 1					// infantry squads
+South Korean-Infantry Squad 2
+South Korean-Marine Squad 1
+
+AAA-NOTHING					// weapon teams
+
+AAA-NOTHING					// mortars
+
+AAA-NOTHING					// heavy machine guns
+
+// AT guns
+
+// vehicles
+South Korean-K2					// tanks
+South Korean-K1
+South Korean-K1E1
+South Korean-K1A1
+South Korean-K1A2
+South Korean-M48A5K1
+
+South Korean-T-80U
+
+South Korean-K30
+
+AAA-NOTHING					// assault guns
+
+South Korean-K9					// self-propelled guns
+
+South Korean-K21					///infantry frighting vehicles
+South Korean-BMP-3
+
+AAA-NOTHING					// armoured cars
+
+South Korean-K200					// armoured personnel carriers
+
+AAA-NOTHING					// lorries

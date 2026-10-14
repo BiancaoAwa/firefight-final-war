@@ -1,0 +1,57 @@
+<squad>
+	<description>
+		<type>TYPE_HMG</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+		<quality>QUALITY_ELITE</quality>
+
+		<long_name>QJZ-171 Machine Gun Team</long_name>
+		<short_name>QJZ-171</short_name>
+		<comment>QJZ-171 Heavy machine gun with a crew of 4</comment>
+
+		<uniform>PLA_SO</uniform>
+	</description>
+
+	<availability>
+		<data><month>6</month><year>2020</year><number>200</number></data>
+		<data><month>7</month><year>2050</year><number>400</number></data>
+	</availability>
+
+	<hmg>
+		<image_view_base>Image-QJZ-89 base.png</image_view_base>
+		<image_view_gun>Image-QJZ-89 gun.png</image_view_gun>
+		<image_profile>Profile-QJZ-89.png</image_profile>
+
+		<weapon><type>WEAPON_HMG_QJZ_171</type></weapon>
+
+		<ammo><for>WEAPON_HMG_QJZ_171</for><rounds>2000</rounds></ammo>
+
+		<minAngle>-45</minAngle>
+		<maxAngle>45</maxAngle>
+	</hmg>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>90</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>90</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>90</rounds></ammo>
+	</man>
+	
+	<man>
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>90</rounds></ammo>
+	</man>
+</squad>

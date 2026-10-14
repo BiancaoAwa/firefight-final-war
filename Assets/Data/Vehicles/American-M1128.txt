@@ -1,0 +1,133 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>M1128 Mobile Gun System</long_name>
+		<short_name>M1128 Stryker</short_name>
+		<comment>A wheeled mobile gun system with a 105mm cannon and a .50cal machine gun. Can mount two soldiers</comment>
+
+		<uniform>american_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2007</year><number>500</number></data>
+		<data><month>12</month><year>2022</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-M1128.png</image_profile>
+			<weight>16470</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Diesel</name>
+				<horsepower>350</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe><offsetX>120</offsetX><offsetY>-160</offsetY><angle>140</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M1126.png</image_view>
+
+			<width>260</width>
+			<length>690</length>
+			<height>152</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>18@-54</front>
+				<side>25@-28</side>
+				<rear>13@-12</rear>
+				<top>18</top>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>260</width>
+			<length>670</length>
+			<height>72</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>20</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>18@71</front>
+				<side>18@11</side>
+				<rear>13@-12</rear>
+				<top>18</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-M1128 cannon.png</image_view>
+
+			<diameter>180</diameter>
+			<height>60</height>
+			<offsetX>0</offsetX>
+			<offsetY>90</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>45</front>
+				<side>30</side>
+				<rear>35</rear>
+				<top>10</top>
+				<mantlet>0</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_105_M68A1E8_M1128</type><offsetX>-6</offsetX><offsetY>13</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_105_M68A1E8_M1128</for><flavour>FLAVOUR_APFSDS</flavour><rounds>10</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_M68A1E8_M1128</for><flavour>FLAVOUR_HEAT</flavour><rounds>8</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<image_view>Image-M1127 turret.png</image_view>
+
+			<offsetX>76</offsetX>
+			<offsetY>79</offsetY>
+			<offsetZ>344</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

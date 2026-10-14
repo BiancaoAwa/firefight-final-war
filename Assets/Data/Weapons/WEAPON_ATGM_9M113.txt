@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>9M113 Konkurs</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>135</calibre>
+		<barrel_length>87</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rocket</sound_shoot>
+		<range>300</range>
+		<rof>10</rof>
+	</shoot>
+
+	<magazine>
+		<single_shot>yes</single_shot>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG</flavour><speed>248</speed><mass>14.5</mass><era>HEAT_ERA_COLD_WAR</era><guided>GUIDED_MANUAL</guided><smoke_trail>yes</smoke_trail><HE>4.37</HE><name>9M113</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|INDIA</countries>
+	</usage>
+
+</weapon>

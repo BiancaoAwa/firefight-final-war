@@ -1,0 +1,24 @@
+<weapon>
+
+	<name>Recoilless Gun</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>152</calibre>
+		<barrel_length>70</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_mortar</sound_shoot>
+		<rof>20</rof>
+	</shoot>
+
+	<magazine>
+		<single_shot>yes</single_shot>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>200</speed><mass>4</mass><era>ERA_COLD_WAR</era><HE>2</HE><name>HEAT</name></type>
+	</ammo>
+
+</weapon>

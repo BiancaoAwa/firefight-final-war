@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>120mm Rh120 L/44</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>528</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1140</speed><mass>13.5</mass><HE>2.1</HE><name>DM12A1</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1678</speed><mass>5</mass><name>DM53</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>GERMANY</countries>
+	</usage>
+
+</weapon>

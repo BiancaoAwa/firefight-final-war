@@ -1,0 +1,21 @@
+// infantry
+Israeli-Infantry Section
+Israeli-Nahal Brigade Infantry Section
+Israeli-Mechanized Infantry Section
+Israeli-Sayeret Reconnaissance Team
+Israeli-Reserve Infantry Section
+
+// vehicles
+//American-M113
+//Israeli-Eitan AFV
+//Israeli-Merkava Mk.4 LIC
+Israeli-Merkava Mk.1
+Israeli-Merkava Mk.1B
+Israeli-Merkava Mk.2B
+Israeli-Merkava Mk.3B
+Israeli-Merkava Mk.3C
+Israeli-Merkava Mk.3D
+Israeli-Merkava Mk.4B
+Israeli-Merkava Mk.4M
+
+// at gun

@@ -1,0 +1,154 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZTQ-62</long_name>
+		<short_name>ZTQ-62</short_name>
+		<comment>A Chinese light tank with an 85mm cannon and a 12.7mm machine gun</comment>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1962</year><number>200</number></data>
+		<data><month>12</month><year>2013</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZTQ-62.png</image_profile>
+			<weight>20000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>12150L-3</name>
+				<horsepower>430</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe>
+				<offsetX>60</offsetX>
+				<offsetY>200</offsetY>
+				<horizontal_angle>180</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+
+			<exhaust_pipe>
+				<offsetX>-60</offsetX>
+				<offsetY>200</offsetY>
+				<horizontal_angle>180</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZTQ-62.png</image_view>
+
+			<width>300</width>
+			<length>590</length>
+			<height>60</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>25@-58</front>
+				<side>25</side>
+				<rear>15</rear>
+				<top>15</top>
+				<bottom>13</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>300</width>
+			<length>590</length>
+			<height>70</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>35@55</front>
+				<side>25</side>
+				<rear>15</rear>
+				<top>15</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-ZTQ-62 turret.png</image_view>
+
+			<diameter>227</diameter>
+			<height>73</height>
+			<offsetX>0</offsetX>
+			<offsetY>-5</offsetY>
+
+			<rotate_time>25</rotate_time>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>50@59</upper_front>
+				<lower_front>50@9</lower_front>
+				<upper_side>35@30</upper_side>
+				<lower_side>25@10</lower_side>
+				<upper_rear>32@46</upper_rear>
+				<lower_rear>32@11</lower_rear>
+				<top>20</top>
+				<mantlet>50</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_85_TYPE_62</type></weapon>
+			<weapon><type>WEAPON_HMG_QJZ_89</type><offsetX>50</offsetX></weapon>
+			<weapon><type>WEAPON_LMG_TYPE_56</type><offsetX>23</offsetX></weapon>
+			<ammo><for>WEAPON_CANNON_85_TYPE_62</for><rounds>35</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_85_TYPE_62</for><flavour>FLAVOUR_APCBC</flavour><rounds>10</rounds></ammo>
+			<ammo><for>WEAPON_HMG_QJZ_89</for><rounds>800</rounds></ammo>
+			<ammo><for>WEAPON_LMG_TYPE_56</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>-25</offsetX>
+			<offsetY>-190</offsetY>
+			<offsetZ>90</offsetZ>
+			<minAngle>-20</minAngle>
+			<maxAngle>20</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_LMG_TYPE_56</type></weapon>
+			<ammo><for>WEAPON_LMG_TYPE_56</for><rounds>1000</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>90mm Type 61 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>90</calibre>
+		<barrel_length>468</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>100</sound_shoot>
+		<rof>8</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>823</speed><mass>10.55</mass><HE>0.925</HE><name>M71</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1216</speed><mass>5.8</mass><era>HEAT_ERA_LATE</era><HE>0.712</HE><name>M431</name></type>
+		<type><flavour>FLAVOUR_APCBC</flavour><speed>853</speed><mass>10.94</mass><HE>0.137</HE><name>M82</name></type>
+		<type><flavour>FLAVOUR_SMOKE</flavour><speed>821</speed><mass>10.7</mass><name>M313</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>JAPAN</countries>
+	</usage>
+
+</weapon>

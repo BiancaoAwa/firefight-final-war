@@ -1,0 +1,31 @@
+// infantry
+Taiwanese-Infantry Squad 1					// infantry squads
+Taiwanese-Mechanized Infantry Squad 1
+Taiwanese-Military Policeman Squad 1
+
+AAA-NOTHING					// weapon teams
+
+AAA-NOTHING					// mortars
+
+AAA-NOTHING					// heavy machine guns
+
+// AT guns
+
+// vehicles
+Taiwanese-M1A2T					// tanks
+Taiwanese-M60A3 TTS
+Taiwanese-CM-11
+Taiwanese-CM-11(ERA)
+
+Taiwanese-CM-25					// assault guns
+
+AAA-NOTHING					// self-propelled guns
+
+Taiwanese-CM-34					///infantry frighting vehicles
+
+AAA-NOTHING					// armoured cars
+
+
+Taiwanese-CM-33					// armoured personnel carriers
+
+AAA-NOTHING					// lorries

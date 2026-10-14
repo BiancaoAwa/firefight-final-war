@@ -1,0 +1,21 @@
+<weapon>
+
+	<name>RGD-5 Grenade</name>
+	<type>WEAPON_GRENADE</type>
+
+	<dimensions>
+	</dimensions>
+
+	<shoot>
+		<muzzle_flash>no</muzzle_flash>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><mass>0.31</mass><HE>0.11</HE><explode_in>3.2</explode_in><name>Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

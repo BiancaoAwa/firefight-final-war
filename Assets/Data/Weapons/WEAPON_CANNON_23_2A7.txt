@@ -1,0 +1,33 @@
+<weapon>
+
+	<name>23mm 2A7 quad autocannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>23</calibre>
+		<barrel_length>200</barrel_length>
+		<number_barrels>4</number_barrels>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>1000</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>200</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>980</speed><mass>0.103</mass><HE>0.0019</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_AP</flavour><speed>970</speed><mass>0.19</mass><name>API</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1220</speed><mass>0.103</mass><name>APDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,36 @@
+<weapon>
+
+	<name>40mm Auto Cannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>40</calibre>
+		<barrel_length>280</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon30</sound_shoot>
+		<rof>200</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>20</capacity>
+		<sound_reload>reload_autocannon</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1000</speed><mass>0.98</mass><HE>0.12</HE><name>GPR-T</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1270</speed><mass>0.55</mass><name>APFSDS-T</name></type>
+	</ammo>
+
+	<comments>
+	IDK
+	</comments>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

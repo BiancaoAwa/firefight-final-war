@@ -1,0 +1,30 @@
+<weapon>
+
+	<name>Hero 120</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>11</calibre>
+		<barrel_length>120</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rocket</sound_shoot>
+		<range>6000</range>
+		<rof>4</rof>
+	</shoot>
+
+	<magazine>
+		<single_shot>yes</single_shot>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEATFS</flavour><speed>25</speed><mass>4.5</mass><era>HEAT_ERA_COLD_WAR</era><guided>GUIDED_TOP_ATTACK</guided><smoke_trail>yes</smoke_trail><HE>2.5</HE><name>CH-901</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA|UNITED_KINGDOM|FRANCE|GERMANY|ISRAEL</countries>
+	</usage>
+
+</weapon>

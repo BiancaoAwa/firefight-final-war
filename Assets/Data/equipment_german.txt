@@ -1,0 +1,31 @@
+// infantry
+German-Infantry Section 1					// infantry squads
+
+AAA-NOTHING					// weapon teams
+
+AAA-NOTHING					// mortars
+
+AAA-NOTHING					// heavy machine guns
+
+// AT guns
+
+// vehicles
+German-Leopard 2A4					// tanks
+//Germany-Leopard 2A5
+//Germany-Leopard 2A6
+//Germany-Leopard 2A7
+//Germany-Leopard 2A7V
+German-KF51 Panther
+German-KF51U Panther
+
+AAA-NOTHING					// assault guns
+
+AAA-NOTHING					// self-propelled guns
+
+AAA-NOTHING					///infantry frighting vehicles
+
+AAA-NOTHING					// armoured cars
+
+AAA-NOTHING					// armoured personnel carriers
+
+AAA-NOTHING					// lorries

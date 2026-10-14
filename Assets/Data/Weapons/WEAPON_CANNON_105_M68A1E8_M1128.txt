@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>105mm M68A1E8 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>535</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon105 abrams</sound_shoot>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1174</speed><mass>10.5</mass><era>HEAT_ERA_COLD_WAR_EARLY</era><HE>1.27</HE><name>M456A2</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1505</speed><mass>3.8</mass><name>M900</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

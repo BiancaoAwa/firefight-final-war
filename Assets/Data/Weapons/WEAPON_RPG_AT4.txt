@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>AT4 LAW</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>84</calibre>
+		<barrel_length>102</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<range>300</range>
+		<rof>10</rof>
+		<muzzle_flash>no</muzzle_flash>
+	</shoot>
+
+	<magazine>
+		<single_shot>yes</single_shot>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_RPG_HEAT</flavour><speed>290</speed><mass>4</mass><era>HEAT_ERA_COLD_WAR</era><smoke_trail>yes</smoke_trail><HE>0.44</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,110 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>HMMWV</long_name>
+		<short_name>HMMWV</short_name>
+		<comment>An armoured car with an M2 .50cal machine gun. Can mount eight soldiers</comment>
+
+		<uniform_profile>unifor</uniform_profile>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2025</year><number>700</number></data>
+		<data><month>12</month><year>2026</year><number>700</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-HMMWV.png</image_profile>
+			<weight>5100</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Engine</name>
+				<horsepower>260</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe>
+				<offsetX>140</offsetX>
+				<offsetY>-120</offsetY>
+				<horizontal_angle>-200</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M1114 Humvee.png</image_view>
+
+			<width>230</width>
+			<length>457</length>
+			<height>130</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>10@30</upper_front>
+				<lower_front>8</lower_front>
+				<side>5</side>
+				<rear>5</rear>
+				<top>10</top>
+				<bottom>5</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_HK_USP</type></weapon>
+				<ammo><for>WEAPON_PISTOL_HK_USP</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_HK_USP</type></weapon>
+				<ammo><for>WEAPON_PISTOL_HK_USP</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>230</width>
+			<length>200</length>
+			<height>55</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>10</front>
+				<side>5</side>
+				<rear>5@70</rear>
+				<top>5</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-Image-M113A3 50MG.png</image_view>
+
+			<offsetX>0</offsetX>
+			<offsetY>-28</offsetY>
+			<offsetZ>210</offsetZ>
+			<minAngle>-160</minAngle>
+			<maxAngle>160</maxAngle>
+
+			<rotate_time>6</rotate_time>
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>2000</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>QLU-11</name>
+	<type>WEAPON_GRENADE_LAUNCHER</type>
+
+	<dimensions>
+		<calibre>35</calibre>
+		<barrel_length>100</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_grenade_launcher</sound_shoot>
+		<range>1000</range>
+		<rof>30</rof>
+		<muzzle_flash>no</muzzle_flash>
+		<reload>RELOAD_SEMI_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>5</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><speed>200</speed><mass>0.6</mass><HE>1.5</HE><name>35x32mm Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

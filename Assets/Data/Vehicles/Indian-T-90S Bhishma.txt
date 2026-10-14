@@ -1,0 +1,125 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_INDIAN</nationality>
+
+		<long_name>T-90S "Bhishma"</long_name>
+		<short_name>T-90S</short_name>
+		<comment>A Russian-designed main battle tank with a 125mm 2A46M-2 cannon, a 7.62mm machine gun and a 12.7mm machine gun. Fitted with Shtora-1 countermeasures</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2001</year><number>750</number></data>
+		<data><month>12</month><year>2050</year><number>750</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-T-90S Bhishma.png</image_profile>
+			<weight>46500</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Model V 92S2</name>
+				<horsepower>1000</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>0</offsetX><offsetY>300</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-T-90S Bhishma.png</image_view>
+
+			<width>400</width>
+			<length>780</length>
+			<height>75</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>230@-45</front>
+				<side>60</side>
+				<rear>50</rear>
+				<top>30</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_AK_74</type></weapon>
+				<ammo><for>WEAPON_RIFLE_AK_74</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>400</width>
+			<length>685</length>
+			<height>75</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>255@70</front>
+				<side>95</side>
+				<upper_rear>50@40</upper_rear>
+				<lower_rear>50</lower_rear>
+				<top>30</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-T-90S Bhishma turret.png</image_view>
+
+			<diameter>300</diameter>
+			<height>60</height>
+			<offsetX>0</offsetX>
+			<offsetY>-30</offsetY>
+
+			<rotate_time>15</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>270@40</front>
+				<side>115@25</side>
+				<rear>95@40</rear>
+				<top>45</top>
+				<mantlet>160</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_125_2A46M_2</type><offsetY>-45</offsetY></weapon>
+			<weapon><type>WEAPON_HMG_NSV</type><offsetX>63</offsetX></weapon>
+			<weapon><type>WEAPON_LMG_PKT</type><offsetX>33</offsetX><offsetY>-106</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_125_2A46M_2</for><flavour>FLAVOUR_APFSDS</flavour><rounds>14</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_125_2A46M_2</for><flavour>FLAVOUR_HEAT</flavour><rounds>11</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_125_2A46M_2</for><flavour>FLAVOUR_HE</flavour><rounds>13</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_125_2A46M_2</for><flavour>FLAVOUR_ATGM</flavour><rounds>4</rounds></ammo>
+			<ammo><for>WEAPON_HMG_NSV</for><rounds>600</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKT</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_MAKAROV</type></weapon>
+				<ammo><for>WEAPON_PISTOL_MAKAROV</for><rounds>14</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_MAKAROV</type></weapon>
+				<ammo><for>WEAPON_PISTOL_MAKAROV</for><rounds>14</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

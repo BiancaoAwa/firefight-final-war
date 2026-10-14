@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>HK G28 DMR</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>42</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_762x54</sound_shoot>
+		<rof>800</rof>
+		<reload>RELOAD_SEMI_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>20</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>880</speed><mass>0.011</mass><name>7.62x51mm NATO</name></type>
+	</ammo>
+
+	<usage>
+		<countries>GERMANY</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

@@ -1,0 +1,129 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_JAPANESE</nationality>
+
+		<long_name>Type 89 IFV</long_name>
+		<short_name>Type 89 IFV</short_name>
+		<comment>A Japanese infantry fighting vehicle with a 35mm KDE autocannon and a Type 74 machine gun. Can mount seven soldiers</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1989</year><number>500</number></data>
+		<data><month>12</month><year>2050</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-Type 89 IFV.png</image_profile>
+			<weight>35000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Mitsubishi 6SY31WA</name>
+				<horsepower>600</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2000</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>-110</offsetX><offsetY>-100</offsetY><angle>200</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>-70</offsetX><offsetY>-200</offsetY><angle>200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Type 89 IFV.png</image_view>
+
+			<width>330</width>
+			<length>680</length>
+			<height>150</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>20@81</upper_front>
+				<lower_front>35@-57</lower_front>
+				<upper_side>20</upper_side>
+				<lower_side>30</lower_side>
+				<rear>15</rear>
+				<top>20</top>
+				<bottom>15</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<fixed_weapon>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+			<offsetZ>200</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_ATGM_TYPE_79_JYU_MAT</type></weapon>
+			<weapon><type>WEAPON_ATGM_TYPE_79_JYU_MAT</type></weapon>
+			<ammo><for>WEAPON_ATGM_TYPE_79_JYU_MAT</for><rounds>4</rounds></ammo>
+
+		</fixed_weapon>
+
+		<turret>
+			<image_view>Image-Type 89 IFV turret.png</image_view>
+
+			<diameter>230</diameter>
+			<height>70</height>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>35@12</front>
+				<side>20</side>
+				<rear>20</rear>
+				<top>10</top>
+				<mantlet>50</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_35_KDE</type><mount>ball</mount></weapon>
+			<weapon><type>WEAPON_LMG_TYPE_74</type><offsetX>25</offsetX></weapon>
+			<ammo><for>WEAPON_CANNON_35_KDE</for><flavour>FLAVOUR_APDS</flavour><rounds>151</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_35_KDE</for><flavour>FLAVOUR_HE</flavour><rounds>100</rounds></ammo>
+			<ammo><for>WEAPON_LMG_TYPE_74</for><rounds>2500</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

@@ -1,0 +1,94 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_JAPANESE</nationality>
+
+		<long_name>M270 MLRS JP</long_name>
+		<short_name>M270 MLRS</short_name>
+		<comment>A Japanese multiple rocket launcher carrying twelve 227mm rockets</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1990</year><number>75</number></data>
+		<data><month>12</month><year>2050</year><number>75</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-M270 MLRS JP.png</image_profile>
+			<weight>40000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Cummins VTA-903</name>
+				<horsepower>500</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2600</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>4</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>0</offsetX><offsetY>-120</offsetY><angle>-135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M270 MLRS JP.png</image_view>
+
+			<width>300</width>
+			<length>680</length>
+			<height>120</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>20</front>
+				<side>12</side>
+				<rear>20</rear>
+				<top>10</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<fixed_weapon>
+			<image_view>Image-M270 MLRS JP turret.png</image_view>
+
+			<offsetX>0</offsetX>
+			<offsetY>190</offsetY>
+			<offsetZ>200000</offsetZ>
+
+			<rotate_time>30</rotate_time>
+			<rotate_left>170</rotate_left>
+			<rotate_right>170</rotate_right>
+
+			<night_vision>yes</night_vision>
+			<weapon><type>WEAPON_ROCKET_227_M270</type></weapon>
+			<ammo><for>WEAPON_ROCKET_227_M270</for><flavour>FLAVOUR_HE</flavour><rounds>12</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

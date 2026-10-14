@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>120mm IMI MG251 LR</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>530</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_jscannon</sound_shoot>
+		<rof>9</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>900</speed><mass>17</mass><HE>3.7</HE><name>M339 HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1078</speed><mass>15.8</mass><era>HEAT_ERA_COLD_WAR</era><HE>2.4</HE><name>M325 HEAT</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1680</speed><mass>5.1</mass><name>M338 APFSDS</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>ISRAEL</countries>
+	</usage>
+
+</weapon>

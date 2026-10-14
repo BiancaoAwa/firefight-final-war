@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>AK74M Assault Rifle</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>5.45</calibre>
+		<barrel_length>42</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<range>350</range>
+		<rof>650</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>900</speed><mass>0.00343</mass><name>5.45x39mm M74</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA|RUSSIA</countries>
+	</usage>
+
+</weapon>

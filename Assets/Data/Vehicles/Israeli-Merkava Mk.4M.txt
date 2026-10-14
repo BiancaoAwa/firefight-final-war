@@ -1,0 +1,152 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_ISRAELI</nationality>
+
+		<long_name>Merkava Mk.4M</long_name>
+		<short_name>Merkava Mk.4M</short_name>
+		<comment>Israeli Merkava Mk.4M, equipped with 120mm cannon, 2 7.92mm machine guns, 1 12.7mm machine gun</comment>
+
+		<uniform>Israel</uniform>
+		<uniform_ranks>uniform_ranks_Israel.png</uniform_ranks>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2024</year><number>500</number></data>
+		<data><month>12</month><year>2024</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>0.png</image_profile>
+			<weight>65000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>MTU 12V883</name>
+				<horsepower>1501</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>3000</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>8</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe>
+				<offsetX>180</offsetX>
+				<offsetY>-190</offsetY>
+				<horizontal_angle>135</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Merkava Mk.4M.png</image_view>
+
+			<width>370</width>
+			<length>700</length>
+			<height>80</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>125@-39</upper_front>
+				<lower_front>100@-45</lower_front>
+				<side>80</side>
+				<rear>60@-39</rear>
+				<top>35</top>
+				<bottom>6</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_SMG_X95</type></weapon>
+				<ammo><for>WEAPON_SMG_X95</for><rounds>96</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>370</width>
+			<length>700</length>
+			<height>80</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>120@74</front>
+				<side>200</side>
+				<upper_rear>100@-5</upper_rear>
+				<lower_rear>100@-39</lower_rear>
+				<top>35</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-Merkava Mk.4M turret.png</image_view>
+
+			<diameter>300</diameter>
+			<height>80</height>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>8</rotate_time>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>175@73</upper_front>
+				<lower_front>175@-72</lower_front>
+				<upper_side>135@60</upper_side>
+				<lower_side>135@-62</lower_side>
+				<upper_rear>30@1</upper_rear>
+				<lower_rear>60@-72</lower_rear>
+				<top>96</top>
+				<mantlet>550</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_120_MG251_LR</type><offsetX>5</offsetX><offsetY>-121</offsetY></weapon>
+			<weapon><type>WEAPON_HMG_M2HB</type><offsetX>-31</offsetX><offsetY>-113</offsetY></weapon>
+			<weapon><type>WEAPON_HMG_FN_LAG</type><offsetX>5</offsetX><offsetY>-122</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_120_MG251_LR</for><flavour>FLAVOUR_APFSDS</flavour><rounds>15</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_120_MG251_LR</for><flavour>FLAVOUR_HE</flavour><rounds>17</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_120_MG251_LR</for><flavour>FLAVOUR_HEAT</flavour><rounds>14</rounds></ammo>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>1000</rounds></ammo>
+			<ammo><for>WEAPON_HMG_FN_LAG</for><rounds>1200</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_SMG_X95</type></weapon>
+				<ammo><for>WEAPON_SMG_X95</for><rounds>96</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_SMG_X95</type></weapon>
+				<ammo><for>WEAPON_SMG_X95</for><rounds>96</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_SMG_X95</type></weapon>
+				<ammo><for>WEAPON_SMG_X95</for><rounds>96</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+
+			<offsetX>71</offsetX>
+			<offsetY>93</offsetY>
+			<offsetZ>235</offsetZ>
+			<minAngle>-20</minAngle>
+			<maxAngle>20</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_HMG_FN_LAG</type></weapon>
+			<ammo><for>WEAPON_HMG_FN_LAG</for><rounds>1200</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

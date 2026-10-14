@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>X95 SMG</name>
+	<type>WEAPON_SMG</type>
+
+	<dimensions>
+		<calibre>9</calibre>
+		<barrel_length>28</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_jsSMG</sound_shoot>
+		<rof>950</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>32</capacity>
+		<sound_reload>reload_jsmagazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>460</speed><mass>0.008</mass><name>9x19mm Parabellum</name></type>
+	</ammo>
+
+	<usage>
+		<countries>ISRAEL</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

@@ -1,0 +1,133 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZSL-10 Armored Personnel Carrier</long_name>
+		<short_name>ZSL-10</short_name>
+		<comment>A Chinese 8x8 armoured personnel carrier of the ZBL-08 family, with a 12.7mm machine gun. Can mount ten soldiers</comment>
+
+		<uniform>chinese_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2015</year><number>300</number></data>
+		<data><month>12</month><year>2030</year><number>300</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZSL-10.png</image_profile>
+			<weight>20000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Deutz BF6M1015C</name>
+				<horsepower>390</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>3000</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe><offsetX>140</offsetX><offsetY>-200</offsetY><angle>-200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZSL-10.png</image_view>
+
+			<width>300</width>
+			<length>800</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>50@-40</upper_front>
+				<lower_front>30@-60</lower_front>
+				<side>10@-20</side>
+				<rear>8@-40</rear>
+				<top>8</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<smoke_discharger><offsetX>90</offsetX><offsetY>210</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>90</offsetX><offsetY>210</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>90</offsetX><offsetY>210</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-90</offsetX><offsetY>210</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-90</offsetX><offsetY>210</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-90</offsetX><offsetY>210</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>120</offsetX><offsetY>210</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>100</offsetX><offsetY>210</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>120</offsetX><offsetY>210</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>100</offsetX><offsetY>210</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-100</offsetX><offsetY>210</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-100</offsetX><offsetY>210</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>300</width>
+			<length>770</length>
+			<height>50</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>40</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>17@76</front>
+				<side>10@16</side>
+				<rear>8@-10</rear>
+				<top>8</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-ZSL-10 turret.png</image_view>
+
+			<diameter>120</diameter>
+			<height>60</height>
+			<offsetX>0</offsetX>
+			<offsetY>150</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>50@30</front>
+				<side>25@15</side>
+				<rear>10@15</rear>
+				<top>10</top>
+				<mantlet>50</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_LMG_QJC_88</type><offsetX>-5</offsetX><offsetY>-32</offsetY></weapon>
+			<ammo><for>WEAPON_LMG_QJC_88</for><rounds>4000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

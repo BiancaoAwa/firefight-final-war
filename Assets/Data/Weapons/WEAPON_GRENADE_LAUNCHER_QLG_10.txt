@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>QLG-10A</name>
+	<type>WEAPON_GRENADE_LAUNCHER</type>
+
+	<dimensions>
+		<calibre>35</calibre>
+		<barrel_length>31</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_grenade_launcher</sound_shoot>
+		<range>400</range>
+		<rof>6</rof>
+		<muzzle_flash>no</muzzle_flash>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><speed>78</speed><mass>0.6</mass><HE>1.5</HE><name>35x32mm Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

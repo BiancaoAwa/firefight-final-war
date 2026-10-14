@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>152mm M81E1</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>152</calibre>
+		<barrel_length>300</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon152</sound_shoot>
+		<rof>7</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>682</speed><mass>22</mass><HE>4.3</HE><name>M657A2</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>682</speed><mass>18.9</mass><era>ERA_COLD_WAR</era><HE>3.73</HE><name>M409A1</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>286</speed><mass>27.9</mass><era>ERA_COLD_WAR</era><guided>GUIDED_MANUAL</guided><smoke_trail>yes</smoke_trail><HE>3.6</HE><name>MGM-51B Shillelagh</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

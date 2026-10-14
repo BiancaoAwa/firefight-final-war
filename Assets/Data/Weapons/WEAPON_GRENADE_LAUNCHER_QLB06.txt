@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>QLB06</name>
+	<type>WEAPON_SMG</type>
+
+	<dimensions>
+		<calibre>40</calibre>
+		<barrel_length>70</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_grenade_launcher</sound_shoot>
+		<range>300</range>
+		<rof>150</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>6</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><speed>76</speed><mass>0.5</mass><HE>0.3</HE><name>Rifle Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<countries>China</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>125mm 2A26</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>125</calibre>
+		<barrel_length>600</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>8.45</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>850</speed><mass>23</mass><HE>5.24</HE><name>3OF26</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>905</speed><mass>19</mass><HE>2.06</HE><name>3BK12M</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1760</speed><mass>4.83</mass><name>3BM22</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

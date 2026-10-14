@@ -1,0 +1,29 @@
+<weapon>
+
+	<name>Lebel Model 1886</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>8</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<rof>40</rof>
+	</shoot>
+
+	<magazine>
+		<capacity>8</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>650</speed><mass>0.0128</mass><name>8x50mmR</name></type>
+	</ammo>
+
+	<usage>
+		<countries>FRANCE</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>T77 Submachine Gun</name>
+	<type>WEAPON_SMG</type>
+
+	<dimensions>
+		<calibre>9</calibre>
+		<barrel_length>21</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_SMG</sound_shoot>
+		<range>150</range>
+		<rof>1300</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>400</speed><mass>0.008</mass><name>9x19mm</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>QBU-141</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>5.8</calibre>
+		<barrel_length>70</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<range>800</range>
+		<rof>10</rof>
+	</shoot>
+
+	<magazine>
+		<capacity>10</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>1020</speed><mass>0.0048</mass><name>5.8x42mm DBU141</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

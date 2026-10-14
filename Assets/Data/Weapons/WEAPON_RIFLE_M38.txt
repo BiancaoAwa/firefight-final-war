@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>M38 Squad Designated Marksman rifle</name>
+	<type>WEAPON_RIFLE</type>
+
+	<dimensions>
+		<calibre>5.56</calibre>
+		<barrel_length>42</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_rifle</sound_shoot>
+		<rof>700</rof>
+		<reload>RELOAD_SEMI_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>30</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>923</speed><mass>0.005</mass><name>5.56x45mm M956</name></type>
+	</ammo>
+
+</weapon>

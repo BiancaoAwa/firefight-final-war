@@ -1,0 +1,100 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>M113 Armored Personnel Carrier</long_name>
+		<short_name>M113 APC</short_name>
+		<comment>An armoured personnel carrier with an M2 Browning .50cal machine gun. Can mount infantry</comment>
+
+		<uniform>Israel</uniform>
+		<uniform_ranks>uniform_ranks_Israel.png</uniform_ranks>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2024</year><number>1000</number></data>
+		<data><month>12</month><year>2024</year><number>1000</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-M113.png</image_profile>
+			<weight>11200</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Detroit Diesel 6V53T</name>
+				<horsepower>275</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>6</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe>
+				<offsetX>150</offsetX>
+				<offsetY>-190</offsetY>
+				<horizontal_angle>135</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M113.png</image_view>
+
+			<width>350</width>
+			<length>625</length>
+			<height>140</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>38@45</upper_front>
+				<lower_front>38@-15</lower_front>
+				<side>50</side>
+				<rear>38@-10</rear>
+				<top>38</top>
+				<bottom>6</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_SMG_X95</type></weapon>
+				<ammo><for>WEAPON_SMG_X95</for><rounds>96</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_RADIO</job>
+				<weapon><type>WEAPON_SMG_X95</type></weapon>
+				<ammo><for>WEAPON_SMG_X95</for><rounds>96</rounds></ammo>
+			</man>
+		</hull>
+
+		<fixed_weapon>
+			<image_view>Image-M2SB.png</image_view>
+
+			<offsetX>-2</offsetX>
+			<offsetY>-21</offsetY>
+			<offsetZ>200</offsetZ>
+			<minAngle>-30</minAngle>
+			<maxAngle>120</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_SMG_X95</type></weapon>
+				<ammo><for>WEAPON_SMG_X95</for><rounds>96</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

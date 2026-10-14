@@ -1,0 +1,28 @@
+// infantry
+French-Infantry Section 1					// infantry squads
+French-Infantry Section (AT) 1
+French-Infantry Section (FL) 1
+
+
+AAA-NOTHING					// weapon teams
+
+AAA-NOTHING					// mortars
+
+AAA-NOTHING					// heavy machine guns
+
+// AT guns
+
+// vehicles
+French-AMX56					// tanks
+
+AAA-NOTHING					// assault guns
+
+AAA-NOTHING					// self-propelled guns
+
+AAA-NOTHING					///infantry frighting vehicles
+
+AAA-NOTHING					// armoured cars
+
+AAA-NOTHING					// armoured personnel carriers
+
+AAA-NOTHING					// lorries

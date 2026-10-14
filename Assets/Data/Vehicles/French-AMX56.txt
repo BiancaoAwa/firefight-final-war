@@ -1,0 +1,148 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_FRENCH</nationality>
+
+		<long_name>AMX-56 Leclerc Tank</long_name>
+		<short_name>Leclerc</short_name>
+		<comment>A French main battle tank with a 120mm GIAT CN120-26 cannon, a 7.62mm machine gun and a 12.7mm machine gun</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1992</year><number>500</number></data>
+		<data><month>12</month><year>2050</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>0.png</image_profile>
+			<weight>53700</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>SACM 18X-1500</name>
+				<horsepower>1500</horsepower>
+				<reliability>RELIABILITY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_TWIN_TRANSMISSION_WITH_REVERSE</steering>
+
+			<exhaust_pipe><offsetX>48</offsetX><offsetY>380</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-38</offsetX><offsetY>380</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-AMX56.png</image_view>
+
+			<width>380</width>
+			<length>770</length>
+			<height>120</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>410@-14</upper_front>
+				<lower_front>55@-39</lower_front>
+				<side>50</side>
+				<rear>10@-17</rear>
+				<top>30</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>340</width>
+			<length>600</length>
+			<height>60</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>82@77</upper_front>
+				<lower_front>130@72</lower_front>
+				<side>30@11</side>
+				<rear>15</rear>
+				<top>30</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-AMX56 turret.png</image_view>
+
+			<diameter>250</diameter>
+			<height>70</height>
+			<offsetX>0</offsetX>
+			<offsetY>-50</offsetY>
+
+			<rotate_time>9</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>590@20</front>
+				<upper_side>45@20</upper_side>
+				<lower_side>45</lower_side>
+				<rear>20</rear>
+				<top>30</top>
+				<mantlet>280</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>130</offsetX><offsetY>-60</offsetY><angle>15</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>130</offsetX><offsetY>-60</offsetY><angle>45</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>-60</offsetY><angle>-15</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>-60</offsetY><angle>-45</angle><elevation>35</elevation><speed>10</speed><ammo>2</ammo><reload>30</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_120_CN120_26_52</type></weapon>
+			<weapon><type>WEAPON_LMG_CRC_F1</type><offsetX>39</offsetX><offsetY>-151</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_120_CN120_26_52</for><flavour>FLAVOUR_HEAT</flavour><rounds>25</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_120_CN120_26_52</for><flavour>FLAVOUR_APFSDS</flavour><rounds>15</rounds></ammo>
+			<ammo><for>WEAPON_LMG_CRC_F1</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<image_view>ru .50 PT.png</image_view>
+
+			<offsetX>48</offsetX>
+			<offsetY>7</offsetY>
+			<offsetZ>200</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>120</rotate_left>
+			<rotate_right>120</rotate_right>
+
+			<weapon><type>WEAPON_LMG_AAN_F1</type></weapon>
+			<ammo><for>WEAPON_LMG_AAN_F1</for><rounds>1000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

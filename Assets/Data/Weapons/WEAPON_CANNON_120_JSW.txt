@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>JSW 120mm Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>120</calibre>
+		<barrel_length>528</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>13</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1140</speed><mass>13.5</mass><era>HEAT_ERA_LATE</era><HE>2.15</HE><name>JM12A1</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1780</speed><mass>4.2</mass><name>Type 10</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>JAPAN</countries>
+	</usage>
+
+</weapon>

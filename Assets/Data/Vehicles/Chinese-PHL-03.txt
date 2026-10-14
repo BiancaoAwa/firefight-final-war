@@ -1,0 +1,134 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>PHL-03</long_name>
+		<short_name>PHL-03</short_name>
+		<comment>A Chinese long-range multiple rocket launcher with twelve 300mm rockets</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2004</year><number>1</number></data>
+		<data><month>12</month><year>2050</year><number>1</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-PHL-03.png</image_profile>
+			<weight>44000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name></name>
+				<horsepower>500</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe><offsetX>150</offsetX><offsetY>-260</offsetY><angle>-200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-PHL-03.png</image_view>
+
+			<width>310</width>
+			<length>1150</length>
+			<height>85</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>5</upper_front>
+				<lower_front>5@-15</lower_front>
+				<side>5</side>
+				<rear>5</rear>
+				<top>5</top>
+				<bottom>5</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>310</width>
+			<length>400</length>
+			<height>85</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>-350</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>5@30</front>
+				<side>5</side>
+				<rear>5</rear>
+				<top>5</top>
+			</armour>
+		</superstructure>
+
+		<superstructure>
+			<width>50</width>
+			<length>50</length>
+			<height>-100</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>-350</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>0</front>
+				<side>0</side>
+				<rear>0</rear>
+				<top>0</top>
+				<bottom>0</bottom>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-PHL-03 turret.png</image_view>
+
+			<offsetX>0</offsetX>
+			<offsetY>390</offsetY>
+			<offsetZ>200000</offsetZ>
+
+			<rotate_time>30</rotate_time>
+			<rotate_left>170</rotate_left>
+			<rotate_right>170</rotate_right>
+
+			<night_vision>yes</night_vision>
+			<weapon><type>WEAPON_ROCKET_300_TYPE_03</type></weapon>
+			<ammo><for>WEAPON_ROCKET_300_TYPE_03</for><flavour>FLAVOUR_HE</flavour><rounds>12</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

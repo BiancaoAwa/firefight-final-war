@@ -1,0 +1,101 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_SECTION</type>
+		<nationality>NATIONALITY_GERMAN</nationality>
+		<quality>QUALITY_REGULAR</quality>
+
+		<long_name>German Infantry Section</long_name>
+		<short_name>German Infantry</short_name>
+		<comment>6 G36 rifles. Regular troops</comment>
+
+		<uniform_game>uniform_game_russian_VDV.png</uniform_game>
+		<uniform_profile>uniform_German_infantry.png</uniform_profile>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>800</number></data>
+		<data><month>12</month><year>2050</year><number>800</number></data>
+	</availability>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<weapon><type>WEAPON_RIFLE_HK_G36</type></weapon>
+		<weapon><type>WEAPON_GRENADE_DM51</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_HK_G36</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_DM51</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<weapon><type>WEAPON_RIFLE_HK_G36</type></weapon>
+		<weapon><type>WEAPON_GRENADE_DM51</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_HK_G36</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_DM51</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<weapon><type>WEAPON_SMG_MP7</type></weapon>
+		<weapon><type>WEAPON_GRENADE_DM51</type></weapon>
+
+		<ammo><for>WEAPON_SMG_MP7</for><rounds>180</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_DM51</for><rounds>4</rounds></ammo>
+	</man>
+	
+	<man>
+		<weapon><type>WEAPON_SMG_MP7</type></weapon>
+		<weapon><type>WEAPON_GRENADE_DM51</type></weapon>
+
+		<ammo><for>WEAPON_SMG_MP7</for><rounds>180</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_DM51</for><rounds>4</rounds></ammo>
+	</man>
+	
+	<man>
+
+		<weapon><type>WEAPON_LMG_MG4</type></weapon>
+		<weapon><type>WEAPON_GRENADE_DM51</type></weapon>
+
+		<ammo><for>WEAPON_LMG_MG4</for><rounds>500</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_DM51</for><rounds>12</rounds></ammo>
+	</man>
+
+	<man>
+
+		<weapon><type>WEAPON_RIFLE_HK_G36</type></weapon>
+		<weapon><type>WEAPON_GRENADE_LAUNCHER_AG36</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_HK_G36</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_AG36</for><rounds>8</rounds></ammo>
+	</man>
+	
+	<man>
+
+		<weapon><type>WEAPON_RIFLE_HK_G36</type></weapon>
+		<weapon><type>WEAPON_GRENADE_LAUNCHER_AG36</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_HK_G36</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_LAUNCHER_AG36</for><rounds>8</rounds></ammo>
+	</man>
+
+	<man>
+
+		<weapon><type>WEAPON_RPG_PzF3</type></weapon>
+		<weapon><type>WEAPON_RIFLE_HK_G36</type></weapon>
+
+		<ammo><for>WEAPON_RPG_PzF3</for><rounds>2</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_HK_G36</for><rounds>210</rounds></ammo>
+	</man>
+
+	<man>
+
+		<weapon><type>WEAPON_RIFLE_HK_G36</type></weapon>
+		<weapon><type>WEAPON_GRENADE_DM51</type></weapon>
+
+		<ammo><for>WEAPON_RPG_PzF3</for><rounds>2</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_HK_G36</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_DM51</for><rounds>4</rounds></ammo>
+	</man>
+</squad>

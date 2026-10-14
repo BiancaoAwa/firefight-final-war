@@ -1,0 +1,56 @@
+// infantry
+Russian-Infantry Squad 1					// infantry squads
+Russian-Motorized Infantry Squad (BMP) 1
+Russian-Motorized Infantry Squad (BTR) 1
+Russian-VDV Infantry Squad (BMD) 1
+Russian-VDV Infantry Squad (BTR-D) 1
+Russian-VDV Infantry Squad (BTR-MDM) 1
+Russian-VDV Infantry Squad (MI-8) 1
+
+AAA-NOTHING					// weapon teams
+
+Russian-Mortar 2B11					// mortars
+
+AAA-NOTHING					// heavy machine guns
+
+// AT guns
+
+// vehicles
+Russian-T-14					// tanks
+Russian-T-90A
+Russian-T-90M
+Russian-T-90M Bophna					//*
+Russian-T-90M-152
+Russian-T-80BV
+Russian-T-80BVM
+Russian-T-72B3M
+Russian-T-62M
+
+Russian-2S25M					// assault guns
+Russian-2S38 Derivatsiya
+
+Russian-2S19					// self-propelled guns
+
+Russian-T-15					///infantry frighting vehicles
+Russian-T-15 2A90
+Russian-BMP-1AM
+Russian-BMP-2M
+Russian-BMP-3M
+Russian-BMP-3M Bakhcha-U
+Russian-BMP-3M Cactus
+Russian-BMD-3M
+Russian-BMD-4M
+Russian-Kurganets-25 IFV
+Russian-BTR-90
+Russian-BTR-90 Berezhok
+Russian-BTR-82A
+
+Russian-Typhoon U					// armoured cars
+Russian-Typhoon K
+Russian-SBA-60K2
+
+Russian-BTR-D					// armoured personnel carriers
+Russian-BTR-MDM
+Russian-Kurganets-25 APC
+
+AAA-NOTHING					// lorries

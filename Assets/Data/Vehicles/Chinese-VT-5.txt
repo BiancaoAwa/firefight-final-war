@@ -1,0 +1,147 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>VT-5</long_name>
+		<short_name>VT-5</short_name>
+		<comment>A Chinese export light tank with a 105mm rifled cannon and a 12.7mm machine gun. Fitted with reactive armour</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2016</year><number>130</number></data>
+		<data><month>12</month><year>2050</year><number>130</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-VT-5.png</image_profile>
+			<weight>46500</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>FX0012</name>
+				<horsepower>1000</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>50</offsetX><offsetY>280</offsetY><angle>135</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>-50</offsetX><offsetY>280</offsetY><angle>-135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-VT-5.png</image_view>
+
+			<width>350</width>
+			<length>750</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>110@-45</front>
+				<upper_side>80</upper_side>
+				<lower_side>75</lower_side>
+				<rear>45</rear>
+				<top>30</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>350</width>
+			<length>700</length>
+			<height>80</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>25</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>210@67</front>
+				<side>50</side>
+				<rear>45</rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-VT-5 turret.png</image_view>
+
+			<diameter>280</diameter>
+			<height>72</height>
+			<offsetX>0</offsetX>
+			<offsetY>-45</offsetY>
+
+			<rotate_time>15</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>220@45</front>
+				<side>90</side>
+				<rear>90</rear>
+				<top>30</top>
+				<mantlet>220</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>88</offsetX><offsetY>-87</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>88</offsetX><offsetY>-87</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>88</offsetX><offsetY>-87</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-88</offsetX><offsetY>-87</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-88</offsetX><offsetY>-87</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-88</offsetX><offsetY>-87</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_105_ZTQ_15</type><offsetX>-2</offsetX><offsetY>-58</offsetY></weapon>
+			<weapon><type>WEAPON_HMG_QJG_02</type><offsetX>21</offsetX><offsetY>-113</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_QJY_88</type><offsetX>-61</offsetX><offsetY>-23</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_105_ZTQ_15</for><flavour>FLAVOUR_APFSDS</flavour><rounds>12</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_ZTQ_15</for><flavour>FLAVOUR_HEAT</flavour><rounds>10</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_ZTQ_15</for><flavour>FLAVOUR_HE</flavour><rounds>11</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_ZTQ_15</for><flavour>FLAVOUR_ATGM</flavour><rounds>5</rounds></ammo>
+			<ammo><for>WEAPON_HMG_QJG_02</for><rounds>2000</rounds></ammo>
+			<ammo><for>WEAPON_LMG_QJY_88</for><rounds>600</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>65</offsetX>
+			<offsetY>-45</offsetY>
+			<offsetZ>275</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>20</rotate_left>
+			<rotate_right>20</rotate_right>
+
+			<weapon><type>WEAPON_HMG_TYPE_04</type></weapon>
+			<ammo><for>WEAPON_HMG_TYPE_04</for><rounds>80</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

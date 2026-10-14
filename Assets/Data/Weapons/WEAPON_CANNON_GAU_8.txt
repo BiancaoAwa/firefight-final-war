@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>GAU-8</name>
+	<type>WEAPON_LMG</type>
+
+	<dimensions>
+		<calibre>30</calibre>
+		<barrel_length>660</barrel_length>
+		<number_barrels>4</number_barrels>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon30</sound_shoot>
+		<rof>600</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>300</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1100</speed><mass>0.15</mass><HE>0.1</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1100</speed><mass>0.2</mass><HE>0.75</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

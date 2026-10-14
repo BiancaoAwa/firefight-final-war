@@ -1,0 +1,27 @@
+<weapon>
+
+	<name>60mm M224</name>
+	<type>WEAPON_MORTAR</type>
+
+	<dimensions>
+		<calibre>60</calibre>
+		<barrel_length>102</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_mortar</sound_shoot>
+		<range>3500</range>
+		<muzzle_flash>no</muzzle_flash>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_MORTAR_HE</flavour><speed>241</speed><mass>1.88</mass><HE>0.36</HE><name>M730 HE</name></type>
+		<type><flavour>FLAVOUR_MORTAR_SMOKE</flavour><speed>241</speed><mass>1.68</mass><name>M722 WP</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

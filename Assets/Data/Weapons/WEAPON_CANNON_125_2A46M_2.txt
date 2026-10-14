@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>125mm 2A46M-2</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>125</calibre>
+		<barrel_length>600</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>12</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>850</speed><mass>23</mass><HE>5.24</HE><name>3OF26</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>905</speed><mass>19</mass><era>HEAT_ERA_LATE</era><HE>2.79</HE><name>3BK18M</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1700</speed><mass>4.85</mass><name>3BM42</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>445</speed><mass>17.2</mass><guided>GUIDED_MANUAL</guided><smoke_trail>yes</smoke_trail><HE>5.72</HE><name>9M119M1</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|INDIA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,33 @@
+<weapon>
+
+	<name>20mm M168 GD Rotory Cannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>20</calibre>
+		<barrel_length>140</barrel_length>
+		<number_barrels>4</number_barrels>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>500</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>800</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1020</speed><mass>0.102</mass><HE>0.008</HE><name>M56 HEI</name></type>
+		<type><flavour>FLAVOUR_AP</flavour><speed>1030</speed><mass>0.1</mass><name>M53 API</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1115</speed><mass>0.065</mass><name>MK149</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

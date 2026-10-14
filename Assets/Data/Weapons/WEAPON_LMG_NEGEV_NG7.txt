@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>Negev NG7 Light Machine Gun</name>
+	<type>WEAPON_LMG</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>42</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_jsLMG</sound_shoot>
+		<range>1000</range>
+		<rof>1050</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>125</capacity>
+		<sound_reload>reload_jsmagazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>810</speed><mass>0.005</mass><name>7.62x51mm NATO</name></type>
+	</ammo>
+
+	<usage>
+		<countries>ISRAEL</countries>
+	</usage>
+
+</weapon>

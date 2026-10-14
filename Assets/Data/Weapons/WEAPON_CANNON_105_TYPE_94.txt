@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>105mm ZPL-94 Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>651</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>100</sound_shoot>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>1174</speed><mass>11</mass><era>HEAT_ERA_LATE</era><HE>1.27</HE><name>Type 83</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1455</speed><mass>4.2</mass><name>Type 83</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1530</speed><mass>3.78</mass><name>DTW2</name></type>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>825</speed><mass>16.2</mass><era>HEAT_ERA_LATE</era><guided>GUIDED_MANUAL</guided><smoke_trail>yes</smoke_trail><HE>1.66</HE><name>DTB1</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

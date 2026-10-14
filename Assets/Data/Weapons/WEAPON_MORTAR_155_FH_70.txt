@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>155mm FH-70</name>
+	<type>WEAPON_MORTAR</type>
+
+	<dimensions>
+		<calibre>155</calibre>
+		<barrel_length>174</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>LDP</sound_shoot>
+		<rof>20</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_MORTAR_HE</flavour><speed>80</speed><mass>16</mass><HE>4</HE><name>HE</name></type>
+	</ammo>
+
+	<usage>
+		<countries>GERMANY</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

@@ -1,0 +1,111 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>Armored Multi-Purpose Vehicle</long_name>
+		<short_name>AMPV</short_name>
+		<comment>An American armoured multi-purpose carrier with an M2 .50cal machine gun, replacing the M113 fleet. Can mount an infantry squad</comment>
+
+	</description>
+
+	<availability>
+		<data><month>8</month><year>2020</year><number>200</number></data>
+		<data><month>12</month><year>2040</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-AMPV.png</image_profile>
+			<weight>29030</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>ENGINE_MAYBACH_HL42_TUKRM</name>
+				<horsepower>600</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_CLUTCH_AND_BRAKE</steering>
+
+			<exhaust_pipe>
+				<offsetX>31</offsetX>
+				<offsetY>249</offsetY>
+				<horizontal_angle>180</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+
+			<exhaust_pipe>
+				<offsetX>-43</offsetX>
+				<offsetY>249</offsetY>
+				<horizontal_angle>180</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-AMPV.png</image_view>
+
+			<width>340</width>
+			<length>675</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>25@-40</front>
+				<upper_side>51</upper_side>
+				<lower_side>51@-45</lower_side>
+				<rear>12@-9</rear>
+				<top>10</top>
+				<bottom>15</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>340</width>
+			<length>645</length>
+			<height>105</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>30</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>25@59</front>
+				<upper_side>25@45</upper_side>
+				<lower_side>51</lower_side>
+				<rear>12@-9</rear>
+				<top>25</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-Image-AMPV 50MG.png</image_view>
+
+			<offsetX>38</offsetX>
+			<offsetY>-137</offsetY>
+			<offsetZ>205</offsetZ>
+			<minAngle>-70</minAngle>
+			<maxAngle>70</maxAngle>
+
+			<rotate_time>10</rotate_time>
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>3000</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

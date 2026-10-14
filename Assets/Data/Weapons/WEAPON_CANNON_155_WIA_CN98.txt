@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>Hyundai WIA CN98 155 mm</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>155</calibre>
+		<barrel_length>806</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>155</sound_shoot>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>935</speed><mass>44.4</mass><HE>9</HE><name>OE F3</name></type>
+	</ammo>
+
+	<usage>
+		<countries>SOUTH_KOREAN</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

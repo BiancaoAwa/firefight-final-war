@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>130mm M-46</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>130</calibre>
+		<barrel_length>715</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>900</speed><mass>33.4</mass><HE>3.64</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_APCBC</flavour><speed>1000</speed><mass>33.4</mass><name>APCBC</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

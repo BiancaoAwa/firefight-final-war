@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>60mm PP93 Mortar</name>
+	<type>WEAPON_MORTAR</type>
+
+	<dimensions>
+		<calibre>60</calibre>
+		<barrel_length>135</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_mortar</sound_shoot>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_MORTAR_HE</flavour><speed>158</speed><mass>2.18</mass><HE>1.25</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_MORTAR_SMOKE</flavour><speed>158</speed><mass>1.24</mass><name>Smoke</name></type>
+	</ammo>
+
+	<usage>
+		<countries>CHINA</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

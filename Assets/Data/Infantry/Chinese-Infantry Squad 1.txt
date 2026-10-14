@@ -1,0 +1,116 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_SECTION</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+		<quality>QUALITY_REGULAR</quality>
+
+		<long_name>Infantry Squad</long_name>
+		<short_name>Infantry</short_name>
+		<comment>7 QBZ-191 rifles, 1 QJB-201 LMG, 3 PF-89 rocket launchers. Regular troops</comment>
+
+		<uniform>chinese_PLA</uniform>
+		<uniform_ranks>uniform_ranks_chinese_PLA.png</uniform_ranks>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2020</year><number>500</number></data>
+		<data><month>12</month><year>2050</year><number>500</number></data>
+	</availability>
+
+	<man>
+		<job>JOB_SQUAD_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_ASSISTANT_LEADER</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RPG_PF_89</type></weapon>
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RPG_PF_89</for><rounds>1</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RPG_PF_89</type></weapon>
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RPG_PF_89</for><rounds>1</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RPG_PF_89</type></weapon>
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RPG_PF_89</for><rounds>1</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>4</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_MG_ASSISTANT</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RPG_PF_89</for><rounds>1</rounds></ammo>
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>4</rounds></ammo>
+		<ammo><for>WEAPON_LMG_QJB_201</for><rounds>150</rounds></ammo>
+	</man>
+
+	<man>
+		<job>JOB_SQUAD_MG_ASSISTANT</job>
+
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_RIFLE_QBZ_191</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_RIFLE_QBZ_191</for><rounds>210</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>4</rounds></ammo>
+		<ammo><for>WEAPON_LMG_QJB_201</for><rounds>150</rounds></ammo>
+	</man>
+
+	<man>
+		<body_armour>yes</body_armour>
+
+		<weapon><type>WEAPON_LMG_QJB_201</type></weapon>
+		<weapon><type>WEAPON_GRENADE_TYPE_82_2</type></weapon>
+
+		<ammo><for>WEAPON_LMG_QJB_201</for><rounds>300</rounds></ammo>
+		<ammo><for>WEAPON_GRENADE_TYPE_82_2</for><rounds>4</rounds></ammo>
+	</man>
+</squad>

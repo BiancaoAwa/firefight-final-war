@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>NSVT Machine Gun</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>12.7</calibre>
+		<barrel_length>110</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_HMG</sound_shoot>
+		<rof>750</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>50</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>845</speed><mass>0.048</mass><name>12.7x108mm</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA|POLAND|ROMANIA|HUNGARY|UKRAINE|GEORGIA</countries>
+	</usage>
+
+</weapon>

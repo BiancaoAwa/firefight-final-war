@@ -1,0 +1,162 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_SOUTH_KOREAN</nationality>
+
+		<long_name>BMP-3</long_name>
+		<short_name>BMP-3</short_name>
+		<comment>A Russian-made infantry fighting vehicle with a 100mm gun-launcher, a 30mm autocannon and three machine guns. Can mount an infantry squad</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1996</year><number>50</number></data>
+		<data><month>12</month><year>2040</year><number>10</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-BMP-3.png</image_profile>
+			<weight>18700</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>UTD 29M</name>
+				<horsepower>500</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>120</offsetX><offsetY>260</offsetY><angle>-200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-BMP-3.png</image_view>
+
+			<width>320</width>
+			<length>630</length>
+			<height>80</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>70@-30</front>
+				<side>43</side>
+				<rear>43@-10</rear>
+				<top>10</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>320</width>
+			<length>680</length>
+			<height>80</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>-15</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>82@80</upper_front>
+				<lower_front>70@-35</lower_front>
+				<upper_side>60@20</upper_side>
+				<lower_side>60</lower_side>
+				<rear>43</rear>
+				<top>15</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<offsetX>130</offsetX>
+			<offsetY>-200</offsetY>
+			<offsetZ>140</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>20</rotate_left>
+			<rotate_right>15</rotate_right>
+
+			<weapon><type>WEAPON_LMG_PKT</type></weapon>
+			<ammo><for>WEAPON_LMG_PKT</for><rounds>1000</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<offsetX>-120</offsetX>
+			<offsetY>-200</offsetY>
+			<offsetZ>140</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>20</rotate_left>
+			<rotate_right>15</rotate_right>
+
+			<weapon><type>WEAPON_LMG_PKT</type></weapon>
+			<ammo><for>WEAPON_LMG_PKT</for><rounds>1000</rounds></ammo>
+
+		</fixed_weapon>
+
+		<turret>
+			<image_view>Image-BMP-3 turret.png</image_view>
+
+			<diameter>230</diameter>
+			<height>60</height>
+			<offsetX>-5</offsetX>
+			<offsetY>-15</offsetY>
+
+			<rotate_time>10</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>66@42</front>
+				<side>56@20</side>
+				<upper_rear>43@20</upper_rear>
+				<lower_rear>43@10</lower_rear>
+				<top>18</top>
+				<mantlet>70</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>81</offsetX><offsetY>-80</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-81</offsetX><offsetY>-80</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_100_2A70</type></weapon>
+			<weapon><type>WEAPON_CANNON_30_2A72</type><offsetX>30</offsetX><offsetY>-101</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_PKT</type><offsetX>-45</offsetX><offsetY>-14</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_100_2A70</for><flavour>FLAVOUR_HE</flavour><rounds>29</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_100_2A70</for><flavour>FLAVOUR_ATGM</flavour><rounds>19</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_2A72</for><flavour>FLAVOUR_APDS</flavour><rounds>250</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_2A72</for><flavour>FLAVOUR_HE</flavour><rounds>250</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKT</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

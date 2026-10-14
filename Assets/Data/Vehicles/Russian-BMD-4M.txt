@@ -1,0 +1,139 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>BMD-4M</long_name>
+		<short_name>BMD-4M</short_name>
+		<comment>A Russian airborne infantry fighting vehicle with a 100mm gun-launcher and a 30mm autocannon. Can be air-dropped</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2015</year><number>250</number></data>
+		<data><month>12</month><year>2050</year><number>250</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-BMD-4M.png</image_profile>
+			<weight>15000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>UTD-29</name>
+				<horsepower>500</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2600</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>4</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>160</offsetX><offsetY>250</offsetY><angle>135</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>160</offsetX><offsetY>200</offsetY><angle>135</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>160</offsetX><offsetY>150</offsetY><angle>135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-BMD-4M.png</image_view>
+
+			<width>310</width>
+			<length>610</length>
+			<height>85</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>30@-64</upper_front>
+				<lower_front>30@-77</lower_front>
+				<upper_side>29</upper_side>
+				<lower_side>20@-46</lower_side>
+				<upper_rear>20@-2</upper_rear>
+				<lower_rear>20@-12</lower_rear>
+				<top>8</top>
+				<bottom>5</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>310</width>
+			<length>610</length>
+			<height>95</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>19@72</upper_front>
+				<lower_front>39@-36</lower_front>
+				<side>40</side>
+				<rear>29</rear>
+				<top>8</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-BMD-4M turret.png</image_view>
+
+			<diameter>215</diameter>
+			<height>60</height>
+			<offsetX>-2</offsetX>
+			<offsetY>-20</offsetY>
+
+			<rotate_time>6</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>20@43</front>
+				<side>10@10</side>
+				<rear>10@2</rear>
+				<top>6</top>
+				<mantlet>20</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>80</offsetX><offsetY>-79</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>80</offsetX><offsetY>-79</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>80</offsetX><offsetY>-79</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-80</offsetX><offsetY>-79</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-80</offsetX><offsetY>-79</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-80</offsetX><offsetY>-79</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_100_2A70</type><offsetX>-19</offsetX><offsetY>3</offsetY></weapon>
+			<weapon><type>WEAPON_CANNON_30_2A42</type><offsetX>-3</offsetX><offsetY>-67</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_PKT</type><offsetX>-27</offsetX><offsetY>-53</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_100_2A70</for><flavour>FLAVOUR_ATGM</flavour><rounds>4</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_100_2A70</for><flavour>FLAVOUR_HE</flavour><rounds>34</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_2A42</for><flavour>FLAVOUR_APDS</flavour><rounds>214</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_2A42</for><flavour>FLAVOUR_HE</flavour><rounds>250</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKT</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

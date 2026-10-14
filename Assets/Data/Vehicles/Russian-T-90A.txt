@@ -1,0 +1,149 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>T-90A</long_name>
+		<short_name>T-90A</short_name>
+		<comment>A Russian main battle tank and an upgraded version of the T-90, with 125mm 2A46M-5 cannon, 1 PKTM and 1 Kord machine gun.</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2005</year><number>400</number></data>
+		<data><month>12</month><year>2050</year><number>400</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-T-90A.png</image_profile>
+			<weight>46500</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>V-92S2</name>
+				<horsepower>1000</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>800</rpm_idle>
+				<rpm_limit>2300</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>7</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_TWIN_TRANSMISSION</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>-155</offsetX><offsetY>150</offsetY><angle>-145</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-T-90A.png</image_view>
+
+			<width>340</width>
+			<length>680</length>
+			<height>65</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>100@-60</front>
+				<upper_side>75@5</upper_side>
+				<lower_side>60@-15</lower_side>
+				<rear>20@-25</rear>
+				<top>40</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>40</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>340</width>
+			<length>640</length>
+			<height>80</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>20</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>241@68</front>
+				<side>210</side>
+				<rear>45@16</rear>
+				<top>40</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-T-90A turret.png</image_view>
+
+			<diameter>250</diameter>
+			<height>74</height>
+			<offsetX>0</offsetX>
+			<offsetY>-10</offsetY>
+
+			<rotate_time>18</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>550@40</upper_front>
+				<lower_front>550@-40</lower_front>
+				<upper_side>140@45</upper_side>
+				<lower_side>190@20</lower_side>
+				<rear>50@25</rear>
+				<top>45</top>
+				<mantlet>410</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>120</offsetX><offsetY>20</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>120</offsetX><offsetY>20</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>120</offsetX><offsetY>20</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>20</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>20</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-130</offsetX><offsetY>20</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_125_2A46M_5</type></weapon>
+			<weapon><type>WEAPON_LMG_PKTM</type><offsetX>25</offsetX><offsetY>-82</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_125_2A46M_5</for><flavour>FLAVOUR_HE</flavour><rounds>17</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_125_2A46M_5</for><flavour>FLAVOUR_HEATFS</flavour><rounds>3</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_125_2A46M_5</for><flavour>FLAVOUR_ATGM</flavour><rounds>3</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_125_2A46M_5</for><flavour>FLAVOUR_APFSDS</flavour><rounds>15</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKTM</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>40</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>40</rounds></ammo>
+			</man>
+		</turret>
+
+		<fixed_weapon>
+			<image_view>Image-T-90A gun.png</image_view>
+
+			<offsetX>72</offsetX>
+			<offsetY>32</offsetY>
+			<offsetZ>240</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>160</rotate_left>
+			<rotate_right>160</rotate_right>
+
+			<weapon><type>WEAPON_HMG_KORD</type></weapon>
+			<ammo><for>WEAPON_HMG_KORD</for><rounds>300</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

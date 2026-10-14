@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>25mm Bushmaster Chain Gun</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>25</calibre>
+		<barrel_length>218</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon25</sound_shoot>
+		<rof>300</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>300</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>1100</speed><mass>0.182</mass><HE>0.025</HE><name>HE</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1345</speed><mass>0.134</mass><name>M791</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1385</speed><mass>0.096</mass><name>M919</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA</countries>
+	</usage>
+
+</weapon>

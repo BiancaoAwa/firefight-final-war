@@ -1,0 +1,128 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_JAPANESE</nationality>
+
+		<long_name>Type 74</long_name>
+		<short_name>Type 74</short_name>
+		<comment>A Japanese main battle tank with a 105mm L7A1 cannon and a 12.7mm machine gun. With hydropneumatic suspension</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1975</year><number>500</number></data>
+		<data><month>3</month><year>2024</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-Type 74.png</image_profile>
+			<weight>42500</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Mitsubishi 10ZF Model</name>
+				<horsepower>750</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe><offsetX>70</offsetX><offsetY>220</offsetY><angle>135</angle></exhaust_pipe>
+			<exhaust_pipe><offsetX>-70</offsetX><offsetY>220</offsetY><angle>-135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-Type 74.png</image_view>
+
+			<width>320</width>
+			<length>690</length>
+			<height>158</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>180@65</upper_front>
+				<lower_front>80@-57</lower_front>
+				<side>35@44</side>
+				<rear>20</rear>
+				<top>25</top>
+				<bottom>40</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<fixed_weapon>
+			<offsetX>48</offsetX>
+			<offsetY>-49</offsetY>
+			<offsetZ>140</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_HMG_M2HB</type><mount>ball</mount></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>500</rounds></ammo>
+
+		</fixed_weapon>
+
+		<turret>
+			<image_view>Image-Type 74 turret.png</image_view>
+
+			<diameter>250</diameter>
+			<height>72</height>
+			<offsetX>0</offsetX>
+			<offsetY>-50</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>200@50</front>
+				<side>130@30</side>
+				<rear>37@20</rear>
+				<top>67</top>
+				<mantlet>320</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>95</offsetX><offsetY>-94</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>95</offsetX><offsetY>-94</offsetY><angle>20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>95</offsetX><offsetY>-94</offsetY><angle>40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-95</offsetX><offsetY>-94</offsetY><angle>0</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-95</offsetX><offsetY>-94</offsetY><angle>-20</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-95</offsetX><offsetY>-94</offsetY><angle>-40</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_105_M68</type><offsetX>-4</offsetX><offsetY>24</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_TYPE_74</type><offsetX>26</offsetX><offsetY>-82</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_105_M68</for><flavour>FLAVOUR_APFSDS</flavour><rounds>18</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_M68</for><flavour>FLAVOUR_HEAT</flavour><rounds>12</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_105_M68</for><flavour>FLAVOUR_APDS</flavour><rounds>12</rounds></ammo>
+			<ammo><for>WEAPON_LMG_TYPE_74</for><rounds>2500</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_SMG_M3</type></weapon>
+				<ammo><for>WEAPON_SMG_M3</for><rounds>200</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

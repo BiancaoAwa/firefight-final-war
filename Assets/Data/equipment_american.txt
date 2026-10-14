@@ -1,0 +1,63 @@
+// infantry
+American-Infantry Squad 1					// infantry squads
+American-Infantry Squad 1 (M7)
+American-Infantry Squad (Airborne) 1
+American-Marine Rifle Squad 1				// US Marine Corps
+American-Marine Rifle Squad (LAV) 1
+American-Marine Weapons Squad 1
+
+American-Joseph Joestar					//sponsor team
+
+AAA-NOTHING					// weapon teams
+
+American-Mortar M224					// mortars
+American-Mortar M252
+American-Mortar M120
+
+American-HMG M2HB					// heavy machine guns
+
+// AT guns
+//American-M777
+//American-TOW e
+//American-TOW f
+
+// vehicles
+American-M1A2SEP V4					// tanks
+American-M1A2SEP V3
+American-M1A2SEP V2
+American-M1A2SEP TUSK2
+American-M1A2SEP
+American-M1A2TUSK
+American-M1A2
+American-M1A1AIM
+//American-M1A1
+//American-M1
+//American-M10 Booker
+//American-M60A3TTS
+//American-M60A3
+//American-M60A2
+//American-M60A1
+//American-M60
+American-HSTV-L
+
+American-M1128					// assault guns
+
+//American-M109A7					// self-propelled guns
+
+American-M2A3 IFV					///infantry frighting vehicles
+American-M3A3 CFV
+//American-M7A3 BFIST
+American-LAV-25
+
+//American-M1114 HMMWV					// armoured cars
+American-JLTV
+American-JLTV (M230 LF)
+American-GMV
+American-M-ATV
+
+American-M1126					// armoured personnel carriers
+American-M1127
+American-M113A3
+American-AMPV
+
+AAA-NOTHING					// lorries

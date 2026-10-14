@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>L83A2 Smoke Grenade </name>
+	<type>WEAPON_GRENADE</type>
+
+	<dimensions>
+	</dimensions>
+
+	<shoot>
+		<muzzle_flash>no</muzzle_flash>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_SMOKE</flavour><mass>0.325</mass><name>Grenade</name></type>
+	</ammo>
+
+	<comments>
+	</comments>
+
+	<usage>
+		<countries>UNITED_KINGDOM</countries>
+		<period>MODERN</period>
+	</usage>
+
+</weapon>

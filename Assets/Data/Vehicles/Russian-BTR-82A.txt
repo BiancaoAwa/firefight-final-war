@@ -1,0 +1,134 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>BTR-82A</long_name>
+		<short_name>BTR-82A</short_name>
+		<comment>A newer Russian armoured troop carrier, an upgraded BTR-80, with a 30mm 2A72 autocannon and a 7.62mm PKTM coaxial machine gun</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2013</year><number>500</number></data>
+		<data><month>12</month><year>2040</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-BTR-82A.png</image_profile>
+			<weight>14550</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>KAMAZ 740.14-300</name>
+				<horsepower>300</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe><offsetX>90</offsetX><offsetY>373</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-90</offsetX><offsetY>373</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-BTR-82A.png</image_view>
+
+			<width>290</width>
+			<length>765</length>
+			<height>152</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>20@-45</upper_front>
+				<lower_front>20@-55</lower_front>
+				<upper_side>10@-10</upper_side>
+				<lower_side>10@-45</lower_side>
+				<upper_rear>10@-10</upper_rear>
+				<lower_rear>10@-65</lower_rear>
+				<top>15</top>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>290</width>
+			<length>710</length>
+			<height>59</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>30</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>14@77</front>
+				<side>15@25</side>
+				<rear>13@10</rear>
+				<top>10</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-BTR-82A turret.png</image_view>
+
+			<diameter>150</diameter>
+			<height>69</height>
+			<offsetX>0</offsetX>
+			<offsetY>-80</offsetY>
+
+			<rotate_time>12</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>20@40</upper_front>
+				<lower_front>20@20</lower_front>
+				<upper_side>20@20</upper_side>
+				<lower_side>20@25</lower_side>
+				<upper_rear>20@25</upper_rear>
+				<lower_rear>20@15</lower_rear>
+				<top>20</top>
+				<mantlet>23</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>25</offsetX><offsetY>-10</offsetY><angle>5</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>30</offsetX><offsetY>5</offsetY><angle>5</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>20</offsetX><offsetY>5</offsetY><angle>5</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-25</offsetX><offsetY>-10</offsetY><angle>-5</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-30</offsetX><offsetY>5</offsetY><angle>-5</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-20</offsetX><offsetY>5</offsetY><angle>-5</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_30_2A72</type><offsetX>-2</offsetX><offsetY>32</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_PKTM</type><offsetX>47</offsetX><offsetY>32</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_30_2A72</for><flavour>FLAVOUR_APDS</flavour><rounds>200</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_2A72</for><flavour>FLAVOUR_HE</flavour><rounds>300</rounds></ammo>
+			<ammo><for>WEAPON_LMG_PKTM</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

@@ -1,0 +1,107 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>M1126 Infantry Carrier Vehicle</long_name>
+		<short_name>M1126 Stryker</short_name>
+		<comment>An eight-wheeled infantry carrier vehicle with an M2 .50cal machine gun. Can mount eight soldiers</comment>
+
+		<uniform>american_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2002</year><number>500</number></data>
+		<data><month>12</month><year>2040</year><number>500</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-M1126.png</image_profile>
+			<weight>16470</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Diesel</name>
+				<horsepower>350</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2800</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_FRONT_WHEELS</steering>
+
+			<exhaust_pipe>
+				<offsetX>120</offsetX>
+				<offsetY>-160</offsetY>
+				<horizontal_angle>140</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M1126.png</image_view>
+
+			<width>260</width>
+			<length>690</length>
+			<height>172</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>18@-54</front>
+				<side>25@-28</side>
+				<rear>13@-12</rear>
+				<top>18</top>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>260</width>
+			<length>670</length>
+			<height>92</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>20</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>18@71</front>
+				<side>18@11</side>
+				<rear>13@-12</rear>
+				<top>18</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-M1126 gun.png</image_view>
+
+			<offsetX>45</offsetX>
+			<offsetY>27</offsetY>
+			<offsetZ>292</offsetZ>
+			<minAngle>-160</minAngle>
+			<maxAngle>160</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_HMG_M2HB</type></weapon>
+			<ammo><for>WEAPON_HMG_M2HB</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

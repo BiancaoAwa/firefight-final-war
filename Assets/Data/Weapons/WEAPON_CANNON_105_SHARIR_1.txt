@@ -1,0 +1,28 @@
+<weapon>
+
+	<name>105mm Sharir Cannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>105</calibre>
+		<barrel_length>535</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>9</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HESH</flavour><speed>731</speed><mass>11.4</mass><HE>3.2</HE><name>M156</name></type>
+		<type><flavour>FLAVOUR_HEATFS</flavour><speed>1174</speed><mass>10.5</mass><era>HEAT_ERA_COLD_WAR_EARLY</era><HE>1.3</HE><name>M152</name></type>
+		<type><flavour>FLAVOUR_APFSDS</flavour><speed>1455</speed><mass>4.2</mass><name>M111</name></type>
+		<type><flavour>FLAVOUR_SMOKE</flavour><speed>100</speed><mass>11.6</mass><name>M416</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>ISRAEL</countries>
+	</usage>
+
+</weapon>

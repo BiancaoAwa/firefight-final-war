@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>30mm 2A72 autocannon</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>30</calibre>
+		<barrel_length>242</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>350</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>250</capacity>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>960</speed><mass>0.389</mass><HE>0.0049</HE><name>3UOF8</name></type>
+		<type><flavour>FLAVOUR_APCBC</flavour><speed>970</speed><mass>0.4</mass><name>3UBR6</name></type>
+		<type><flavour>FLAVOUR_APDS</flavour><speed>1120</speed><mass>0.304</mass><name>3UBR8</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

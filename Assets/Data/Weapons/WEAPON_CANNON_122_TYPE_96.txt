@@ -1,0 +1,26 @@
+<weapon>
+
+	<name>122mm PL-96 Howitzer</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>122</calibre>
+		<barrel_length>487</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon</sound_shoot>
+		<rof>7</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>690</speed><mass>21.5</mass><HE>3.5</HE><name>PL96-122 HE</name></type>
+		<type><flavour>FLAVOUR_HEAT</flavour><speed>515</speed><mass>25</mass><HE>3</HE><name>HEAT</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,34 @@
+// infantry
+Japanese-Infantry Squad 1					// infantry squads
+Japanese-Infantry Squad 2
+
+AAA-NOTHING					// weapon teams
+
+Japanese-Mortar Type 96					// mortars
+
+AAA-NOTHING					// heavy machine guns
+
+// AT guns
+
+// vehicles
+Japanese-Type 10					// tanks
+Japanese-Type 90
+Japanese-Type 74
+Japanese-Type 61
+
+Japanese-Type 16					// assault guns
+
+Japanese-Type 75					// self-propelled guns
+Japanese-Type 99 HSP
+Japanese-Type 75 MLRS
+Japanese-M270 MLRS
+
+Japanese-Type 89 IFV					///infantry frighting vehicles
+
+Japanese-Type 60 SPRG					// armoured cars
+Japanese-Type 87 RCV
+
+Japanese-Type 96 A					// armoured personnel carriers
+Japanese-Type 96 B
+
+AAA-NOTHING					// lorries

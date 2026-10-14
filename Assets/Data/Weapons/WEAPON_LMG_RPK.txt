@@ -1,0 +1,32 @@
+<weapon>
+
+	<name>RPK</name>
+	<type>WEAPON_LMG</type>
+
+	<dimensions>
+		<calibre>7.62</calibre>
+		<barrel_length>59</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_762x39</sound_shoot>
+		<range>450</range>
+		<rof>600</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>40</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>745</speed><mass>0.0079</mass><name>7.62x39mm</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>RUSSIA</countries>
+	</usage>
+
+</weapon>

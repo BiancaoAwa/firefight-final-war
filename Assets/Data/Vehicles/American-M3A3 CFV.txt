@@ -1,0 +1,125 @@
+<squad>
+	<description>
+		<type>TYPE_TANK</type>
+		<nationality>NATIONALITY_AMERICAN</nationality>
+
+		<long_name>M3A3 Bradley Cavalry Fighting Vehicle</long_name>
+		<short_name>M3A3</short_name>
+		<comment>A cavalry fighting vehicle of the US Army with TOW ATGMs and a 25mm cannon. Can mount two scouts</comment>
+
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2000</year><number>200</number></data>
+		<data><month>12</month><year>2026</year><number>200</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-M3A3 CFV.png</image_profile>
+			<weight>22655</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Cummins VTA-903T</name>
+				<horsepower>600</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>5</forwards>
+				<reverse>1</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>160</offsetX><offsetY>-100</offsetY><angle>150</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-M3A3 CFV.png</image_view>
+
+			<width>340</width>
+			<length>640</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>25@-40</front>
+				<upper_side>51</upper_side>
+				<lower_side>51@-45</lower_side>
+				<rear>6@-9</rear>
+				<top>10</top>
+				<bottom>15</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>340</width>
+			<length>620</length>
+			<height>105</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>30</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>25@59</front>
+				<upper_side>25@45</upper_side>
+				<lower_side>51</lower_side>
+				<rear>6@-9</rear>
+				<top>25</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-M3A3 CFV turret.png</image_view>
+
+			<diameter>240</diameter>
+			<height>90</height>
+			<offsetX>0</offsetX>
+			<offsetY>50</offsetY>
+
+			<rotate_time>6</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>25@30</upper_front>
+				<lower_front>25@-30</lower_front>
+				<upper_side>25@30</upper_side>
+				<lower_side>25@-30</lower_side>
+				<rear>6</rear>
+				<top>25</top>
+				<mantlet>25</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_25_M242_BUSHMASTER</type><offsetX>-5</offsetX><offsetY>-48</offsetY></weapon>
+			<weapon><type>WEAPON_LMG_M240</type><offsetX>29</offsetX><offsetY>-72</offsetY></weapon>
+			<weapon><type>WEAPON_ATGM_BGM_71_TOW_A</type><offsetX>-121</offsetX><offsetY>45</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_25_M242_BUSHMASTER</for><flavour>FLAVOUR_HE</flavour><rounds>937</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_25_M242_BUSHMASTER</for><flavour>FLAVOUR_APFSDS</flavour><rounds>563</rounds></ammo>
+			<ammo><for>WEAPON_LMG_M240</for><rounds>4000</rounds></ammo>
+			<ammo><for>WEAPON_ATGM_BGM_71_TOW_A</for><flavour>FLAVOUR_HEAT</flavour><rounds>12</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_COLT</type></weapon>
+				<ammo><for>WEAPON_PISTOL_COLT</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

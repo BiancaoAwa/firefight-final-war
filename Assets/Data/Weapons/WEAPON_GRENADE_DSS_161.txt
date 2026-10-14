@@ -1,0 +1,22 @@
+<weapon>
+
+	<name>DSS-161 Grenade</name>
+	<type>WEAPON_GRENADE</type>
+
+	<dimensions>
+	</dimensions>
+
+	<shoot>
+		<muzzle_flash>no</muzzle_flash>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_GRENADE_HE</flavour><mass>0.25</mass><HE>0.07</HE><explode_in>3.8</explode_in><name>DSS-161 Grenade</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>CHINA</countries>
+	</usage>
+
+</weapon>

@@ -1,0 +1,146 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_RUSSIAN</nationality>
+
+		<long_name>BTR-MDM Rukushka</long_name>
+		<short_name>BTR-MDM</short_name>
+		<comment>A further development of the BTR-MD airborne tracked multi-role armored vehicle, with a 7.92 PKTM Machine gun and a 12.7mm KORD Machine gun. Can mount 13 soldiers</comment>
+
+		<uniform>russian_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>2016</year><number>400</number></data>
+		<data><month>12</month><year>2050</year><number>400</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-BTR-MDM.png</image_profile>
+			<weight>13200</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>UTD-29</name>
+				<horsepower>500</horsepower>
+				<reliability>RELIABILITY_AVERAGE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2600</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>4</reverse>
+			</gears>
+
+			<steering>STEERING_DOUBLE_DIFFERENTIAL</steering>
+
+			<can_make_smoke_screen>yes</can_make_smoke_screen>
+
+			<exhaust_pipe>
+				<offsetX>150</offsetX>
+				<offsetY>250</offsetY>
+				<horizontal_angle>135</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+
+			<exhaust_pipe>
+				<offsetX>150</offsetX>
+				<offsetY>200</offsetY>
+				<horizontal_angle>135</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+
+			<exhaust_pipe>
+				<offsetX>150</offsetX>
+				<offsetY>150</offsetY>
+				<horizontal_angle>135</horizontal_angle>
+				<vertical_angle>0</vertical_angle>
+			</exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-BTR-MDM.png</image_view>
+
+			<width>310</width>
+			<length>610</length>
+			<height>135</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>30@-64</upper_front>
+				<lower_front>30@-77</lower_front>
+				<upper_side>29</upper_side>
+				<lower_side>20@-46</lower_side>
+				<upper_rear>20@-2</upper_rear>
+				<lower_rear>20@-12</lower_rear>
+				<top>8</top>
+				<bottom>5</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>310</width>
+			<length>610</length>
+			<height>115</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>19@72</upper_front>
+				<lower_front>39@68</lower_front>
+				<side>40</side>
+				<rear>29</rear>
+				<top>8</top>
+			</armour>
+			<smoke_discharger><offsetX>110</offsetX><offsetY>-260</offsetY><angle>5</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>100</offsetX><offsetY>-260</offsetY><angle>-5</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-110</offsetX><offsetY>-260</offsetY><angle>-5</angle><elevation>0</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-100</offsetX><offsetY>-260</offsetY><angle>5</angle><elevation>0</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+
+		</superstructure>
+
+		<fixed_weapon>
+			<offsetX>107</offsetX>
+			<offsetY>-227</offsetY>
+			<offsetZ>210</offsetZ>
+			<minAngle>-20</minAngle>
+			<maxAngle>20</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_LMG_PKTM</type><mount>ball</mount></weapon>
+			<ammo><for>WEAPON_LMG_PKTM</for><rounds>2000</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>Image-BTR-MDM turret.png</image_view>
+
+			<offsetX>-61</offsetX>
+			<offsetY>-150</offsetY>
+			<offsetZ>260</offsetZ>
+			<minAngle>-160</minAngle>
+			<maxAngle>160</maxAngle>
+
+			<rotate_time>5</rotate_time>
+			<weapon><type>WEAPON_HMG_KORD</type></weapon>
+			<ammo><for>WEAPON_HMG_KORD</for><rounds>2000</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_AKS_74U</type></weapon>
+				<ammo><for>WEAPON_CARBINE_AKS_74U</for><rounds>60</rounds></ammo>
+			</man>
+		</fixed_weapon>
+	</vehicle>
+</squad>

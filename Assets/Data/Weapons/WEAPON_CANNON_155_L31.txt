@@ -1,0 +1,25 @@
+<weapon>
+
+	<name>155mm L31 Howitzer</name>
+	<type>WEAPON_CANNON</type>
+
+	<dimensions>
+		<calibre>155</calibre>
+		<barrel_length>806</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_cannon155</sound_shoot>
+		<rof>6</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_HE</flavour><speed>827</speed><mass>43.5</mass><HE>11.8</HE><name>L15A3</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>UNITED_KINGDOM</countries>
+	</usage>
+
+</weapon>

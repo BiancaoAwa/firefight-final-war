@@ -1,0 +1,31 @@
+<weapon>
+
+	<name>.50 Cal Machine Gun</name>
+	<type>WEAPON_HMG</type>
+
+	<dimensions>
+		<calibre>12.7</calibre>
+		<barrel_length>64</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_HMG</sound_shoot>
+		<rof>514</rof>
+		<reload>RELOAD_AUTOMATIC</reload>
+	</shoot>
+
+	<magazine>
+		<capacity>250</capacity>
+		<sound_reload>reload_magazine</sound_reload>
+	</magazine>
+
+	<ammo>
+		<type><flavour>FLAVOUR_BALL</flavour><speed>890</speed><mass>0.045</mass><name>.50 BMG</name></type>
+	</ammo>
+
+	<usage>
+		<period>MODERN</period>
+		<countries>USA|UNITED_KINGDOM|FRANCE|RUSSIA</countries>
+	</usage>
+
+</weapon>

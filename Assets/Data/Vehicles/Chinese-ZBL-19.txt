@@ -1,0 +1,172 @@
+<squad>
+	<description>
+		<type>TYPE_INFANTRY_FIGHTING_VEHICLE</type>
+		<nationality>NATIONALITY_CHINESE</nationality>
+
+		<long_name>ZBL-19 Infantry Fighting Vehicle</long_name>
+		<short_name>ZBL-19</short_name>
+		<comment>The latest PLA tracked infantry fighting vehicle with an unmanned 30mm autocannon turret. Can mount an infantry squad</comment>
+
+		<uniform>chinese_vehicle_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>12</month><year>2021</year><number>350</number></data>
+		<data><month>12</month><year>2050</year><number>350</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-ZBL-19.png</image_profile>
+			<weight>21000</weight>
+			<can_mount_infantry>yes</can_mount_infantry>
+			<is_amphibious>yes</is_amphibious>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Deutz BF6M101SC</name>
+				<horsepower>470</horsepower>
+				<reliability>RELIABILITY_GOOD</reliability>
+				<mount>MOUNT_FRONT</mount>
+				<rpm_idle>520</rpm_idle>
+				<rpm_limit>3000</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>140</offsetX><offsetY>-200</offsetY><angle>-200</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-ZBL-19.png</image_view>
+
+			<width>300</width>
+			<length>800</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>70@-40</upper_front>
+				<lower_front>45@-55</lower_front>
+				<upper_side>20@-10</upper_side>
+				<lower_side>20@-35</lower_side>
+				<upper_rear>30@-7</upper_rear>
+				<lower_rear>25@-40</lower_rear>
+				<top>10</top>
+				<bottom>10</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_RIFLE_QBZ_95B</type></weapon>
+				<ammo><for>WEAPON_RIFLE_QBZ_95B</for><rounds>200</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>300</width>
+			<length>820</length>
+			<height>60</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>40@77</upper_front>
+				<lower_front>65@46</lower_front>
+				<side>25@15</side>
+				<rear>30@-10</rear>
+				<top>15</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-ZBL-19 turret.png</image_view>
+
+			<diameter>240</diameter>
+			<height>60</height>
+			<offsetX>0</offsetX>
+			<offsetY>130</offsetY>
+
+			<rotate_time>20</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<upper_front>32@35</upper_front>
+				<lower_front>32@15</lower_front>
+				<upper_side>20@25</upper_side>
+				<lower_side>20@5</lower_side>
+				<rear>20@5</rear>
+				<top>6</top>
+				<mantlet>0</mantlet>
+			</armour>
+
+			<smoke_discharger><offsetX>75</offsetX><offsetY>-94</offsetY><angle>5</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>80</offsetX><offsetY>-84</offsetY><angle>15</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>85</offsetX><offsetY>-84</offsetY><angle>25</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>90</offsetX><offsetY>-84</offsetY><angle>35</angle><elevation>50</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>95</offsetX><offsetY>-74</offsetY><angle>45</angle><elevation>55</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-75</offsetX><offsetY>-94</offsetY><angle>-5</angle><elevation>35</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-80</offsetX><offsetY>-84</offsetY><angle>-15</angle><elevation>40</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-85</offsetX><offsetY>-84</offsetY><angle>-25</angle><elevation>45</elevation><speed>10</speed><ammo>1</ammo><reload>0</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-90</offsetX><offsetY>-84</offsetY><angle>-35</angle><elevation>50</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-95</offsetX><offsetY>-74</offsetY><angle>-45</angle><elevation>55</elevation><speed>10</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>10</offsetX><offsetY>-95</offsetY><angle>15</angle><elevation>45</elevation><speed>15</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>5</offsetX><offsetY>-95</offsetY><angle>5</angle><elevation>45</elevation><speed>15</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-10</offsetX><offsetY>-95</offsetY><angle>-15</angle><elevation>45</elevation><speed>15</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+			<smoke_discharger><offsetX>-5</offsetX><offsetY>-95</offsetY><angle>-5</angle><elevation>45</elevation><speed>15</speed><ammo>1</ammo><reload>4</reload></smoke_discharger>
+
+			<weapon><type>WEAPON_CANNON_30_ZPL_02</type><offsetX>1</offsetX><offsetY>-56</offsetY></weapon>
+			<weapon><type>WEAPON_HMG_QJG_02</type><offsetX>22</offsetX><offsetY>-82</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_30_ZPL_02</for><flavour>FLAVOUR_APFSDS</flavour><rounds>350</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_ZPL_02</for><flavour>FLAVOUR_HE</flavour><rounds>400</rounds></ammo>
+			<ammo><for>WEAPON_HMG_QJG_02</for><rounds>4000</rounds></ammo>
+
+		</turret>
+
+		<fixed_weapon>
+			<offsetX>115</offsetX>
+			<offsetY>209</offsetY>
+			<offsetZ>200</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_ATGM_HJ_73C</type></weapon>
+			<ammo><for>WEAPON_ATGM_HJ_73C</for><flavour>FLAVOUR_ATGM</flavour><rounds>4</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<offsetX>82</offsetX>
+			<offsetY>207</offsetY>
+			<offsetZ>200</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>180</rotate_left>
+			<rotate_right>180</rotate_right>
+
+			<weapon><type>WEAPON_ATGM_HJ_73C</type></weapon>
+			<ammo><for>WEAPON_ATGM_HJ_73C</for><flavour>FLAVOUR_ATGM</flavour><rounds>4</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

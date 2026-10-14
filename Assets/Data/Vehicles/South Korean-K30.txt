@@ -1,0 +1,117 @@
+<squad>
+	<description>
+		<type>TYPE_ARMOURED_CAR</type>
+		<nationality>NATIONALITY_SOUTH_KOREAN</nationality>
+
+		<long_name>K30 Biho</long_name>
+		<short_name>K30</short_name>
+		<comment>A South Korean self-propelled anti-aircraft gun with twin 30mm cannons and a search radar</comment>
+
+	</description>
+
+	<availability>
+		<data><month>12</month><year>1999</year><number>50</number></data>
+		<data><month>12</month><year>2050</year><number>50</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-K30.png</image_profile>
+			<weight>37000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>MAN-Doosan D2840L</name>
+				<horsepower>520</horsepower>
+				<reliability>RELIABILITY_VERY_GOOD</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>8</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>130</offsetX><offsetY>-130</offsetY><angle>135</angle></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-K30.png</image_view>
+
+			<width>320</width>
+			<length>690</length>
+			<height>100</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>30@-50</front>
+				<side>20</side>
+				<rear>20</rear>
+				<top>15</top>
+				<bottom>20</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>320</width>
+			<length>690</length>
+			<height>100</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>0</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>30@45</front>
+				<side>20</side>
+				<rear>20</rear>
+				<top>15</top>
+			</armour>
+		</superstructure>
+
+		<turret>
+			<image_view>Image-K30 turret.png</image_view>
+
+			<diameter>220</diameter>
+			<height>72</height>
+			<offsetX>0</offsetX>
+			<offsetY>42</offsetY>
+
+			<rotate_time>10</rotate_time>
+			<night_vision>yes</night_vision>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>25</front>
+				<side>20</side>
+				<rear>15</rear>
+				<top>15</top>
+				<mantlet>10</mantlet>
+			</armour>
+
+			<weapon><type>WEAPON_CANNON_30_KKCB</type><offsetX>79</offsetX><offsetY>-90</offsetY></weapon>
+			<weapon><type>WEAPON_CANNON_30_KKCB</type><offsetX>-87</offsetX><offsetY>-94</offsetY></weapon>
+			<ammo><for>WEAPON_CANNON_30_KKCB</for><flavour>FLAVOUR_HE</flavour><rounds>400</rounds></ammo>
+			<ammo><for>WEAPON_CANNON_30_KKCB</for><flavour>FLAVOUR_AP</flavour><rounds>200</rounds></ammo>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_K5</type></weapon>
+				<ammo><for>WEAPON_PISTOL_K5</for><rounds>60</rounds></ammo>
+			</man>
+		</turret>
+	</vehicle>
+</squad>

@@ -1,0 +1,133 @@
+<squad>
+	<description>
+		<type>TYPE_ASSAULT_GUN</type>
+		<nationality>NATIONALITY_BRITISH</nationality>
+
+		<long_name>AS-90 Artillery System</long_name>
+		<short_name>AS-90</short_name>
+		<comment>A British 155mm self-propelled howitzer with an L94A1 machine gun</comment>
+
+		<uniform>british_crew</uniform>
+	</description>
+
+	<availability>
+		<data><month>1</month><year>1992</year><number>25</number></data>
+		<data><month>5</month><year>2025</year><number>25</number></data>
+	</availability>
+
+	<vehicle>
+		<attributes>
+			<image_profile>Profile-AS-90.png</image_profile>
+			<weight>45000</weight>
+		</attributes>
+
+		<drive>
+			<engine>
+				<name>Perkins CV12 TCA</name>
+				<horsepower>660</horsepower>
+				<reliability>RELIABILITY_TERRIBLE</reliability>
+				<rpm_idle>500</rpm_idle>
+				<rpm_limit>2500</rpm_limit>
+			</engine>
+
+			<gears>
+				<forwards>4</forwards>
+				<reverse>2</reverse>
+			</gears>
+
+			<steering>STEERING_CONTROLLED_DIFFERENTIAL</steering>
+
+			<exhaust_pipe><offsetX>38</offsetX><offsetY>380</offsetY></exhaust_pipe>
+			<exhaust_pipe><offsetX>-38</offsetX><offsetY>380</offsetY></exhaust_pipe>
+		</drive>
+
+		<hull>
+			<image_view>Image-AS-90.png</image_view>
+
+			<width>330</width>
+			<length>680</length>
+			<height>125</height>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>50@-35</front>
+				<side>30@-20</side>
+				<rear>20@-20</rear>
+				<top>10</top>
+				<bottom>5</bottom>
+			</armour>
+
+			<man>
+				<job>JOB_DRIVER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_COMMANDER</job>
+				<weapon><type>WEAPON_CARBINE_L22A2</type></weapon>
+				<ammo><for>WEAPON_CARBINE_L22A2</for><rounds>90</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_GUNNER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>68</rounds></ammo>
+			</man>
+
+			<man>
+				<job>JOB_LOADER</job>
+				<weapon><type>WEAPON_PISTOL_L131A1</type></weapon>
+				<ammo><for>WEAPON_PISTOL_L131A1</for><rounds>60</rounds></ammo>
+			</man>
+		</hull>
+
+		<superstructure>
+			<width>330</width>
+			<length>680</length>
+			<height>125</height>
+
+			<offsetX>0</offsetX>
+			<offsetY>30</offsetY>
+
+			<armour>				// @0 means vertically upright, @90 is horizontal
+				<front>40@50</front>
+				<side>30@20</side>
+				<rear>20</rear>
+				<top>20</top>
+			</armour>
+		</superstructure>
+
+		<fixed_weapon>
+			<image_view>Image-AS-90 turret.png</image_view>
+
+			<offsetX>7</offsetX>
+			<offsetY>-14</offsetY>
+			<offsetZ>182000</offsetZ>
+
+			<rotate_time>10</rotate_time>
+			<rotate_left>160</rotate_left>
+			<rotate_right>160</rotate_right>
+
+			<night_vision>yes</night_vision>
+			<weapon><type>WEAPON_CANNON_155_L31</type></weapon>
+			<ammo><for>WEAPON_CANNON_155_L31</for><flavour>FLAVOUR_HE</flavour><rounds>48</rounds></ammo>
+
+		</fixed_weapon>
+
+		<fixed_weapon>
+			<image_view>ru .50 PT.png</image_view>
+
+			<offsetX>50</offsetX>
+			<offsetY>100</offsetY>
+			<offsetZ>200</offsetZ>
+
+			<rotate_time>5</rotate_time>
+			<rotate_left>120</rotate_left>
+			<rotate_right>120</rotate_right>
+
+			<weapon><type>WEAPON_LMG_L94A1</type></weapon>
+			<ammo><for>WEAPON_LMG_L94A1</for><rounds>1000</rounds></ammo>
+
+		</fixed_weapon>
+	</vehicle>
+</squad>

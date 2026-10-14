@@ -1,0 +1,21 @@
+<weapon>
+
+	<name>ATGM</name>
+	<type>WEAPON_RPG</type>
+
+	<dimensions>
+		<calibre>100</calibre>
+		<barrel_length>60</barrel_length>
+	</dimensions>
+
+	<shoot>
+		<sound_shoot>shoot_bazooka</sound_shoot>
+		<range>250</range>
+		<rof>10</rof>
+	</shoot>
+
+	<ammo>
+		<type><flavour>FLAVOUR_ATGM</flavour><speed>300</speed><mass>4</mass><smoke_trail>yes</smoke_trail><guided>GUIDED_TOP_ATTACK</guided><HE>1</HE><name>ATGM</name></type>
+	</ammo>
+
+</weapon>
