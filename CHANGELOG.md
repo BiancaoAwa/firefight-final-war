@@ -3,10 +3,15 @@
 [中文](CHANGELOG.zh.md)
 
 ## Firefight: World War III - the Final War™ 2.3.0 (2640)
+
 **Version:** 2.3.0 Release
+
 **Version Code:** 2030007
+
 **Update Type:** Major Content Update
+
 **Update Contents:**
+
 - **Added** the `American-HSTV-L` vehicle;
 - **Added** Merkava `Mk.3B`, `Mk.3C`, `Mk.3D`, `Mk.4 LIC`, `Mk.4B`, `Mk.4M` (In Production), with all-new hull/turret images for the Merkava family (Mk.1 ~ Mk.4M);
 - **Added** weapons `WEAPON_CANNON_125_ZPT98`, `WEAPON_CANNON_105_SHARIR` series, `WEAPON_CANNON_120_MG251` series, `WEAPON_CANNON_75_XM274`;
@@ -25,4 +30,3 @@
 - **Changed** the Israeli faction marked as `In Production`, third-party assets of *Firefight: Gaza Ground Warfare* registered under the MIT license;
 - **Changed** version numbering upgraded to the 7-digit scheme (BMMSSNN), data file indentation standardized (tabs).
 - Fixed other bugs.
-**AI Translation**

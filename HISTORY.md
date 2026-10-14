@@ -2,13 +2,18 @@
 
 [中文](HISTORY.zh.md)
 
-====2026.10.1 UTC+8====
+## 2026-10-01 (UTC+8)
 
-## Firefight: World War III - the Final War™ 2.3.0 (2640)
+### Firefight: World War III - the Final War™ 2.3.0 (2640)
+
 **Version:** 2.3.0 Release
+
 **Version Code:** 2030007
+
 **Update Type:** Major Content Update
+
 **Update Contents:**
+
 - **Added** the `American-HSTV-L` vehicle;
 - **Added** Merkava `Mk.3B`, `Mk.3C`, `Mk.3D`, `Mk.4 LIC`, `Mk.4B`, `Mk.4M` (In Production), with all-new hull/turret images for the Merkava family (Mk.1 ~ Mk.4M);
 - **Added** weapons `WEAPON_CANNON_125_ZPT98`, `WEAPON_CANNON_105_SHARIR` series, `WEAPON_CANNON_120_MG251` series, `WEAPON_CANNON_75_XM274`;
@@ -27,61 +32,79 @@
 - **Changed** the Israeli faction marked as `In Production`, third-party assets of *Firefight: Gaza Ground Warfare* registered under the MIT license;
 - **Changed** version numbering upgraded to the 7-digit scheme (BMMSSNN), data file indentation standardized (tabs).
 - Fixed other bugs.
-**AI Translation**
 
+## 2026-06-12 (UTC+8)
 
-====2026.6.12 UTC+8====
-## Firefight: World War III - the Final War™
+### Firefight: World War III - the Final War™
+
 **Version:** 2.2.3 Release
+
 **Version Code:** 22301
+
 **Update Contents:**
+
 - **Upgraded** `Firefight` version to 12.2.0 (for Android);
 - **Optimized** data of `American-M1A1AIM`, `American-M1A2`, `American-M1A2SEP TUSK2`, `American-M1A2SEP V2`, `American-M1A2SEP V3`, `American-M1A2SEP V4`, `American-M1A2SEP`, `American-M1A2TUSK`;
 - **Fixed** the bug of missing weapon `WEAPON_TEST_CH901` of `Chinese-ZBD-100`;
 - Fixed other bugs.
-**AI Translation**
 
-====2026.5.29 UTC+8====
-## Firefight: World War III - the Final War™
+## 2026-05-29 (UTC+8)
+
+### Firefight: World War III - the Final War™
+
 **Version:** 2.2.2 Release
+
 **Version Code:** 22201
+
 **Update Contents:**
+
 - **Upgraded** `Firefight` version to 12.1.2 (for Android);
 - **Fixed** the turret armor problem of `Russian-BTR-90 Berezhok`;
 - **Reset** the armor of `Russian-T-14`, `Russian-T-15 2A90`, `Russian-T-15`;
 - **Added** `American-Infantry Squad 1 (M7)`, `American-Mortar M120`, `American-Mortar M224`, `American-Mortar M252`;
 - Fixed other bugs.
-**AI Translation**
 
-====2026.5.22 UTC+8====
-## Firefight: World War III - the Final War™
+## 2026-05-22 (UTC+8)
+
+### Firefight: World War III - the Final War™
+
 **Version:** 2.2.1 Release
+
 **Version Code:** 22102
+
 **Update Content:**
+
 - Upgraded the game core to version 12.1.0
 - Changed background music
 - Replaced UI interface (incomplete)
 - Added night vision support
-**AI Translation**
 
-====2026.3.27 UTC+8====
-Firefight: World War III - the Final War
+## 2026-03-27 (UTC+8)
+
+### Firefight: World War III - the Final War
+
 **Version:** 2.2.0-2 Release
+
 **Version Code:** 22003
+
 **Update Content:**
+
 - Added the ZTZ-99B Main Battle Tank
 - Optimized Chinese units
 - Fixed Al-Khalid tank's turret was positioned too far forward
 - Fixed several French weapons were missing
 - Firefight has been updated to version 11.9.0
-**AI Translation**
 
+## 2026-03-20 (UTC+8)
 
-====2026.3.20 UTC+8====
-Firefight: World War III - the Final War
+### Firefight: World War III - the Final War
+
 **Version:** 2.2.0 Release
+
 **Version Code:** 22000
+
 **Update Content:**
+
 - Added the "Storm" (TShRK Shturm) system.
 - Added the U.S. Armored Multi-Purpose Vehicle (AMPV), Ground Mobility Vehicle (GMV), Joint Light Tactical Vehicle (JLTV), Joint Light Tactical Vehicle (with M230), Mine-Resistant Ambush Protected All-Terrain Vehicle (M-ATV), and the M7A3 Bradley.
 - Completely removed the U.S. overseas troops.
@@ -89,14 +112,17 @@ Firefight: World War III - the Final War
 - Fixed Type 100 Tank can't be used.
 - Fixed CM33's availability time.
 - Fixed other bugs.
-**AI Translation**
 
+## 2026-03-13 (UTC+8)
 
-====2026.3.13 UTC+8====
-Firefight: World War III - the Final War
+### Firefight: World War III - the Final War
+
 **Version:** 2.1.0 Release
+
 **Version Number:** 21005
+
 **Update Content:**
+
 - Adjusted mod settings to make anti-tank guns unavailable.
 - Borrowed assets from the "Asia Pacific Storm" mod (<@1099250465771888660>)  to add a large number of vehicles and introduce four new playable factions, including Japan and India.
 - The mod's time has been changed to 2024 to 2033, with a reset of the worldview.
@@ -106,4 +132,3 @@ Firefight: World War III - the Final War
 - Updated Firefight version to 11.8.3.
 - Deleted some units and organized unit file names in preparation for future updates.
 - Polished other details.
-**AI Translation**
