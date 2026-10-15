@@ -8,10 +8,8 @@ flowchart TD
         LIC["LICENSE<br/>CC BY-SA 4.0 legal code"]
         RM["README.md<br/>overview, team, license, attribution requirement"]
         RMZ["README.zh.md<br/>Chinese version of README.md"]
-        CL["CHANGELOG.md<br/>release notes"]
+        CL["CHANGELOG.md<br/>release notes and complete change history"]
         CLZ["CHANGELOG.zh.md<br/>Chinese version of CHANGELOG.md"]
-        HI["HISTORY.md<br/>complete change history"]
-        HIZ["HISTORY.zh.md<br/>Chinese version of HISTORY.md"]
         CR["CREDITS.md<br/>contributors and sponsors"]
         TPN["THIRD-PARTY-NOTICES.md<br/>third-party components and their terms"]
         FL["docs/flow.md<br/>this document"]
@@ -36,7 +34,6 @@ flowchart TD
     MOD --> SOUNDS
     RM <--> RMZ
     CL <--> CLZ
-    HI <--> HIZ
     RM --> TPN
     RM --> FL
     PAYLOAD -.-> PENDING
