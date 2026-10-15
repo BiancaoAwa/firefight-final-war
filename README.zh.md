@@ -21,8 +21,7 @@
 | `Assets/Data/` | 单位、载具、武器与装备数据 |
 | `Assets/Images/` | 单位、载具、车体、侧视、炮塔与制服图像 |
 | `Assets/Sounds/` | 武器、爆炸、语音与音乐音效 |
-| `CHANGELOG.md` | 版本更新说明（英文版 `CHANGELOG.md`，中文版 `CHANGELOG.zh.md`） |
-| `HISTORY.md` | 完整更新历史（英文版 `HISTORY.md`，中文版 `HISTORY.zh.md`） |
+| `CHANGELOG.md` | 版本更新说明与完整更新历史（英文版 `CHANGELOG.md`，中文版 `CHANGELOG.zh.md`） |
 | `CREDITS.md` | 贡献者与赞助者 |
 | `THIRD-PARTY-NOTICES.md` | 第三方素材与其许可证 |
 | `docs/flow.md` | 仓库结构与数据流 |

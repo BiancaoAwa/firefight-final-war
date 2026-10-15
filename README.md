@@ -21,8 +21,7 @@ A total-conversion mod project for the 2D top-down real-time simulation *Firefig
 | `Assets/Data/` | Unit, vehicle, weapon and equipment data |
 | `Assets/Images/` | Unit, vehicle, hull, profile, turret and uniform artwork |
 | `Assets/Sounds/` | Weapon, explosion, voice and music assets |
-| `CHANGELOG.md` | Release notes |
-| `HISTORY.md` | Complete change history |
+| `CHANGELOG.md` | Release notes and complete change history (English; Chinese in `CHANGELOG.zh.md`) |
 | `CREDITS.md` | Contributors and sponsors |
 | `THIRD-PARTY-NOTICES.md` | Third-party components and their licenses |
 | `docs/flow.md` | Repository structure and data flow |
