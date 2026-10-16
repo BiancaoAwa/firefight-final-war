@@ -4,12 +4,20 @@
 
 A total-conversion mod project for the 2D top-down real-time simulation *Firefight*.
 
+## About the project
+
+Since the turn of the new century, the international landscape has remained turbulent and unpredictable, and the old order has continued to erode and crumble. If one day World War III were to suddenly break out, it would be the last war in human history. It would not stop, nor would it end simply because one side backed down—unless a single victor emerged. There would be no bystanders and no way back; the entire world would be drawn into this irreversible Final War.
+
+This is the backstory and core atmosphere of the mod. It is a large-scale Firefight mod set in the modern and near-future era, with the vast majority of its content developed independently by our team. Through continued development and refinement, we hope to build around this setting a more complete battlefield experience, factional conflict, and near-future warfare atmosphere.
+
+This project is licensed under CC BY-SA 4.0.
+
 ## Overview
 
 | Item | Value |
 | --- | --- |
 | Current version | `2.3.0` |
-| Release date | `2026.10.1` (YYYY.MM.DD) |
+| Release date | `2026-10-01` |
 | License | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) |
 | Team | *Firefight: World War III Mod Development Team*, based in Mainland China |
 
@@ -39,6 +47,14 @@ A total-conversion mod project for the 2D top-down real-time simulation *Firefig
 | Logic | Images, data |
 
 Contact: [BC_awa@163.com](mailto:BC_awa@163.com)
+
+## Contributing
+
+GitHub repository: <https://github.com/BiancaoAwa/firefight-final-war>
+
+If you are also interested in this near-future final battlefield, you are welcome to contribute to the project. Whether it is adding assets, submitting improvements, reporting issues, or taking part in development, we welcome your help. All contributions are subject to our review to ensure quality, compatibility, and consistency with the project’s overall style.
+
+If you would like, you are also welcome to join us and help make this project even better. We look forward to more like-minded people joining us to witness and shape this “Final War” together.
 
 ## License and attribution
 
